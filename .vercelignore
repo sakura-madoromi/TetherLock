@@ -1,0 +1,13 @@
+# Vercel only needs the static Workbench archive for the preview build.
+artifacts/v3/*
+!artifacts/v3/TetherLock-V3-Workbench.zip
+
+# Generated or local-only content
+node_modules/
+dist/
+viewer/public/*
+!viewer/public/fonts/
+!viewer/public/fonts/*
+.tools/
+.playwright-mcp/
+.jj/
