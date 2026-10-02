@@ -1,0 +1,525 @@
+[
+  {
+    "name": "base_box",
+    "volume": 219404.19884480562,
+    "bbox": [
+      [
+        -120.0,
+        120.0
+      ],
+      [
+        -60.0,
+        60.0
+      ],
+      [
+        0.0,
+        55.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 8988,
+        "volume": 219404.1988448061
+      }
+    ]
+  },
+  {
+    "name": "lid",
+    "volume": 62925.704681399046,
+    "bbox": [
+      [
+        -120.0,
+        120.0
+      ],
+      [
+        -59.0,
+        60.0
+      ],
+      [
+        46.7,
+        55.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 4574,
+        "volume": 62925.70468139921
+      }
+    ]
+  },
+  {
+    "name": "hinge_guard_left",
+    "volume": 245.84805425938524,
+    "bbox": [
+      [
+        -112.0,
+        -104.0
+      ],
+      [
+        -58.0,
+        -47.5
+      ],
+      [
+        48.3,
+        55.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 712,
+        "volume": 245.84805425938455
+      }
+    ]
+  },
+  {
+    "name": "hinge_guard_right",
+    "volume": 247.3735437014822,
+    "bbox": [
+      [
+        73.5,
+        81.5
+      ],
+      [
+        -58.0,
+        -47.5
+      ],
+      [
+        48.3,
+        55.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 720,
+        "volume": 247.37354370148253
+      }
+    ]
+  },
+  {
+    "name": "continuous_pin_service",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "keeper_half_steps",
+    "volume": 1.3448406971372506e-10,
+    "bbox": [
+      [
+        -112.0,
+        81.5
+      ],
+      [
+        -57.75,
+        -38.75
+      ],
+      [
+        48.3,
+        50.524746707822615
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      26,
+      6
+    ],
+    "components": [
+      {
+        "triangles": 124,
+        "volume": 1.0980222807377427e-12
+      },
+      {
+        "triangles": 76,
+        "volume": 1.2011482086737857e-11
+      },
+      {
+        "triangles": 12,
+        "volume": 5.562359600697064e-12
+      },
+      {
+        "triangles": 22,
+        "volume": 5.107303469031876e-12
+      },
+      {
+        "triangles": 6,
+        "volume": 7.015421230049945e-12
+      },
+      {
+        "triangles": 8,
+        "volume": -4.079698384673591e-12
+      },
+      {
+        "triangles": 8,
+        "volume": 8.714804485693284e-12
+      },
+      {
+        "triangles": 16,
+        "volume": 1.3443469861623702e-11
+      },
+      {
+        "triangles": 8,
+        "volume": -4.6054974070508514e-12
+      },
+      {
+        "triangles": 8,
+        "volume": -4.633877808378484e-12
+      },
+      {
+        "triangles": 56,
+        "volume": 1.3057704223440325e-11
+      },
+      {
+        "triangles": 26,
+        "volume": -1.5951712173389865e-11
+      },
+      {
+        "triangles": 56,
+        "volume": 2.1564444674382344e-11
+      },
+      {
+        "triangles": 40,
+        "volume": -5.259845944211028e-12
+      },
+      {
+        "triangles": 10,
+        "volume": -6.820023712439394e-12
+      },
+      {
+        "triangles": 78,
+        "volume": -1.9688232598055744e-11
+      },
+      {
+        "triangles": 16,
+        "volume": 2.134223353600362e-12
+      },
+      {
+        "triangles": 174,
+        "volume": 5.951983350627188e-11
+      },
+      {
+        "triangles": 10,
+        "volume": -5.1822435231940744e-12
+      },
+      {
+        "triangles": 6,
+        "volume": -2.9179427971093297e-12
+      },
+      {
+        "triangles": 40,
+        "volume": 6.625811010962934e-13
+      },
+      {
+        "triangles": 6,
+        "volume": -1.5158143837346039e-13
+      },
+      {
+        "triangles": 62,
+        "volume": -4.5725784270089775e-12
+      },
+      {
+        "triangles": 28,
+        "volume": 5.483002940565029e-12
+      },
+      {
+        "triangles": 6,
+        "volume": -7.781109090387872e-12
+      },
+      {
+        "triangles": 8,
+        "volume": 2.6174617757512147e-11
+      },
+      {
+        "triangles": 76,
+        "volume": 1.0571118199548257e-11
+      },
+      {
+        "triangles": 8,
+        "volume": -1.0197019227262127e-11
+      },
+      {
+        "triangles": 10,
+        "volume": -4.674191589337795e-12
+      },
+      {
+        "triangles": 18,
+        "volume": 5.848939388375385e-12
+      },
+      {
+        "triangles": 6,
+        "volume": -4.772184383772249e-12
+      },
+      {
+        "triangles": 4,
+        "volume": -1.2988719474971155e-11
+      },
+      {
+        "triangles": 8,
+        "volume": -1.735852347278799e-12
+      },
+      {
+        "triangles": 14,
+        "volume": -3.197581088798529e-13
+      },
+      {
+        "triangles": 6,
+        "volume": -4.5143125348978685e-12
+      },
+      {
+        "triangles": 56,
+        "volume": 8.218960234618322e-12
+      },
+      {
+        "triangles": 16,
+        "volume": 1.1878489511452095e-11
+      },
+      {
+        "triangles": 10,
+        "volume": -4.725136948380282e-12
+      },
+      {
+        "triangles": 22,
+        "volume": 2.0508650333539435e-11
+      },
+      {
+        "triangles": 6,
+        "volume": -1.809545091893683e-11
+      },
+      {
+        "triangles": 8,
+        "volume": -7.298464783922487e-12
+      },
+      {
+        "triangles": 8,
+        "volume": -1.894188798867713e-12
+      },
+      {
+        "triangles": 20,
+        "volume": 9.19325726655984e-12
+      },
+      {
+        "triangles": 30,
+        "volume": -8.07292427351669e-12
+      },
+      {
+        "triangles": 46,
+        "volume": -1.137195372591382e-11
+      },
+      {
+        "triangles": 14,
+        "volume": 2.4196325498770932e-11
+      },
+      {
+        "triangles": 16,
+        "volume": 1.5053097657258263e-11
+      },
+      {
+        "triangles": 8,
+        "volume": 2.36729039149175e-12
+      },
+      {
+        "triangles": 14,
+        "volume": 3.04171132725628e-11
+      },
+      {
+        "triangles": 22,
+        "volume": 3.4719481629974513e-11
+      },
+      {
+        "triangles": 14,
+        "volume": -4.538588255220688e-12
+      },
+      {
+        "triangles": 8,
+        "volume": -2.5638744599598695e-12
+      },
+      {
+        "triangles": 26,
+        "volume": 1.5034341827036002e-11
+      },
+      {
+        "triangles": 4,
+        "volume": -1.3888735647671346e-11
+      },
+      {
+        "triangles": 4,
+        "volume": 2.0623502905436908e-12
+      },
+      {
+        "triangles": 276,
+        "volume": -7.917710931337751e-11
+      },
+      {
+        "triangles": 20,
+        "volume": -3.807509862951974e-12
+      },
+      {
+        "triangles": 4,
+        "volume": 8.86757334228605e-12
+      },
+      {
+        "triangles": 26,
+        "volume": -3.3798103205029406e-12
+      },
+      {
+        "triangles": 4,
+        "volume": 3.808509063674137e-12
+      },
+      {
+        "triangles": 6,
+        "volume": 4.63629308555813e-12
+      },
+      {
+        "triangles": 10,
+        "volume": -2.3345353428183557e-12
+      },
+      {
+        "triangles": 12,
+        "volume": -6.600414659274634e-13
+      },
+      {
+        "triangles": 6,
+        "volume": 3.157178511681291e-12
+      },
+      {
+        "triangles": 10,
+        "volume": 5.841864101838179e-12
+      },
+      {
+        "triangles": 24,
+        "volume": -6.226713589185806e-12
+      },
+      {
+        "triangles": 62,
+        "volume": 1.0405898365206667e-11
+      },
+      {
+        "triangles": 18,
+        "volume": 1.5454089397071158e-11
+      },
+      {
+        "triangles": 70,
+        "volume": -1.3876343650520706e-11
+      },
+      {
+        "triangles": 8,
+        "volume": 9.39098798724558e-12
+      },
+      {
+        "triangles": 50,
+        "volume": 7.20112858232369e-12
+      },
+      {
+        "triangles": 6,
+        "volume": 3.221145572496198e-12
+      },
+      {
+        "triangles": 14,
+        "volume": -7.940814672480201e-12
+      },
+      {
+        "triangles": 44,
+        "volume": 1.0017320306587862e-11
+      },
+      {
+        "triangles": 8,
+        "volume": 3.710219631525291e-12
+      },
+      {
+        "triangles": 26,
+        "volume": -1.6086900691755779e-12
+      },
+      {
+        "triangles": 12,
+        "volume": -1.6508270445081408e-12
+      },
+      {
+        "triangles": 6,
+        "volume": 9.292938224763226e-13
+      },
+      {
+        "triangles": 4,
+        "volume": -1.027919069307437e-12
+      },
+      {
+        "triangles": 6,
+        "volume": -6.624034057812339e-12
+      },
+      {
+        "triangles": 18,
+        "volume": 9.21623888316958e-13
+      },
+      {
+        "triangles": 6,
+        "volume": 6.010599515934162e-12
+      },
+      {
+        "triangles": 10,
+        "volume": -7.27358451246829e-12
+      },
+      {
+        "triangles": 8,
+        "volume": 9.096029485178292e-12
+      },
+      {
+        "triangles": 12,
+        "volume": -1.212191458321854e-11
+      },
+      {
+        "triangles": 10,
+        "volume": -1.138702554218606e-12
+      },
+      {
+        "triangles": 4,
+        "volume": -1.3233858453531866e-13
+      }
+    ]
+  },
+  {
+    "name": "keeper_lift_half_steps",
+    "volume": -4.924061158817494e-12,
+    "bbox": [
+      [
+        73.5,
+        73.5
+      ],
+      [
+        -41.362693304105356,
+        -37.5
+      ],
+      [
+        48.8,
+        49.8
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 4,
+        "volume": -4.924061158817494e-12
+      }
+    ]
+  }
+]

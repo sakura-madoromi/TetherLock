@@ -1,0 +1,50 @@
+{
+  "version": 3,
+  "units": "mm",
+  "state": {
+    "lid": 0,
+    "travel": 14,
+    "explode": 0,
+    "style": "studio",
+    "opacity": 1,
+    "edges": false,
+    "grid": true,
+    "labels": false,
+    "reference": false,
+    "clip": false,
+    "clipAxis": "Z",
+    "clipValue": 36,
+    "clipReverse": false,
+    "hidden": [],
+    "selected": null,
+    "isolated": null,
+    "measure": false,
+    "projection": "perspective",
+    "speed": 2.5,
+    "mode": "studio",
+    "hiddenLines": false,
+    "loop": false
+  },
+  "camera": {
+    "position": [
+      259.13652030071313,
+      370.19502900101605,
+      294.0404208807311
+    ],
+    "target": [
+      0,
+      0,
+      27.5
+    ],
+    "zoom": 1,
+    "orthoHeight": 342.3836481200584
+  },
+  "sourceSHA256": {
+    "cad/v3/params.scad": "c578c419cf855bdd97655c4d44b857070b48ce7ad1d079a53dc3ae75a90a12dc",
+    "cad/v3/lock.scad": "673e1637449724dff37ed407c9ed599837dee57b1b1aa7e8ae86e497812ec30c",
+    "cad/v3/enclosure.scad": "04bd2cefd84b7616a33a493c4f98bf504f20138388b43d5494f8cc1e87707cd8",
+    "cad/v3/electronics.scad": "7b6896255e3b80c8172acf615b5128e7f1fa1981f2d0b01b36fafb651c406fd5",
+    "cad/v3/hardware.scad": "e0ccb7b16c2973aea2f64cf4dd39e5c8854d0f9f312fab0d7149ba93560ee393",
+    "cad/v3/assembly.scad": "65eb6f2f7a85a3023e77d96a6b02e36197f6d43bd35d9afecd0c4449c12fb145"
+  }
+}

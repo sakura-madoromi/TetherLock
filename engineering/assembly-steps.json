@@ -1,0 +1,2590 @@
+{
+  "version": "assembly-1",
+  "steps": [
+    {
+      "id": "S01",
+      "chapter": "准备",
+      "title": "清点物料与核对模块",
+      "purpose": "清点物料与核对模块，核对本步连接与实物条件",
+      "operations": [
+        "逐项测板件、最高器件、排针/接头与出线，记录采购SKU。",
+        "核对电机3V、M4×0.7丝杠与配套螺母，测电芯和座的极性。",
+        "查看BOM八个未解决项和预算冲突；未核对模块不得强装。"
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "motor",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "esp",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "power_board",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "bridge_board",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "battery_holder",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "battery_protection",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "battery_connector",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        }
+      ],
+      "tools": [
+        "tool_caliper",
+        "tool_multimeter"
+      ],
+      "installedBefore": [],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S01-check-1",
+          "label": "已记录板件、电机、座与接头的实际包络",
+          "required": true
+        },
+        {
+          "id": "S01-check-2",
+          "label": "未解决选型、适配及预算冲突已明确记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "B01",
+        "E01",
+        "E02"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S02",
+      "chapter": "准备",
+      "title": "打印配合与铜螺母试块",
+      "purpose": "用当前六种试块验证钢销、锁栓及铜螺母配合。",
+      "operations": [
+        "用计划正式耗材打印六种现行试块，去象脚、清理孔口。",
+        "测钢销、锁栓配合和铜螺母孔；记录热装深度、变形与复拆保持力。",
+        "霍尔试块已取消；机械开关选型后另出支架试件。"
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "fit_bar",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "fit_gauge",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "hinge_bore_coupon",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "insert_coupon",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "keeper_insert_coupon",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        },
+        {
+          "id": "window_insert_coupon",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "核对/试块，不代表新装入"
+        }
+      ],
+      "tools": [
+        "tool_caliper",
+        "tool_iron"
+      ],
+      "installedBefore": [],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S02-check-1",
+          "label": "孔径、钢销与滑动配合结果已记录",
+          "required": true
+        },
+        {
+          "id": "S02-check-2",
+          "label": "铜螺母垂直度、深度和保持力已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "C01",
+        "C02",
+        "C03"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S03",
+      "chapter": "准备",
+      "title": "打印正式零件与清理",
+      "purpose": "打印正式零件与清理，核对本步连接与实物条件",
+      "operations": [
+        "确认平台有效打印区至少240×120mm并另留裙边与夹具；220×220平台不得默认适用。",
+        "按落床STL切片PETG，同色打印外壳、盖与内栅；核对桥接/支撑。",
+        "清理支撑、象脚、孔口、窗片接触面和运动面。"
+      ],
+      "parts": [
+        "base_box"
+      ],
+      "materials": [],
+      "tools": [
+        "tool_deburr",
+        "tool_caliper"
+      ],
+      "installedBefore": [],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "base_box"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S03-check-1",
+          "label": "正式件已清点，无裂纹或缺层",
+          "required": true
+        },
+        {
+          "id": "S03-check-2",
+          "label": "支撑残留、孔口、运动面和窗片接触面已清理",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "B02"
+      ],
+      "connections": [],
+      "printFiles": [
+        "print/base_box.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S04",
+      "chapter": "准备",
+      "title": "热装十枚铜螺母",
+      "purpose": "热装十枚铜螺母，核对本步连接与实物条件",
+      "operations": [
+        "电池维护口四枚、轴端盖两枚、窗片四枚，共十枚M2外Ø3.2×4。",
+        "先用试块确定温度；沿孔轴垂直热装，按承座目标深度而非螺钉强拉。",
+        "窗片插入Z49.9～53.9，顶面余料1.1mm；测变形，冷却后复核。"
+      ],
+      "parts": [
+        "inserts_fixed",
+        "inserts_lid"
+      ],
+      "materials": [
+        {
+          "id": "thread_inserts",
+          "quantity": 10,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        }
+      ],
+      "tools": [
+        "tool_iron",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "inserts_fixed",
+        "inserts_lid"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S04-check-1",
+          "label": "十枚数量、位置、垂直度和目标深度已记录",
+          "required": true
+        },
+        {
+          "id": "S04-check-2",
+          "label": "承座无开裂或过热塌陷，剩余壁厚已核对",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "C02",
+        "A04",
+        "A05",
+        "A07"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S05",
+      "chapter": "驱动机构",
+      "title": "装驱动螺母、滑块与螺母盖",
+      "purpose": "装驱动螺母、滑块与螺母盖，核对本步连接与实物条件",
+      "operations": [
+        "配套M4×0.7金属螺母放入六角捕获槽，装滑块与螺母盖。",
+        "拧两颗M2×6普通头至盖贴合，保留名义浮动，不用打印塑料螺纹代替螺母。"
+      ],
+      "parts": [
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap"
+      ],
+      "materials": [
+        {
+          "id": "drive_nut",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "nut_carriage",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "nut_cap",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x6-PAN",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S05-check-1",
+          "label": "螺母可靠捕获不跟丝杠转动",
+          "required": true
+        },
+        {
+          "id": "S05-check-2",
+          "label": "浮动间隙存在且螺母盖不夹死",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06"
+      ],
+      "connections": [
+        "F-nut-cap-left",
+        "F-nut-cap-right"
+      ],
+      "printFiles": [
+        "print/nut_carriage.stl",
+        "print/nut_cap.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S06",
+      "chapter": "驱动机构",
+      "title": "锁栓与拨指结合",
+      "purpose": "锁栓拨指结合，断电检查全行程",
+      "operations": [
+        "锁栓拨指嵌入滑块对应槽，按退栓基准位置结合。",
+        "本版取消磁铁及胶粘槽；断电手动核对14mm全行程。"
+      ],
+      "parts": [
+        "bolt"
+      ],
+      "materials": [
+        {
+          "id": "bolt",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        }
+      ],
+      "tools": [
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "bolt",
+        "bolt_magnet"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S06-check-1",
+          "label": "拨指与滑块结合自由，无干涉",
+          "required": true
+        },
+        {
+          "id": "S06-check-2",
+          "label": "锁栓已无磁铁槽，全行程自由且无多余胶粘物",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06"
+      ],
+      "connections": [],
+      "printFiles": [
+        "print/bolt.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S07",
+      "chapter": "驱动机构",
+      "title": "预留栓端机械到位检测（待选型）",
+      "purpose": "当前电气台架暂不装传感器；后续选开关和触发支架。",
+      "operations": [
+        "本版不安装霍尔、磁铁和传感器小板。",
+        "机械开关型号及触发件尚未确定，当前无自动位置反馈。",
+        "先人工验证逻辑；自动闭锁前完成安装支架、触发/释放、过行程及断线验收。"
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "pads",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "pullups",
+          "quantity": 2,
+          "unit": "件",
+          "usage": "按实际驱动故障端和后续机械开关上拉方案选配，本次没有霍尔支路"
+        }
+      ],
+      "tools": [
+        "tool_caliper",
+        "tool_multimeter"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "home_sensor",
+        "lock_sensor",
+        "sensor_pads"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "label": "已确认本版无自动到位反馈，只作人工台架验证",
+          "required": true,
+          "id": "S07-check-1"
+        }
+      ],
+      "drawings": [
+        "A06",
+        "C03",
+        "E02"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S08",
+      "chapter": "驱动机构",
+      "title": "将锁模块底座固定到底壳",
+      "purpose": "将锁模块底座固定到底壳，核对本步连接与实物条件",
+      "operations": [
+        "将锁底座放到底壳右侧定位处，按四个F-lock-base连接安装M2×6普通头。",
+        "先核对螺钉杆长、头部与打印导孔，避免向电池包络顶穿。"
+      ],
+      "parts": [
+        "lock_base"
+      ],
+      "materials": [
+        {
+          "id": "lock_base",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x6-PAN",
+          "quantity": 4,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "lock_base"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S08-check-1",
+          "label": "底座贴合稳定，四个连接位置正确",
+          "required": true
+        },
+        {
+          "id": "S08-check-2",
+          "label": "底面与电池空间无突出螺钉",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06"
+      ],
+      "connections": [
+        "F-lock-rear-left",
+        "F-lock-rear-right",
+        "F-lock-front-left",
+        "F-lock-front-right"
+      ],
+      "printFiles": [
+        "print/lock_base.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S09",
+      "chapter": "驱动机构",
+      "title": "顶部放入电机与丝杠滑块组合",
+      "purpose": "顶部放入电机与丝杠滑块组合，核对本步连接与实物条件",
+      "operations": [
+        "将电机丝杠旋入配套螺母，保持退栓位置。",
+        "从顶部放入电机、丝杠、滑块与锁栓组合；拨指与导向关系按A06复核。",
+        "电机端子朝预留走线侧，候选外伸长和转动端包络待收货测量。"
+      ],
+      "parts": [
+        "motor"
+      ],
+      "materials": [
+        {
+          "id": "motor",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "motor"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S09-check-1",
+          "label": "丝杠、滑块及锁栓方向正确",
+          "required": true
+        },
+        {
+          "id": "S09-check-2",
+          "label": "端子、丝杠端头和螺母没有干涉",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S10",
+      "chapter": "驱动机构",
+      "title": "装电机垫、压板和导向盖",
+      "purpose": "装电机垫、压板和导向盖，核对本步连接与实物条件",
+      "operations": [
+        "电机定位垫候选压缩厚0.3mm；装压板与导向盖。",
+        "按本步CAD连接表核对电机压板两枚与导向盖三枚M2×8普通头；清理导轨和孔口。",
+        "电源断开，手动检查0～14mm全行程，不能靠电机强推解决卡滞。"
+      ],
+      "parts": [
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap"
+      ],
+      "materials": [
+        {
+          "id": "pads",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "motor_clamp",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "guide_cap",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x8-PAN",
+          "quantity": 5,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S10-check-1",
+          "label": "压板贴合且电机不晃动",
+          "required": true
+        },
+        {
+          "id": "S10-check-2",
+          "label": "手动14mm行程自由，拨指/端子净空已检查",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06"
+      ],
+      "connections": [
+        "F-guide-rear-left",
+        "F-guide-rear-right",
+        "F-guide-front",
+        "F-motor-left",
+        "F-motor-right"
+      ],
+      "printFiles": [
+        "print/motor_clamp.stl",
+        "print/guide_cap.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S11",
+      "chapter": "电子与线束",
+      "title": "安装主控、电源与定位材料",
+      "purpose": "安装主控、电源与定位材料，核对本步连接与实物条件",
+      "operations": [
+        "底托离盒操作：定位胶垫候选0.9mm，装无排针主控及电源板。",
+        "主控压条两颗M2×6；电源板绑带槽已改宽3mm并切通挡边，使用2.5mm绑带，检查头部和线束空间。",
+        "核对最高器件、USB端和出线；未解决模块不可强装。装底托两颗M2×4普通头。"
+      ],
+      "parts": [
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip"
+      ],
+      "materials": [
+        {
+          "id": "electronics_tray",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "esp",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "power_board",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "pads",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "ties",
+          "quantity": 2,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "esp_clip",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x4-PAN",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        },
+        {
+          "id": "screw-M2x6-PAN",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "front",
+      "highlight": [
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S11-check-1",
+          "label": "板件、胶垫、最高器件与USB净空已记录",
+          "required": true
+        },
+        {
+          "id": "S11-check-2",
+          "label": "电源板绑带适配已解决，主控压条可靠",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A08",
+        "B01",
+        "E01"
+      ],
+      "connections": [
+        "F-tray-left",
+        "F-tray-right",
+        "F-esp-left",
+        "F-esp-right"
+      ],
+      "printFiles": [
+        "print/electronics_tray.stl",
+        "print/esp_clip.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S12",
+      "chapter": "电子与线束",
+      "title": "安装上层托板、驱动与压条",
+      "purpose": "安装上层托板、驱动与压条，核对本步连接与实物条件",
+      "operations": [
+        "上层托板两颗M2×6；驱动胶垫候选0.5mm，装板与两颗M2×6压条。",
+        "Pololu板12.7×20.3mm与旧15×20×7包络不等价；最高器件/焊线及压条间隙未确认前不得安装。"
+      ],
+      "parts": [
+        "upper_deck",
+        "bridge_board",
+        "upper_clip"
+      ],
+      "materials": [
+        {
+          "id": "upper_deck",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "bridge_board",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "upper_clip",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "pads",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x6-PAN",
+          "quantity": 4,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "front",
+      "highlight": [
+        "upper_deck",
+        "bridge_board",
+        "upper_clip"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S12-check-1",
+          "label": "驱动板最高器件/焊线及压条适配已核对",
+          "required": true
+        },
+        {
+          "id": "S12-check-2",
+          "label": "上层连接贴合，器件不受压，线束有通道",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A08",
+        "B01",
+        "E01"
+      ],
+      "connections": [
+        "F-deck-left",
+        "F-deck-right",
+        "F-driver-left",
+        "F-driver-right"
+      ],
+      "printFiles": [
+        "print/upper_deck.stl",
+        "print/upper_clip.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S13",
+      "chapter": "电子与线束",
+      "title": "安装OLED与按键",
+      "purpose": "安装OLED与按键，核对本步连接与实物条件",
+      "operations": [
+        "OLED放前壁定位，用两颗M2×6沉头装压条；核对显示窗与端子。",
+        "按钮从右侧凹槽插入，用自带螺母固定3mm面板；核对螺纹孔径、端子出线和回弹，原背板取消。",
+        "用丝印与测量确认3.3V OLED SDA/SCL、电源，不根据照片猜端序。"
+      ],
+      "parts": [
+        "oled",
+        "oled_bridge",
+        "button"
+      ],
+      "materials": [
+        {
+          "id": "oled",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "oled_bridge",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "button",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x6-CS",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        },
+        {
+          "id": "screw-M2x6-PAN",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_multimeter"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "front",
+      "highlight": [
+        "oled",
+        "oled_bridge",
+        "button",
+        "button_retainer"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S13-check-1",
+          "label": "OLED电源、SDA/SCL端子与压条净空已核对",
+          "required": true
+        },
+        {
+          "id": "S13-check-2",
+          "label": "按键自由回弹，常开触点按下才导通",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A08",
+        "E02"
+      ],
+      "connections": [
+        "F-oled-left",
+        "F-oled-right"
+      ],
+      "printFiles": [
+        "print/oled_bridge.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S14",
+      "chapter": "电子与线束",
+      "title": "连接线束并断电检查",
+      "purpose": "连接线束并断电检查，核对本步连接与实物条件",
+      "operations": [
+        "电池、USB、台架供电全部断开；按E01保护后母线与共地接线。",
+        "按E02逻辑GPIO逐个核对实际焊盘；USB反灌未确认前不同时供电。",
+        "按E03固定线束并留维护余量；量极性、绝缘和短路，先保持电机断开。"
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "wiring",
+          "quantity": 2,
+          "unit": "m",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "insulation",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "pullups",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "按实际驱动故障端和后续机械开关上拉方案选配，本次没有霍尔支路"
+        },
+        {
+          "id": "motor_bulk_cap",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "battery_protection",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        }
+      ],
+      "tools": [
+        "tool_iron",
+        "tool_multimeter"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "front",
+      "highlight": [],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S14-check-1",
+          "label": "保护B/P端、极性与共地无旁路或短路",
+          "required": true
+        },
+        {
+          "id": "S14-check-2",
+          "label": "实际焊盘与逻辑GPIO逐个核对已记录",
+          "required": true
+        },
+        {
+          "id": "S14-check-3",
+          "label": "去耦极性/固定与线束全行程净空已检查",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "E01",
+        "E02",
+        "E03",
+        "E04"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S15",
+      "chapter": "顶盖与维护",
+      "title": "主盖朝下安装窗片与内栅",
+      "purpose": "主盖朝下安装窗片与内栅，核对本步连接与实物条件",
+      "operations": [
+        "主盖外面朝下放平，清理外栅与内栅接触面；多点测149×82×1.5亚克力厚度。",
+        "先放无孔亚克力，再放阶梯内栅。四颗M2×6沉头交叉均匀轻拧到固定耳贴限位。",
+        "检查晃动、翘曲及局部顶压；不合适改内栅接触高度重打，不强迫弯曲。"
+      ],
+      "parts": [
+        "lid",
+        "acrylic",
+        "window_grille"
+      ],
+      "materials": [
+        {
+          "id": "lid",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "acrylic",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "window_grille",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x6-CS",
+          "quantity": 4,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_caliper",
+        "tool_deburr"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "lid",
+        "acrylic",
+        "window_grille"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S15-check-1",
+          "label": "实际板厚已多点测量",
+          "required": true
+        },
+        {
+          "id": "S15-check-2",
+          "label": "四耳已贴住限位，螺钉交叉轻拧",
+          "required": true
+        },
+        {
+          "id": "S15-check-3",
+          "label": "窗片无强迫弯曲、局部顶压或明显晃动",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A04",
+        "F01"
+      ],
+      "connections": [
+        "F-window-rear-left",
+        "F-window-rear-right",
+        "F-window-front-left",
+        "F-window-front-right"
+      ],
+      "printFiles": [
+        "print/lid.stl",
+        "print/window_grille.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S16",
+      "chapter": "顶盖与维护",
+      "title": "安装锁扣与内側压板",
+      "purpose": "安装锁扣与内側压板，核对本步连接与实物条件",
+      "operations": [
+        "将锁扣放盖内定位槽，用两颗M3×8普通头装内侧压板。",
+        "按A06核对捕获方向与锁栓通道，不用候选机械到位检测信号代替几何对准。"
+      ],
+      "parts": [
+        "latch",
+        "latch_retainer"
+      ],
+      "materials": [
+        {
+          "id": "latch",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "latch_retainer",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M3x8-PAN",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "latch",
+        "latch_retainer"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S16-check-1",
+          "label": "锁扣可靠捕获，压板不夹死通道",
+          "required": true
+        },
+        {
+          "id": "S16-check-2",
+          "label": "盖/锁栓方向和闭合对准已检查",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06"
+      ],
+      "connections": [
+        "F-latch-left",
+        "F-latch-right"
+      ],
+      "printFiles": [
+        "print/latch.stl",
+        "print/latch_retainer.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S17",
+      "chapter": "顶盖与维护",
+      "title": "预留合盖机械到位检测（待选型）",
+      "purpose": "当前电气台架暂不装传感器；后续选开关和触发支架。",
+      "operations": [
+        "本版不安装霍尔、磁铁和传感器小板。",
+        "机械开关型号及触发件尚未确定，当前无自动位置反馈。",
+        "先人工验证逻辑；自动闭锁前完成安装支架、触发/释放、过行程及断线验收。"
+      ],
+      "parts": [],
+      "materials": [
+        {
+          "id": "pads",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "pullups",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "按实际驱动故障端和后续机械开关上拉方案选配，本次没有霍尔支路"
+        }
+      ],
+      "tools": [
+        "tool_caliper",
+        "tool_multimeter"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer"
+      ],
+      "targetPose": {
+        "lid": 0,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "cover_sensor",
+        "cover_magnet"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "label": "已确认本版无自动到位反馈，只作人工台架验证",
+          "required": true,
+          "id": "S17-check-1"
+        }
+      ],
+      "drawings": [
+        "A05",
+        "C03",
+        "E02",
+        "E04"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S18",
+      "chapter": "顶盖与维护",
+      "title": "对齐主盖轴套并插入钢销",
+      "purpose": "对齐主盖轴套并插入钢销，核对本步连接与实物条件",
+      "operations": [
+        "保持退栓且盖角105°，先对齐交错轴套；不敲击带毛刺或弯曲的销。",
+        "Ø2×180销从左侧沿＋X插入至名义X−107～73；轴孔Ø2.4先由试块确认。"
+      ],
+      "parts": [
+        "hinge_pin"
+      ],
+      "materials": [
+        {
+          "id": "hinge_pin",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        }
+      ],
+      "tools": [
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "hinge_pin"
+      ],
+      "animation": {
+        "kind": "installation",
+        "duration": 5,
+        "label": "几何核对路径；实物需先断电、拆对应螺钉，不能作为强度/带载验收",
+        "partIds": [
+          "hinge_pin"
+        ],
+        "keyframes": [
+          [
+            -180,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "frame": "world",
+        "evidence": "pin_service"
+      },
+      "checks": [
+        {
+          "id": "S18-check-1",
+          "label": "轴套对齐，钢销笔直且两端去毛刺",
+          "required": true
+        },
+        {
+          "id": "S18-check-2",
+          "label": "销插到位且转动自由，无强行敲击",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A05",
+        "F02"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S19",
+      "chapter": "顶盖与维护",
+      "title": "装左右不同的销轴限位端盖",
+      "purpose": "装左右不同的销轴限位端盖，核对本步连接与实物条件",
+      "operations": [
+        "保持开盖105°和退栓；端盖先从上方到前移位置，再向−Y滑入后槽。",
+        "左右按ID安装，两颗M2×6沉头接各自铜螺母；名义两端各0.5mm游隙。",
+        "检查端盖贴合、防轴向逃出、开盖手感，不用过紧消除游隙。"
+      ],
+      "parts": [
+        "hinge_guard_left",
+        "hinge_guard_right"
+      ],
+      "materials": [
+        {
+          "id": "hinge_guard_left",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "hinge_guard_right",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x6-CS",
+          "quantity": 2,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "hinge_guard_left",
+        "hinge_guard_right"
+      ],
+      "animation": {
+        "kind": "installation",
+        "duration": 5,
+        "label": "几何核对路径；实物需先断电、拆对应螺钉，不能作为强度/带载验收",
+        "partIds": [
+          "hinge_guard_left",
+          "hinge_guard_right"
+        ],
+        "keyframes": [
+          [
+            0,
+            10,
+            30
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            0,
+            0
+          ]
+        ],
+        "frame": "world",
+        "evidence": "keeper_removal"
+      },
+      "checks": [
+        {
+          "id": "S19-check-1",
+          "label": "左右端盖方向与螺钉连接正确",
+          "required": true
+        },
+        {
+          "id": "S19-check-2",
+          "label": "钢销游隙、保持与开盖手感已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A05"
+      ],
+      "connections": [
+        "F-hinge-left",
+        "F-hinge-right"
+      ],
+      "printFiles": [
+        "print/hinge_guard_left.stl",
+        "print/hinge_guard_right.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S20",
+      "chapter": "顶盖与维护",
+      "title": "装电池座、接头与维护盖",
+      "purpose": "装电池座、接头与维护盖，核对本步连接与实物条件",
+      "operations": [
+        "先空座试装并验证向底部取出通道；完整保护板和整对接头仍需适配。",
+        "按P01/P02核对正负和保护后负载端；仅台架通过后再装电芯。",
+        "装维护盖四颗M2×8沉头。取出时先断电、拔接头再出座，电芯在盒外独立充电。"
+      ],
+      "parts": [
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "materials": [
+        {
+          "id": "cell",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "battery_holder",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "battery_connector",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "battery_protection",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "battery_hatch",
+          "quantity": 1,
+          "unit": "件",
+          "usage": "本步操作用量；共享定位/线材按实物裁切"
+        },
+        {
+          "id": "screw-M2x8-CS",
+          "quantity": 4,
+          "unit": "枚",
+          "usage": "本步连接用量，按F编号定位"
+        }
+      ],
+      "tools": [
+        "tool_driver",
+        "tool_multimeter"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "front",
+      "highlight": [
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S20-check-1",
+          "label": "极性与完整保护/接头适配已核对",
+          "required": true
+        },
+        {
+          "id": "S20-check-2",
+          "label": "维护盖固定且电池可断接取出",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A07",
+        "E01"
+      ],
+      "connections": [
+        "F-battery-rear-left",
+        "F-battery-rear-right",
+        "F-battery-front-left",
+        "F-battery-front-right"
+      ],
+      "printFiles": [
+        "print/battery_hatch.stl"
+      ],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S21",
+      "chapter": "验收记录",
+      "title": "台架与合盖边界检查",
+      "purpose": "台架与合盖边界检查，核对本步连接与实物条件",
+      "operations": [
+        "完整执行E04的分阶段台架记录；先断电和电机断开，逐个接电气支路。",
+        "当前无真实到位反馈；手动按钮仅模拟输入。机械开关选定后，比较触发/释放与锁扣无阻通过范围。",
+        "断电手动全行程/开合，观察线束；短时限流电机试方向、电流与电压下陷。"
+      ],
+      "parts": [],
+      "materials": [],
+      "tools": [
+        "tool_bench_supply",
+        "tool_multimeter",
+        "tool_caliper"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S21-check-1",
+          "label": "3.3V电源、启动瞬态和各支路电流已记录",
+          "required": true
+        },
+        {
+          "id": "S21-check-2",
+          "label": "已记录机械到位检测尚未实现，当前仅人工台架验证",
+          "required": true
+        },
+        {
+          "id": "S21-check-3",
+          "label": "线束全行程、开盖和维护净空已检查",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "E04",
+        "C03",
+        "A06"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "S22",
+      "chapter": "验收记录",
+      "title": "首件记录与待固件验收",
+      "purpose": "首件记录与待固件验收，核对本步连接与实物条件",
+      "operations": [
+        "填写首件记录，测量栏不得用CAD或动画代填。",
+        "低压开锁、失电、寿命、强度及≤15秒待控制固件和实物计时；明确列入后续记录。",
+        "本机完成状态仅代表人工记录，可导出JSON供复核。"
+      ],
+      "parts": [],
+      "materials": [],
+      "tools": [
+        "tool_multimeter"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "操作示意：颜色提示当前零件；不代表已验证的安装移动、扭矩或带载性能"
+      },
+      "checks": [
+        {
+          "id": "S22-check-1",
+          "label": "首件测量与问题记录已保存",
+          "required": true
+        },
+        {
+          "id": "S22-check-2",
+          "label": "已记录待固件的低压、失电与寿命项目",
+          "required": true
+        },
+        {
+          "id": "S22-check-3",
+          "label": "已记录≤15秒待实物计时项目",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "E04",
+        "D00"
+      ],
+      "connections": [],
+      "printFiles": [],
+      "completion": "manual-only"
+    },
+    {
+      "id": "M01",
+      "chapter": "拆卸维护",
+      "title": "取出电池与独立充电",
+      "purpose": "取出电池与独立充电",
+      "operations": [
+        "断开供电，拆维护盖，拔可拆接头后取出电池。",
+        "核对极性后用独立18650充电器补电，完成后恢复绝缘与维护盖。"
+      ],
+      "parts": [
+        "battery_hatch",
+        "battery_holder",
+        "battery_connector"
+      ],
+      "materials": [],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "battery_hatch",
+        "battery_holder",
+        "battery_connector"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "维护操作示意；实物断电、退栓、开盖后按文字顺序执行"
+      },
+      "checks": [
+        {
+          "id": "M01-service",
+          "label": "维护顺序、重新固定与相关首件复查已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A07",
+        "E01"
+      ],
+      "printFiles": [],
+      "completion": "manual-only",
+      "connections": []
+    },
+    {
+      "id": "M02",
+      "chapter": "拆卸维护",
+      "title": "更换亚克力",
+      "purpose": "更换亚克力",
+      "operations": [
+        "开盖，交叉松开内栅四颗螺钉，向盒内取出内栅和亚克力。",
+        "新板多点测厚和去毛刺，按S15重新确认，不强迫弯曲。"
+      ],
+      "parts": [
+        "window_grille",
+        "acrylic"
+      ],
+      "materials": [],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "window_grille",
+        "acrylic"
+      ],
+      "animation": {
+        "kind": "installation",
+        "duration": 5,
+        "label": "几何核对路径；实物需先断电、拆对应螺钉，不能作为强度/带载验收",
+        "partIds": [
+          "window_grille",
+          "acrylic"
+        ],
+        "keyframes": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            -30
+          ]
+        ],
+        "frame": "lid",
+        "evidence": "window_install"
+      },
+      "checks": [
+        {
+          "id": "M02-service",
+          "label": "维护顺序、重新固定与相关首件复查已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A04",
+        "F01"
+      ],
+      "printFiles": [],
+      "completion": "manual-only",
+      "connections": []
+    },
+    {
+      "id": "M03",
+      "chapter": "拆卸维护",
+      "title": "拆限位端盖",
+      "purpose": "拆限位端盖",
+      "operations": [
+        "开盖并退栓，拆端盖固定螺钉。",
+        "先向前滑出，再向上取下；左右端盖分别保存。"
+      ],
+      "parts": [
+        "hinge_guard_left",
+        "hinge_guard_right"
+      ],
+      "materials": [],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "hinge_guard_left",
+        "hinge_guard_right"
+      ],
+      "animation": {
+        "kind": "installation",
+        "duration": 5,
+        "label": "几何核对路径；实物需先断电、拆对应螺钉，不能作为强度/带载验收",
+        "partIds": [
+          "hinge_guard_left",
+          "hinge_guard_right"
+        ],
+        "keyframes": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            10,
+            0
+          ],
+          [
+            0,
+            10,
+            30
+          ]
+        ],
+        "frame": "world",
+        "evidence": "keeper_removal"
+      },
+      "checks": [
+        {
+          "id": "M03-service",
+          "label": "维护顺序、重新固定与相关首件复查已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A05"
+      ],
+      "printFiles": [],
+      "completion": "manual-only",
+      "connections": []
+    },
+    {
+      "id": "M04",
+      "chapter": "拆卸维护",
+      "title": "抽出钢销",
+      "purpose": "抽出钢销",
+      "operations": [
+        "端盖拆下后支持主盖，沿X轴抽钢销。",
+        "检查钢销直线度、孔内异物和磨损，恢复时按S18/S19。"
+      ],
+      "parts": [
+        "hinge_pin"
+      ],
+      "materials": [],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "hinge_pin"
+      ],
+      "animation": {
+        "kind": "installation",
+        "duration": 5,
+        "label": "几何核对路径；实物需先断电、拆对应螺钉，不能作为强度/带载验收",
+        "partIds": [
+          "hinge_pin"
+        ],
+        "keyframes": [
+          [
+            0,
+            0,
+            0
+          ],
+          [
+            -180,
+            0,
+            0
+          ]
+        ],
+        "frame": "world",
+        "evidence": "pin_service"
+      },
+      "checks": [
+        {
+          "id": "M04-service",
+          "label": "维护顺序、重新固定与相关首件复查已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A05",
+        "F02"
+      ],
+      "printFiles": [],
+      "completion": "manual-only",
+      "connections": []
+    },
+    {
+      "id": "M05",
+      "chapter": "拆卸维护",
+      "title": "清理或更换锁驱动",
+      "purpose": "清理或更换锁驱动",
+      "operations": [
+        "断开电池，开盖退栓；标识并断开模块线束。",
+        "拆驱动固定螺钉，沿已经检查的向上路径取出。",
+        "清理运动面，替换后重做S05～S09和E04台架检查。"
+      ],
+      "parts": [
+        "lock_base",
+        "motor",
+        "bolt",
+        "nut_carriage"
+      ],
+      "materials": [],
+      "tools": [
+        "tool_driver"
+      ],
+      "installedBefore": [
+        "base_box",
+        "inserts_fixed",
+        "inserts_lid",
+        "drive_nut",
+        "nut_carriage",
+        "nut_cap",
+        "bolt",
+        "lock_base",
+        "motor",
+        "motor_pads",
+        "motor_clamp",
+        "guide_cap",
+        "electronics_tray",
+        "esp",
+        "power_board",
+        "board_pads",
+        "esp_clip",
+        "upper_deck",
+        "bridge_board",
+        "upper_clip",
+        "oled",
+        "oled_bridge",
+        "button",
+        "lid",
+        "acrylic",
+        "window_grille",
+        "latch",
+        "latch_retainer",
+        "hinge_pin",
+        "hinge_guard_left",
+        "hinge_guard_right",
+        "battery_holder",
+        "battery_connector",
+        "battery_hatch"
+      ],
+      "targetPose": {
+        "lid": 105,
+        "travel": 0,
+        "explode": 0
+      },
+      "camera": "iso",
+      "highlight": [
+        "lock_base",
+        "motor",
+        "bolt",
+        "nut_carriage"
+      ],
+      "animation": {
+        "kind": "operation",
+        "duration": 4,
+        "label": "维护操作示意；实物断电、退栓、开盖后按文字顺序执行"
+      },
+      "checks": [
+        {
+          "id": "M05-service",
+          "label": "维护顺序、重新固定与相关首件复查已记录",
+          "required": true
+        }
+      ],
+      "drawings": [
+        "A06",
+        "E04"
+      ],
+      "printFiles": [],
+      "completion": "manual-only",
+      "connections": []
+    }
+  ],
+  "note": "稳定步骤与人工记录；操作示意不模拟焊接/热装力学。仅明确列出的安装路径引用真实CAD验证；未解决模块保持人工验收门槛。"
+}

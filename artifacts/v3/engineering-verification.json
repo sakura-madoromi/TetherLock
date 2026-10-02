@@ -1,0 +1,1843 @@
+{
+  "cadFingerprint": "205dd1f90ef6ce77c56568830003d76d7614c1b5549a5d74005bb03a53cd3a4a",
+  "dataFingerprint": "76cc7a3ee0833caf90fa4d2a0a3c09ee9499a07a606a80770ab65543916569bc",
+  "pages": 88,
+  "sections": 71,
+  "missingGlyphs": [],
+  "checks": [
+    {
+      "name": "current cad/v3/assembly.scad",
+      "pass_": true
+    },
+    {
+      "name": "current cad/v3/electronics.scad",
+      "pass_": true
+    },
+    {
+      "name": "current cad/v3/enclosure.scad",
+      "pass_": true
+    },
+    {
+      "name": "current cad/v3/hardware.scad",
+      "pass_": true
+    },
+    {
+      "name": "current cad/v3/lock.scad",
+      "pass_": true
+    },
+    {
+      "name": "current cad/v3/params.scad",
+      "pass_": true
+    },
+    {
+      "name": "current cad/v3/references.scad",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/assembly-steps.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/drawing-topics.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/electrical.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/materials.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/part-display.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/print-guidance.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/procurement-current.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/procurement-quotes.json",
+      "pass_": true
+    },
+    {
+      "name": "current engineering/references.json",
+      "pass_": true
+    },
+    {
+      "name": "current scripts/v3/engineering_data.py",
+      "pass_": true
+    },
+    {
+      "name": "current scripts/v3/export_fasteners.py",
+      "pass_": true
+    },
+    {
+      "name": "current scripts/v3/export_features.py",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/assembly-progress.js",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/assembly.js",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/blueprint.js",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/bom.js",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/drawing.js",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/sections.js",
+      "pass_": true
+    },
+    {
+      "name": "current viewer/src/state.js",
+      "pass_": true
+    },
+    {
+      "name": "current print/base_box.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/lock_base.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/guide_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/motor_clamp.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/bolt.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/nut_carriage.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/nut_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/latch.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/latch_retainer.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/window_grille.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/battery_hatch.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/electronics_tray.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/upper_deck.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/esp_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/upper_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/oled_bridge.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/hinge_guard_left.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/hinge_guard_right.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/fit_bar.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/fit_gauge.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/keeper_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/window_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "current print/hinge_bore_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "19 formal / 25 print / 37 model / 33 connections after retirement",
+      "pass_": true
+    },
+    {
+      "name": "retired Hall and button retainer excluded",
+      "pass_": true
+    },
+    {
+      "name": "reference models excluded from BOM and product parts",
+      "pass_": true
+    },
+    {
+      "name": "tools / coupons / spares / services excluded from installed count",
+      "pass_": true
+    },
+    {
+      "name": "screw counts match CAD connection material IDs",
+      "pass_": true
+    },
+    {
+      "name": "each of 33 connections assigned exactly once",
+      "pass_": true
+    },
+    {
+      "name": "S01 references",
+      "pass_": true
+    },
+    {
+      "name": "S01 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S02 references",
+      "pass_": true
+    },
+    {
+      "name": "S02 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S03 references",
+      "pass_": true
+    },
+    {
+      "name": "S03 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S04 references",
+      "pass_": true
+    },
+    {
+      "name": "S04 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S05 references",
+      "pass_": true
+    },
+    {
+      "name": "S05 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S06 references",
+      "pass_": true
+    },
+    {
+      "name": "S06 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S07 references",
+      "pass_": true
+    },
+    {
+      "name": "S07 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S08 references",
+      "pass_": true
+    },
+    {
+      "name": "S08 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S09 references",
+      "pass_": true
+    },
+    {
+      "name": "S09 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S10 references",
+      "pass_": true
+    },
+    {
+      "name": "S10 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S11 references",
+      "pass_": true
+    },
+    {
+      "name": "S11 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S12 references",
+      "pass_": true
+    },
+    {
+      "name": "S12 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S13 references",
+      "pass_": true
+    },
+    {
+      "name": "S13 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S14 references",
+      "pass_": true
+    },
+    {
+      "name": "S14 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S15 references",
+      "pass_": true
+    },
+    {
+      "name": "S15 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S16 references",
+      "pass_": true
+    },
+    {
+      "name": "S16 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S17 references",
+      "pass_": true
+    },
+    {
+      "name": "S17 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S18 references",
+      "pass_": true
+    },
+    {
+      "name": "S18 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S19 references",
+      "pass_": true
+    },
+    {
+      "name": "S19 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S20 references",
+      "pass_": true
+    },
+    {
+      "name": "S20 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S21 references",
+      "pass_": true
+    },
+    {
+      "name": "S21 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "S22 references",
+      "pass_": true
+    },
+    {
+      "name": "S22 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "M01 references",
+      "pass_": true
+    },
+    {
+      "name": "M01 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "M02 references",
+      "pass_": true
+    },
+    {
+      "name": "M02 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "M03 references",
+      "pass_": true
+    },
+    {
+      "name": "M03 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "M04 references",
+      "pass_": true
+    },
+    {
+      "name": "M04 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "M05 references",
+      "pass_": true
+    },
+    {
+      "name": "M05 manual-only completion",
+      "pass_": true
+    },
+    {
+      "name": "all materials link to valid steps",
+      "pass_": true
+    },
+    {
+      "name": "print orientation/support/spare metadata complete",
+      "pass_": true
+    },
+    {
+      "name": "all physical measurements initially empty",
+      "pass_": true
+    },
+    {
+      "name": "physical CSV has nine real rows",
+      "pass_": true
+    },
+    {
+      "name": "full CSV equals canonical master plus screw types",
+      "pass_": true
+    },
+    {
+      "name": "font allows embedding",
+      "pass_": true
+    },
+    {
+      "name": "all blueprint topics actually generated",
+      "pass_": true
+    },
+    {
+      "name": "D00 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "D00 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "D00 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "D00-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "D00-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "D00-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "D00-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "D00-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "D00-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "D00-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "D00-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "D00-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "D00-05 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "D00-05 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "D00-05 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A01 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A01 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A01 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A02-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A02-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A02-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A02-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A02-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A02-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A02-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A02-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A02-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section base_box",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section lid",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section lock_base",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section guide_cap",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section bolt",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section window_grille",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section battery_hatch",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section motor",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section battery_holder",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section acrylic",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section base_box",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section lid",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section lock_base",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section guide_cap",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section bolt",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section latch",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section latch_retainer",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section battery_hatch",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section electronics_tray",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section upper_deck",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section upper_clip",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section oled_bridge",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section battery_holder",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section power_board",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section bridge_board",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section oled",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section button",
+      "pass_": true
+    },
+    {
+      "name": "A03 closed actual section board_pads",
+      "pass_": true
+    },
+    {
+      "name": "A04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section lid",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section window_grille",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section acrylic",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section lid",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section window_grille",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section inserts_lid",
+      "pass_": true
+    },
+    {
+      "name": "A04 closed actual section fasteners_lid",
+      "pass_": true
+    },
+    {
+      "name": "A05 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A05 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A05 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section base_box",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section lid",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section hinge_pin",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section hinge_guard_left",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section hinge_guard_right",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section inserts_fixed",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section fasteners_fixed",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section base_box",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section lid",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section hinge_guard_left",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section hinge_guard_right",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section inserts_fixed",
+      "pass_": true
+    },
+    {
+      "name": "A05 closed actual section fasteners_fixed",
+      "pass_": true
+    },
+    {
+      "name": "A06 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A06 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A06 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section lock_base",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section motor_clamp",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section motor",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section drive_nut",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section nut_carriage",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section nut_cap",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section lock_base",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section guide_cap",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section bolt",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section latch",
+      "pass_": true
+    },
+    {
+      "name": "A06 closed actual section latch_retainer",
+      "pass_": true
+    },
+    {
+      "name": "A07 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A07 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A07 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A07 closed actual section base_box",
+      "pass_": true
+    },
+    {
+      "name": "A07 closed actual section battery_hatch",
+      "pass_": true
+    },
+    {
+      "name": "A07 closed actual section battery_holder",
+      "pass_": true
+    },
+    {
+      "name": "A08 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "A08 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "A08 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section electronics_tray",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section esp",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section power_board",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section esp_clip",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section upper_deck",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section bridge_board",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section upper_clip",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section button",
+      "pass_": true
+    },
+    {
+      "name": "A08 closed actual section board_pads",
+      "pass_": true
+    },
+    {
+      "name": "P01 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P01 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P01 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P01-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P01-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P01-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P01-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P01-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P01-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P01-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P01-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P01-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P01-05 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P01-05 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P01-05 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P01-06 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P01-06 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P01-06 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P02-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P02-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P02-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P02-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P02-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P02-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P02-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P02-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P02-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P03-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P03-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P03-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P03-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P03-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P03-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P03-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P03-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P03-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P04-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P04-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P04-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P05 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P05 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P05 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P05-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P05-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P05-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P06 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P06 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P06 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P06-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P06-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P06-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P07 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P07 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P07 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P07-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P07-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P07-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P08 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P08 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P08 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P08-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P08-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P08-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P09 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P09 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P09 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P09-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P09-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P09-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P10 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P10 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P10 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P10-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P10-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P10-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P11 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P11 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P11 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P11-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P11-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P11-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P11-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P11-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P11-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P12 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P12 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P12 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P12-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P12-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P12-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P12-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P12-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P12-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P13 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P13 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P13 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P13-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P13-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P13-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P13-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P13-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P13-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P14 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P14 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P14 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P14-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P14-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P14-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P15 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P15 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P15 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P15-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P15-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P15-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P16 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P16 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P16 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P16-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P16-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P16-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P17 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P17 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P17 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P17-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P17-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P17-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P19 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P19 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P19 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P19-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P19-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P19-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P20 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P20 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P20 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "P20-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "P20-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "P20-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "C01 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "C01 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "C01 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "C02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "C02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "C02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "C03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "C03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "C03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "F01 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "F01 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "F01 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "F02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "F02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "F02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B01 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B01 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B01 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B01-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B01-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B01-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B01-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B01-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B01-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B01-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B01-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B01-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B01-05 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B01-05 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B01-05 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B02-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B02-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B02-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B02-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B02-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B02-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "B03-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "B03-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "B03-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E01 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E01 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E01 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E01-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E01-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E01-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E03-02 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E03-02 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E03-02 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E03-03 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E03-03 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E03-03 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E03-04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E03-04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E03-04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "E04 exact generated page hash",
+      "pass_": true
+    },
+    {
+      "name": "E04 current fixed metadata",
+      "pass_": true
+    },
+    {
+      "name": "E04 A3 millimeter sheet",
+      "pass_": true
+    },
+    {
+      "name": "no missing glyphs in any actual page",
+      "pass_": true
+    },
+    {
+      "name": "actual section paths generated",
+      "pass_": true
+    },
+    {
+      "name": "logical pin plan preserves UART/USB/Flash/strap pads",
+      "pass_": true
+    },
+    {
+      "name": "every harness wire has ID/color/ends/pin/route",
+      "pass_": true
+    }
+  ],
+  "failures": [],
+  "source_sha256": {
+    "scripts/v3/verify_engineering.py": "f259492e2613cb106563a2c2f8a6fb28d64caee937f466ed8f912a9489109ddb",
+    "viewer/public/engineering.json": "b44f407c1c9be441c29a560d8784c489ed52938cb478d5b63df7f181e9e86b92",
+    "viewer/public/fonts/TLBlueprint.otf": "7da8b7c0c907274d3dae9450dc864b4d2d36eaa54df7c065ff1e42a9ab941273"
+  }
+}

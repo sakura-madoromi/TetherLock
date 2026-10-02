@@ -1,0 +1,98 @@
+[
+  {
+    "name": "keeper_driver",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "keeper_direct_lift",
+    "volume": 19.77258082026062,
+    "bbox": [
+      [
+        -112.0,
+        81.5
+      ],
+      [
+        -58.0,
+        -56.55105603347697
+      ],
+      [
+        54.854895234552004,
+        59.26825381988369
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 32,
+        "volume": 9.886290410130698
+      },
+      {
+        "triangles": 26,
+        "volume": 9.886290410129845
+      }
+    ]
+  },
+  {
+    "name": "left_cheek_slice",
+    "volume": 6.0,
+    "bbox": [
+      [
+        -109.0,
+        -107.5
+      ],
+      [
+        -56.0,
+        -54.0
+      ],
+      [
+        50.0,
+        52.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 12,
+        "volume": 6.0
+      }
+    ]
+  },
+  {
+    "name": "right_cheek_slice",
+    "volume": 6.0,
+    "bbox": [
+      [
+        73.5,
+        75.0
+      ],
+      [
+        -56.0,
+        -54.0
+      ],
+      [
+        50.0,
+        52.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 12,
+        "volume": 6.0
+      }
+    ]
+  }
+]

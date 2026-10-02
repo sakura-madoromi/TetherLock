@@ -12,6 +12,8 @@ ENV/
 dist/
 build/
 *.egg-info/
+coverage/
+.coverage
 
 # Logs & Databases
 *.log
@@ -32,3 +34,30 @@ Desktop.ini
 # Temporary files
 *.tmp
 *.bak
+
+# Environment files and private keys
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# V3 web workbench
+node_modules/
+viewer/public/*
+!viewer/public/
+!viewer/public/fonts/
+!viewer/public/fonts/*
+playwright-report/
+test-results/
+
+# Local tools, browser state and workspace metadata
+.tools/
+.playwright-mcp/
+.jj/
+.agents/
+.aws/
+.codex/
+
+# Local audit output
+.audit/

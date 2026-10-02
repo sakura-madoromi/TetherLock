@@ -1,0 +1,6 @@
+﻿BOM编号,供应商,型号,币种,单位参考价,最低数量,最低包金额,公开链接,适配和运费限制
+power_board,Pololu,S7V8F3 #2122,USD,9.95,1,9.95,https://www.pololu.com/product/2122,原配置参考；未核人民币汇率、寄云南运费及进口费用，不替换人民币预算
+bridge_board,Pololu,DRV8833 #2130,USD,10.95,1,10.95,https://www.pololu.com/product/2130,页面Backorder；12.7×20.32mm，20.3为圆整；人民币40元仍非实价，云南运费未知
+hall,Adafruit / ScoutMakes,6051 / DRV5032FB board,USD,4.95,1,4.95,https://www.adafruit.com/product/6051,整板25.6×17.8×7.2mm；5Hz推挽；不适配原小板，不计入人民币预算
+thread_inserts,ruthex,RX-M2x4 / 70pc,EUR,0.128429,70,8.99,https://www.ruthex.de/products/ruthex-gewindeeinsatz-m2-70-stuck-rx-m2x4-messing-gewindebuchsen,外径3.6/底径3.1/安装孔3.2/长4.0mm；非原外径3.2候选，不计入预算
+magnets,supermagnete,S-03-02-N / 20pc,EUR,0.24,20,4.8,https://www.supermagnete.de/scheibenmagnete-neodym/scheibenmagnet-3mm-2mm_S-03-02-N,Ø3×2mm，公差±0.1，轴向N48；未核云南运费，仅规格参照，不推荐一套从欧洲拆单采购

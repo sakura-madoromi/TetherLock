@@ -1,0 +1,66 @@
+{
+  "title": "TetherLock V3 · product showcase",
+  "source": "http://192.168.2.178:4173",
+  "imageResolution": "3840x2160",
+  "videoResolution": "1920x1080",
+  "videoFps": 30,
+  "shots": [
+    "01-closed-hero.png",
+    "02-open-with-phone-card.png",
+    "03-open-top-layout.png",
+    "04-hinge-and-pin.png",
+    "05-exploded-assembly.png",
+    "06-internal-mechanism-xray.png",
+    "07-grille-window-detail.png",
+    "08-oled-and-button-detail.png"
+  ],
+  "videos": [
+    "09-opening-cycle-1080p.webm",
+    "10-open-close-detail-1080p.webm"
+  ],
+  "failures": [],
+  "videoCaptureRequestedFps": 30,
+  "videoPostprocessFps": 10,
+  "videoPlayback": [
+    {
+      "file": "09-opening-cycle-1080p.webm",
+      "width": 1920,
+      "height": 1080,
+      "frames": 95,
+      "durationSeconds": 9.4,
+      "decodedRateFps": 10.11,
+      "codec": "VP9"
+    },
+    {
+      "file": "10-open-close-detail-1080p.webm",
+      "width": 1920,
+      "height": 1080,
+      "frames": 96,
+      "durationSeconds": 9.5,
+      "decodedRateFps": 10.11,
+      "codec": "VP9"
+    }
+  ],
+  "imageCaptions": {
+    "01-closed-hero.png": "闭合产品主视觉",
+    "02-open-with-phone-card.png": "开盖展示手机与银行卡尺寸参照",
+    "03-open-top-layout.png": "开盖俯视布局",
+    "04-hinge-and-pin.png": "铰链与销轴背面视角",
+    "05-exploded-assembly.png": "分层爆炸总装",
+    "06-internal-mechanism-xray.png": "X射线内部机构展示",
+    "07-grille-window-detail.png": "栅窗与亚克力细节",
+    "08-oled-and-button-detail.png": "屏幕与按键细节"
+  },
+  "sha256": {
+    "01-closed-hero.png": "aac4edc975eb96bc1b201ab63d362409505029476d88405781fee53562722f3f",
+    "02-open-with-phone-card.png": "2d64032e317882018f14c4609ac39743ac2bfc22145736d616359e5dae241551",
+    "03-open-top-layout.png": "90aef1377c103ae5e0a7e17bced837fbcd31db77c57b6981384b1491eb3a34d2",
+    "04-hinge-and-pin.png": "a29159be8359e6242c238dc04aaaad2a11fd9c48d7ef3e62f5fd70482d2063d9",
+    "05-exploded-assembly.png": "cafc774ac9dc564536a78a0fbd512daad1d58cacd62ee13bfb8ef1ceeb7066a2",
+    "06-internal-mechanism-xray.png": "bbb2165ca93e2e032ccf6286029519a97e0809695f5b63ace87812a024b4ae71",
+    "07-grille-window-detail.png": "5d8c7b1ab773e7a75d6f9e48d916f111d55f39e12ef11117b527370c3a8dc8ee",
+    "08-oled-and-button-detail.png": "bb99084a050ec5ee7748950f05ef1f0500139e365fcb0ed26e768c778c10e4e6",
+    "09-opening-cycle-1080p.webm": "479d6b96f692fce421a882279f0faef1c7a94875fc2fb2d05488add65ea290e2",
+    "10-open-close-detail-1080p.webm": "353986ded052b733fd37f5db7866f1858b45c140b8ba5035c74ab51fa9018a36"
+  }
+}

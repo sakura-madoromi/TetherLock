@@ -1,0 +1,243 @@
+{
+  "version": "1",
+  "topics": [
+    {
+      "id": "D00",
+      "title": "目录、坐标、基准与当前验证状态",
+      "parts": []
+    },
+    {
+      "id": "A01",
+      "title": "整机总装及包络",
+      "parts": []
+    },
+    {
+      "id": "A02",
+      "title": "总装爆炸及零件序号",
+      "parts": []
+    },
+    {
+      "id": "A03",
+      "title": "内部布局及纵横剖面",
+      "parts": []
+    },
+    {
+      "id": "A04",
+      "title": "无窗垫栅窗装配剖面",
+      "parts": []
+    },
+    {
+      "id": "A05",
+      "title": "铰链、钢销与端盖维修",
+      "parts": []
+    },
+    {
+      "id": "A06",
+      "title": "锁驱动、滑块及锁扣",
+      "parts": []
+    },
+    {
+      "id": "A07",
+      "title": "电池维护与取出路径",
+      "parts": []
+    },
+    {
+      "id": "A08",
+      "title": "电子安装及板件出线",
+      "parts": []
+    },
+    {
+      "id": "P01",
+      "title": "base_box",
+      "parts": [
+        "base_box"
+      ]
+    },
+    {
+      "id": "P02",
+      "title": "lid",
+      "parts": [
+        "lid"
+      ]
+    },
+    {
+      "id": "P03",
+      "title": "lock_base",
+      "parts": [
+        "lock_base"
+      ]
+    },
+    {
+      "id": "P04",
+      "title": "guide_cap",
+      "parts": [
+        "guide_cap"
+      ]
+    },
+    {
+      "id": "P05",
+      "title": "motor_clamp",
+      "parts": [
+        "motor_clamp"
+      ]
+    },
+    {
+      "id": "P06",
+      "title": "bolt",
+      "parts": [
+        "bolt"
+      ]
+    },
+    {
+      "id": "P07",
+      "title": "nut_carriage",
+      "parts": [
+        "nut_carriage"
+      ]
+    },
+    {
+      "id": "P08",
+      "title": "nut_cap",
+      "parts": [
+        "nut_cap"
+      ]
+    },
+    {
+      "id": "P09",
+      "title": "latch",
+      "parts": [
+        "latch"
+      ]
+    },
+    {
+      "id": "P10",
+      "title": "latch_retainer",
+      "parts": [
+        "latch_retainer"
+      ]
+    },
+    {
+      "id": "P11",
+      "title": "window_grille",
+      "parts": [
+        "window_grille"
+      ]
+    },
+    {
+      "id": "P12",
+      "title": "battery_hatch",
+      "parts": [
+        "battery_hatch"
+      ]
+    },
+    {
+      "id": "P13",
+      "title": "electronics_tray",
+      "parts": [
+        "electronics_tray"
+      ]
+    },
+    {
+      "id": "P14",
+      "title": "upper_deck",
+      "parts": [
+        "upper_deck"
+      ]
+    },
+    {
+      "id": "P15",
+      "title": "esp_clip",
+      "parts": [
+        "esp_clip"
+      ]
+    },
+    {
+      "id": "P16",
+      "title": "upper_clip",
+      "parts": [
+        "upper_clip"
+      ]
+    },
+    {
+      "id": "P17",
+      "title": "oled_bridge",
+      "parts": [
+        "oled_bridge"
+      ]
+    },
+    {
+      "id": "P19",
+      "title": "hinge_guard_left",
+      "parts": [
+        "hinge_guard_left"
+      ]
+    },
+    {
+      "id": "P20",
+      "title": "hinge_guard_right",
+      "parts": [
+        "hinge_guard_right"
+      ]
+    },
+    {
+      "id": "C01",
+      "title": "配合量规与铰链孔试块",
+      "parts": []
+    },
+    {
+      "id": "C02",
+      "title": "铜螺母试孔及承座试块",
+      "parts": []
+    },
+    {
+      "id": "C03",
+      "title": "机械到位检测接口与待选型项目",
+      "parts": []
+    },
+    {
+      "id": "F01",
+      "title": "亚克力1:1加工图",
+      "parts": []
+    },
+    {
+      "id": "F02",
+      "title": "钢销规格及端部处理",
+      "parts": []
+    },
+    {
+      "id": "B01",
+      "title": "完整采购BOM",
+      "parts": []
+    },
+    {
+      "id": "B02",
+      "title": "正式打印清单",
+      "parts": []
+    },
+    {
+      "id": "B03",
+      "title": "工具、备件与费用",
+      "parts": []
+    },
+    {
+      "id": "E01",
+      "title": "电源连接图",
+      "parts": []
+    },
+    {
+      "id": "E02",
+      "title": "信号及引脚接线表",
+      "parts": []
+    },
+    {
+      "id": "E03",
+      "title": "线束走向与避让",
+      "parts": []
+    },
+    {
+      "id": "E04",
+      "title": "电气台架验收及待固件项目",
+      "parts": []
+    }
+  ]
+}

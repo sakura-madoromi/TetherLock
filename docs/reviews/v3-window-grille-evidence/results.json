@@ -1,0 +1,38 @@
+[
+  {
+    "name": "window_install_minus80",
+    "volume_mm3": 0,
+    "empty": true,
+    "cadError": false
+  },
+  {
+    "name": "window_fasteners_in_pane",
+    "volume_mm3": 0,
+    "empty": true,
+    "cadError": false
+  },
+  {
+    "name": "blind_roof",
+    "volume_mm3": 0.43200000001319516,
+    "empty": false,
+    "cadError": false
+  },
+  {
+    "name": "four_stop_contact",
+    "volume_mm3": 75.59121183757009,
+    "empty": false,
+    "cadError": false
+  },
+  {
+    "name": "inner_pad_fully_supported",
+    "volume_mm3": 0,
+    "empty": true,
+    "cadError": false
+  },
+  {
+    "name": "outer_pad_fully_supported",
+    "volume_mm3": 0,
+    "empty": true,
+    "cadError": false
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "tetherlock-v3-workbench",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "assets": "python3 scripts/v3/engineering_data.py && python3 scripts/v3/viewer_assets.py",
+    "dev": "vite --host 127.0.0.1",
+    "build": "npm run assets && vite build",
+    "package": "npm run build && python3 scripts/v3/package_viewer.py",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test --test-isolation=none tests/viewer/*.test.js",
+    "test:browser": "node tests/viewer/browser.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1",
+    "fflate": "0.8.3"
+  },
+  "devDependencies": {
+    "vite": "8.3.1",
+    "@playwright/test": "1.63.0"
+  }
+}

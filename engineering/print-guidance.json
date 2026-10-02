@@ -1,0 +1,101 @@
+{
+  "version": "print-1",
+  "default": "PETG同批同色；0.4mm喷嘴、0.2mm层高为首样起点。支撑由实际切片确认，清理后按试块和首件调整配合。",
+  "parts": {
+    "base_box": {
+      "orientation": "底面落床、开口朝上；整件有效平台至少240×120mm，额外留裙边/夹具",
+      "support": "核对电池仓顶棚、锁模块安装台和横向轴孔的桥接/支撑；清理隔仓、导孔和OLED/按键定位面",
+      "spare": 0
+    },
+    "lid": {
+      "orientation": "按落床STL绕X翻180°，外表面朝床，内侧轴套/锁扣座朝上",
+      "support": "核对铰链轴孔与局部悬垂；外栅与接触面去毛刺，保留四耳限位高度",
+      "spare": 0
+    },
+    "lock_base": {
+      "orientation": "底板落床，支柱、导向挡边朝上；保持导出姿态",
+      "support": "核对横向丝杠让位、导向桥接；清理导轨、底部安装面与电机定位面",
+      "spare": 0
+    },
+    "guide_cap": {
+      "orientation": "底面落床，导向盖保持CAD装配方向",
+      "support": "核对小跨度桥接与螺钉口；清理锁栓通道，不能以电机强推去支撑",
+      "spare": 1
+    },
+    "motor_clamp": {
+      "orientation": "压板下接触面落床；保持导出姿态",
+      "support": "核对电机接触面跨度；清理压紧面及导孔，垫材另装",
+      "spare": 0
+    },
+    "bolt": {
+      "orientation": "丝杠机构锁栓长轴平行床面，按导出姿态；窄接触区可加裙边",
+      "support": "核对圆弧底部、拨指悬垂的支撑与附着；清理全长滑动面，不磨掉名义拨指配合",
+      "spare": 1
+    },
+    "nut_carriage": {
+      "orientation": "底面落床，金属螺母捕获槽朝上；保持导出姿态",
+      "support": "清理螺母槽、拨指槽与运动接触面；避免支撑残留卡住名义浮动间隙",
+      "spare": 1
+    },
+    "nut_cap": {
+      "orientation": "螺母盖下表面落床，保持导出姿态",
+      "support": "检查螺钉口、薄边和捕获面；不打印或攻出金属M3驱动螺纹",
+      "spare": 0
+    },
+    "latch": {
+      "orientation": "按落床STL绕X旋90°，锁扣侧面朝床，锁栓穿孔轴向朝Z",
+      "support": "清理锁栓穿孔与捕获定位面；用首件对准区实测调整",
+      "spare": 2
+    },
+    "latch_retainer": {
+      "orientation": "压板下表面落床，保持导出姿态",
+      "support": "清理压板孔口及锁扣接触面，避免夹死锁扣通道",
+      "spare": 0
+    },
+    "window_grille": {
+      "orientation": "Z47.4接触基面落床，沉头口朝床；栅条接触窗片的高面朝上",
+      "support": "核对四耳沉头口局部桥接，清理窗片接触边框/栅条、耳底和四螺钉口；不能靠强拧补偿板厚",
+      "spare": 0
+    },
+    "battery_hatch": {
+      "orientation": "外侧平面Z0落床，电池支承凸台朝上",
+      "support": "清理沉头口、维护盖接合边和支承台；保证座向下取出通道",
+      "spare": 0
+    },
+    "electronics_tray": {
+      "orientation": "底托平板落床，柱与板件挡边朝上",
+      "support": "清理绑带槽和柱顶孔口；当前1.5mm槽与2.5mm绑带冲突保持未解决",
+      "spare": 0
+    },
+    "upper_deck": {
+      "orientation": "上层托板平板落床，挡边与压条柱朝上",
+      "support": "清理过线孔与安装面；板件/焊点不能被压条强压，适配未解决时先停装",
+      "spare": 0
+    },
+    "esp_clip": {
+      "orientation": "压条大平面落床，保持导出姿态",
+      "support": "通常无需复杂支撑，实际切片核对；清理螺钉孔和PCB接触面",
+      "spare": 0
+    },
+    "upper_clip": {
+      "orientation": "驱动压条大平面落床，保持导出姿态",
+      "support": "清理孔口与板接触面；实际驱动最高元件/焊线包络待核对",
+      "spare": 0
+    },
+    "oled_bridge": {
+      "orientation": "下平面落床，沉头顶口朝上；保持导出姿态",
+      "support": "清理沉头口和玻璃/板定位接触面，不夹压显示玻璃",
+      "spare": 0
+    },
+    "hinge_guard_left": {
+      "orientation": "Z48.3平台落床，弧形轴端壁朝上；按左件ID打印",
+      "support": "核对弧面局部悬垂和沉头/工具让位口；清理滑入槽与钢销端间隙面",
+      "spare": 0
+    },
+    "hinge_guard_right": {
+      "orientation": "Z48.3平台落床，弧形轴端壁朝上；右件不可拿左件替代",
+      "support": "核对弧面局部悬垂和沉头/工具让位口；清理滑入槽与钢销端间隙面",
+      "spare": 0
+    }
+  }
+}

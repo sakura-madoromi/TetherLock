@@ -1,0 +1,42 @@
+[
+  {
+    "name": "drv5032-ti.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/drv5032.pdf",
+    "downloadVerified": true,
+    "bytes": 2129049,
+    "sha256": "0bdec04d64591bbb62c74f2e5d4dc10f21de5f76b0b0f12fca5c6a277037ceee",
+    "includedInRepository": false
+  },
+  {
+    "name": "drv8833-ti.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/drv8833.pdf",
+    "downloadVerified": true,
+    "bytes": 1009440,
+    "sha256": "3e400e333f08f1b93ec99a2d52a6af2a864e88462cc892282208548d9e9f0de4",
+    "includedInRepository": false
+  },
+  {
+    "name": "tps63020-ti.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tps63020.pdf",
+    "downloadVerified": true,
+    "bytes": 1855244,
+    "sha256": "d117773bb7370fd79377bc70ce987eec3469ea5979547a09df52fca5f95b2e69",
+    "includedInRepository": false
+  },
+  {
+    "name": "dw01a-fortune.pdf",
+    "url": "http://www.ic-fortune.com/upload/Download/DW01A-DS-13_EN.pdf",
+    "downloadVerified": true,
+    "bytes": 658728,
+    "sha256": "72db1151d83c52ae6a3f2329ba1d75c445b3aafb86770b81b6ed5457b0d95a32",
+    "includedInRepository": false
+  },
+  {
+    "name": "fs312f-fortune.pdf",
+    "url": "http://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf",
+    "downloadVerified": true,
+    "bytes": 980334,
+    "sha256": "081c1ab730381adc9b64520a8983879bcc32644b42627b55ea0feba9d7a1f68a",
+    "includedInRepository": false
+  }
+]

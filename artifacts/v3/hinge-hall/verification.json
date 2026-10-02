@@ -1,0 +1,795 @@
+{
+  "scope": "nominal axial retention, sampled service paths and latch alignment; Hall removed; mechanical feedback pending",
+  "results": [
+    {
+      "name": "left_axial_stop",
+      "expect": "solid",
+      "pass": true,
+      "volume_mm3": 0.6265257227213937,
+      "bbox": [
+        [
+          -107.7,
+          -107.5
+        ],
+        [
+          -56.0,
+          -54.0
+        ],
+        [
+          50.0,
+          52.0
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "right_axial_stop",
+      "expect": "solid",
+      "pass": true,
+      "volume_mm3": 0.6265257226013741,
+      "bbox": [
+        [
+          73.5,
+          73.7
+        ],
+        [
+          -56.0,
+          -54.0
+        ],
+        [
+          50.0,
+          52.0
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hinge_guard_left",
+      "expect": "solid",
+      "pass": true,
+      "volume_mm3": 245.84805425938524,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          48.3,
+          55.0
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hinge_guard_right",
+      "expect": "solid",
+      "pass": true,
+      "volume_mm3": 247.37354370148242,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          48.3,
+          55.0
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "inserts_fixed",
+      "expect": "solid",
+      "pass": true,
+      "volume_mm3": 113.4794715161395,
+      "bbox": [
+        [
+          -109.6,
+          118.6
+        ],
+        [
+          -55.6,
+          25.6
+        ],
+        [
+          2.9,
+          48.3
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "inserts_lid",
+      "expect": "solid",
+      "pass": true,
+      "volume_mm3": 75.65298101059302,
+      "bbox": [
+        [
+          -95.6,
+          40.6
+        ],
+        [
+          -44.6,
+          46.599999999999994
+        ],
+        [
+          49.9,
+          53.9
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "pin_free_-0.49",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_free_right_-0.49",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_free_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_free_right_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_free_0.49",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_free_right_0.49",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_radial_play_-0.2",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_radial_play_right_-0.2",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_radial_play_0.2",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_radial_play_right_0.2",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "keeper_removal_0_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 7.800511625521978e-11,
+      "bbox": [
+        [
+          -112.0,
+          81.5
+        ],
+        [
+          -58.0,
+          -47.51344355965559
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ]
+    },
+    {
+      "name": "keeper_removal_0.5_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 1.3417704447515888e-11,
+      "bbox": [
+        [
+          -112.0,
+          81.5
+        ],
+        [
+          -57.5,
+          -47.50092219297443
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ]
+    },
+    {
+      "name": "keeper_removal_2_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 6.016130649211249e-11,
+      "bbox": [
+        [
+          -112.0,
+          81.5
+        ],
+        [
+          -56.0,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ]
+    },
+    {
+      "name": "keeper_removal_5_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 2.538058652135078e-11,
+      "bbox": [
+        [
+          -109.0,
+          75.5155931293991
+        ],
+        [
+          -53.0,
+          -47.503913177138244
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ]
+    },
+    {
+      "name": "keeper_removal_10_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "keeper_removal_10_2",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "keeper_removal_10_5",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "keeper_removal_10_15",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "keeper_removal_10_30",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_-250",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_-180",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_-60",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_-5",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_0",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_5",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_60",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_180",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "pin_service_250",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "keeper_driver_access",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "hinge_guard_left_print",
+      "expect": "part",
+      "pass": true,
+      "volume_mm3": 245.84805425919657,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          0.0,
+          6.700000000000003
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hinge_guard_right_print",
+      "expect": "part",
+      "pass": true,
+      "volume_mm3": 247.37354370148174,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          0.0,
+          6.700000000000003
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "insert_coupon_print",
+      "expect": "part",
+      "pass": true,
+      "volume_mm3": 2507.569498035799,
+      "bbox": [
+        [
+          0.0,
+          36.0
+        ],
+        [
+          0.0,
+          12.0
+        ],
+        [
+          0.0,
+          6.0
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "keeper_insert_coupon_print",
+      "expect": "part",
+      "pass": true,
+      "volume_mm3": 220.79156411511246,
+      "bbox": [
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          6.5
+        ],
+        [
+          0.0,
+          4.8
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "window_insert_coupon_print",
+      "expect": "part",
+      "pass": true,
+      "volume_mm3": 614.9012978013673,
+      "bbox": [
+        [
+          0.0,
+          18.0
+        ],
+        [
+          -7.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.1
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "hinge_bore_coupon_print",
+      "expect": "part",
+      "pass": true,
+      "volume_mm3": 4528.087836367189,
+      "bbox": [
+        [
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ],
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "name": "inserts_fixed_clear_base_box",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 9.641953901962097e-12,
+      "bbox": [
+        [
+          88.4,
+          118.6
+        ],
+        [
+          -55.54548132206251,
+          25.54548132206251
+        ],
+        [
+          6.8999999999999995,
+          6.9
+        ]
+      ]
+    },
+    {
+      "name": "inserts_fixed_clear_lid",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_fixed_clear_battery_hatch",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_fixed_clear_window_grille",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_fixed_clear_stationary_extras",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 2.7299162930205512e-11,
+      "bbox": [
+        [
+          -109.6,
+          79.1
+        ],
+        [
+          -52.1,
+          -48.9
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ]
+    },
+    {
+      "name": "inserts_fixed_clear_item",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_lid_clear_base_box",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_lid_clear_lid",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 4.981127316172618e-11,
+      "bbox": [
+        [
+          -95.5863117781981,
+          40.586311778198095
+        ],
+        [
+          -44.6,
+          46.599999999999994
+        ],
+        [
+          53.9,
+          53.9
+        ]
+      ]
+    },
+    {
+      "name": "inserts_lid_clear_battery_hatch",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_lid_clear_window_grille",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 7.47434622874743e-11,
+      "bbox": [
+        [
+          -95.38564064605511,
+          39.97401828641395
+        ],
+        [
+          -44.6,
+          46.599999999999994
+        ],
+        [
+          49.9,
+          49.9
+        ]
+      ]
+    },
+    {
+      "name": "inserts_lid_clear_stationary_extras",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "inserts_lid_clear_item",
+      "expect": "empty",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "latch_alignment_0",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "latch_alignment_0.1",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "latch_alignment_0.2",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "latch_alignment_0.25",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "latch_alignment_0.3",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 0
+    },
+    {
+      "name": "latch_alignment_0.4",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 1.3113225165649096,
+      "bbox": [
+        [
+          100.0,
+          106.0
+        ],
+        [
+          6.113006141915648,
+          11.11331129952777
+        ],
+        [
+          35.0,
+          35.06116283609699
+        ]
+      ]
+    },
+    {
+      "name": "latch_alignment_0.5",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 4.642960766551019,
+      "bbox": [
+        [
+          100.0,
+          106.0
+        ],
+        [
+          6.140792489087779,
+          11.142143058110786
+        ],
+        [
+          35.0,
+          35.17657580464027
+        ]
+      ]
+    },
+    {
+      "name": "latch_alignment_1",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 21.325016149330338,
+      "bbox": [
+        [
+          100.0,
+          106.0
+        ],
+        [
+          6.27692887011132,
+          11.289334689749388
+        ],
+        [
+          35.0,
+          35.754356624295895
+        ]
+      ]
+    },
+    {
+      "name": "latch_alignment_2",
+      "expect": "measure",
+      "pass": true,
+      "volume_mm3": 54.81664714521153,
+      "bbox": [
+        [
+          100.0,
+          106.0
+        ],
+        [
+          6.535192194085859,
+          11.598962235590196
+        ],
+        [
+          35.0,
+          36.91335721925189
+        ]
+      ]
+    },
+    {
+      "name": "proximity_is_not_latch_alignment",
+      "pass": true
+    },
+    {
+      "name": "latch_clear_at_point_three_deg",
+      "pass": true
+    },
+    {
+      "name": "latch_interferes_at_point_four_deg",
+      "pass": true
+    }
+  ],
+  "source_sha256": {
+    "cad/v3/electronics.scad": "bd5f854dae82ed529ef43f7db90b9375edd244757ad47894063d1646d34ddd69",
+    "cad/v3/assembly.scad": "7304479e6c7b2968cffb7e488b4728c8579ca7367c6f53c62e0564ce39c90cfa",
+    "cad/v3/lock.scad": "4ee4f602398403861993080a554d600159692bc7b3ac6e66cbe3263ccd159d6c",
+    "cad/v3/params.scad": "31d5cc442951d01a18b74cf85745314bf01783d5bc5853a50d2fc954f5695ae6",
+    "cad/v3/hardware.scad": "309ff2c454ff2c1e580efa5f1e8318b34e661713f360097f82a5381c7a78f3d5",
+    "cad/v3/enclosure.scad": "b33ae7a2c86bc1ba4624b840d4ac0ae009bbf5121e078a75332994160957a6f5",
+    "cad/v3/references.scad": "620c0560243bd8b70188eb977f29a3e8935a65ed85f30b2dffb85c839abc466d"
+  },
+  "failures": []
+}

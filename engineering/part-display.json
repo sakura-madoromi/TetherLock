@@ -1,0 +1,449 @@
+{
+  "version": "1",
+  "parts": [
+    {
+      "id": "base_box",
+      "label": "底壳与隔离仓",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        0,
+        0,
+        0
+      ]
+    },
+    {
+      "id": "lid",
+      "label": "一体外栅栏顶盖",
+      "group": "lid",
+      "role": "lid",
+      "color": "#d2d7db",
+      "explode": [
+        0,
+        0,
+        125
+      ]
+    },
+    {
+      "id": "lock_base",
+      "label": "锁模块底座",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        40,
+        0,
+        25
+      ]
+    },
+    {
+      "id": "guide_cap",
+      "label": "锁栓导向盖",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        40,
+        0,
+        80
+      ]
+    },
+    {
+      "id": "motor_clamp",
+      "label": "电机压板",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        20,
+        0,
+        75
+      ]
+    },
+    {
+      "id": "bolt",
+      "label": "实心锁栓",
+      "group": "lock",
+      "role": "drive",
+      "color": "#d17b49",
+      "explode": [
+        40,
+        0,
+        48
+      ]
+    },
+    {
+      "id": "nut_carriage",
+      "label": "浮动螺母滑块",
+      "group": "lock",
+      "role": "drive",
+      "color": "#428d9b",
+      "explode": [
+        10,
+        0,
+        48
+      ]
+    },
+    {
+      "id": "nut_cap",
+      "label": "螺母盖板",
+      "group": "lock",
+      "role": "drive",
+      "color": "#8c9dab",
+      "explode": [
+        10,
+        0,
+        75
+      ]
+    },
+    {
+      "id": "latch",
+      "label": "可替换锁扣",
+      "group": "lid",
+      "role": "lid",
+      "color": "#e7e5df",
+      "explode": [
+        0,
+        0,
+        75
+      ]
+    },
+    {
+      "id": "latch_retainer",
+      "label": "锁扣内侧压板",
+      "group": "lid",
+      "role": "lid",
+      "color": "#e7e5df",
+      "explode": [
+        0,
+        0,
+        88
+      ]
+    },
+    {
+      "id": "window_grille",
+      "label": "可拆内侧防护栅栏",
+      "group": "lid",
+      "role": "lid",
+      "color": "#d2d7db",
+      "explode": [
+        0,
+        0,
+        60
+      ]
+    },
+    {
+      "id": "battery_hatch",
+      "label": "电池维护盖",
+      "group": "battery",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        30,
+        0,
+        -65
+      ]
+    },
+    {
+      "id": "electronics_tray",
+      "label": "电子底托",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        0,
+        20
+      ]
+    },
+    {
+      "id": "upper_deck",
+      "label": "电子上层托板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        20,
+        50
+      ]
+    },
+    {
+      "id": "esp_clip",
+      "label": "主控压条",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        -10,
+        25,
+        55
+      ]
+    },
+    {
+      "id": "upper_clip",
+      "label": "驱动板压条",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        20,
+        85
+      ]
+    },
+    {
+      "id": "oled_bridge",
+      "label": "OLED固定压条",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        35,
+        55
+      ]
+    },
+    {
+      "id": "hinge_guard_left",
+      "label": "左销轴限位端盖",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        30,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "hinge_guard_right",
+      "label": "右销轴限位端盖",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        30,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "motor",
+      "label": "N20丝杠电机",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#bd9a58",
+      "explode": [
+        -20,
+        0,
+        45
+      ]
+    },
+    {
+      "id": "drive_nut",
+      "label": "M4法兰驱动螺母（尺寸候选）",
+      "group": "lock",
+      "role": "drive",
+      "color": "#8c9dab",
+      "explode": [
+        10,
+        0,
+        50
+      ]
+    },
+    {
+      "id": "battery_holder",
+      "label": "18650电池与电池座",
+      "group": "battery",
+      "role": "fixed",
+      "color": "#46695e",
+      "explode": [
+        30,
+        0,
+        -35
+      ]
+    },
+    {
+      "id": "esp",
+      "label": "ESP32-C3主控板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#2f7867",
+      "explode": [
+        -10,
+        25,
+        35
+      ]
+    },
+    {
+      "id": "power_board",
+      "label": "稳压与保护板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#2f7867",
+      "explode": [
+        35,
+        25,
+        30
+      ]
+    },
+    {
+      "id": "bridge_board",
+      "label": "电机驱动板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#2f7867",
+      "explode": [
+        45,
+        20,
+        65
+      ]
+    },
+    {
+      "id": "oled",
+      "label": "OLED显示组件",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#263239",
+      "explode": [
+        45,
+        35,
+        25
+      ]
+    },
+    {
+      "id": "button",
+      "label": "R16-503侧壁按钮",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        -15,
+        35,
+        20
+      ]
+    },
+    {
+      "id": "acrylic",
+      "label": "亚克力窗片",
+      "group": "lid",
+      "role": "lid",
+      "color": "#bfdde4",
+      "explode": [
+        0,
+        0,
+        95
+      ]
+    },
+    {
+      "id": "hinge_pin",
+      "label": "钢制铰链销轴",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        30,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "inserts_fixed",
+      "label": "底壳M2铜螺母（6枚）",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#bd9a58",
+      "explode": [
+        30,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "inserts_lid",
+      "label": "盖内M2铜螺母（4枚）",
+      "group": "lid",
+      "role": "lid",
+      "color": "#bd9a58",
+      "explode": [
+        30,
+        0,
+        100
+      ]
+    },
+    {
+      "id": "battery_connector",
+      "label": "可拆电池接头",
+      "group": "battery",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        20,
+        10,
+        -15
+      ]
+    },
+    {
+      "id": "motor_pads",
+      "label": "电机定位垫片",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        30,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "board_pads",
+      "label": "PCB定位胶垫",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        30,
+        0,
+        35
+      ]
+    },
+    {
+      "id": "fasteners_fixed",
+      "label": "底壳固定螺钉",
+      "group": "fasteners",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        30,
+        0,
+        30
+      ]
+    },
+    {
+      "id": "fasteners_drive",
+      "label": "滑块螺钉",
+      "group": "fasteners",
+      "role": "drive",
+      "color": "#a5afb8",
+      "explode": [
+        10,
+        0,
+        85
+      ]
+    },
+    {
+      "id": "fasteners_lid",
+      "label": "盖内固定螺钉",
+      "group": "fasteners",
+      "role": "lid",
+      "color": "#a5afb8",
+      "explode": [
+        0,
+        0,
+        100
+      ]
+    }
+  ]
+}

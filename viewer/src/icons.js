@@ -1,0 +1,28 @@
+// Inline vector icons keep the workbench entirely local after the initial build.
+const paths = {
+  box:'<path d="m3 7 9-4 9 4-9 4-9-4Zm0 0v10l9 4 9-4V7M12 11v10"/>',
+  layers:'<path d="m3 7 9-4 9 4-9 4-9-4Zm0 5 9 4 9-4M3 17l9 4 9-4"/>',
+  move:'<path d="M12 3v18M3 12h18m-9-9-3 3m3-3 3 3m-3 15-3-3m3 3 3-3M3 12l3-3m-3 3 3 3m15-3-3-3m3 3-3 3"/>',
+  ruler:'<path d="m3 16 13-13 5 5L8 21l-5-5Zm5-5 3 3m1-7 3 3m1-7 3 3"/>',
+  image:'<rect x="3" y="3" width="18" height="18" rx="3"/><circle cx="8" cy="8" r="1.5"/><path d="m3 17 5-5 4 4 4-5 5 6"/>',
+  download:'<path d="M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5"/>',
+  camera:'<path d="M4 7h3l2-3h6l2 3h3v13H4V7Z"/><circle cx="12" cy="13" r="4"/>',
+  play:'<path d="m8 4 12 8-12 8V4Z"/>', pause:'<path d="M8 4v16M16 4v16"/>',
+  reset:'<path d="M3 10a9 9 0 1 1 2 8M3 3v7h7"/>',
+  eye:'<path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"/><circle cx="12" cy="12" r="3"/>',
+  eyeOff:'<path d="m3 3 18 18M10 5a13 13 0 0 1 12 7s-2 4-5 5M6 6a20 20 0 0 0-4 6s4 7 10 7a12 12 0 0 0 4-1"/>',
+  focus:'<path d="M3 8V3h5m8 0h5v5m0 8v5h-5M8 21H3v-5"/><circle cx="12" cy="12" r="4"/>',
+  search:'<circle cx="10" cy="10" r="6"/><path d="m15 15 6 6"/>',
+  chevron:'<path d="m8 4 8 8-8 8"/>', check:'<path d="m4 12 5 5L20 6"/>',
+  clip:'<path d="M12 2v20M3 6h5v12H3V6Zm13 0h5v12h-5"/>',
+  grid:'<path d="M3 3h18v18H3V3Zm6 0v18m6-18v18M3 9h18M3 15h18"/>',
+  settings:'<path d="M4 7h16M4 17h16"/><circle cx="9" cy="7" r="3"/><circle cx="15" cy="17" r="3"/>',
+  bookmark:'<path d="M6 3h12v18l-6-4-6 4V3Z"/>',
+  file:'<path d="M5 3h9l5 5v13H5V3Zm9 0v6h5M8 13h8M8 17h6"/>',
+  printer:'<path d="M6 8V3h12v5M6 16H3V8h18v8h-3M6 13h12v8H6v-8Z"/>',
+  video:'<rect x="2" y="5" width="14" height="14" rx="2"/><path d="m16 9 6-4v14l-6-4"/>',
+  link:'<path d="m10 13 4-4M8 16l-2 2a4 4 0 0 1-6-6l5-5a4 4 0 0 1 6 0m2 0 2-2a4 4 0 0 1 6 6l-5 5a4 4 0 0 1-6 0"/>',
+  close:'<path d="m5 5 14 14M19 5 5 19"/>', info:'<circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/>',
+  cube:'<path d="M4 4h12v12H4V4Zm0 0 4-3h12v12l-4 3m0-12 4-3M4 16l4-3m0-12v12h12"/>',
+};
+export function icon(name,size=18) { return `<svg width="${size}" height="${size}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${paths[name]||paths.box}</svg>`; }

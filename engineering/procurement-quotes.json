@@ -1,0 +1,359 @@
+{
+  "version": "procurement-2026-10-02",
+  "observedDate": "2026-10-02",
+  "currency": "CNY",
+  "prototypeQuantity": 1,
+  "destination": {
+    "province": "云南省",
+    "prefecture": "红河哈尼族彝族自治州",
+    "requestedCities": [
+      "个旧市",
+      "蒙自市"
+    ],
+    "observedCity": "个旧市",
+    "mengziFreightVerified": false
+  },
+  "pricingPolicy": "预算采用所选SKU优惠前价格；平台补贴、淘金币和满减不累计。商品页运费不是结算承诺；没有订单、购物车、支付或客服联系。",
+  "quotes": [
+    {
+      "materialId": "esp",
+      "itemId": "746684070257",
+      "skuId": "5146935732020",
+      "shop": "育松创达",
+      "variant": "ESP32-C3 SuperMini 不带排针",
+      "url": "https://item.taobao.com/item.htm?id=746684070257&skuId=5146935732020",
+      "unitPrice": 10.5,
+      "displayedPromotionalPrice": 6.5,
+      "freight": 2,
+      "dimensionsMm": [
+        18,
+        22.52,
+        null
+      ],
+      "dimensionEvidence": "商品文本22.52×18；Nologo参考尺寸图标18×22.50；总高未核定",
+      "schematic": "Nologo公开参考原理图，不证明该SKU同版",
+      "sources": [
+        "https://github.com/NologoTech/ESP32C3-Supermini/tree/main/Hardware"
+      ],
+      "gate": "收货核对宽度较CAD多0.2mm、USB凸出、最高器件、3V3外供及USB隔离；不得直接认定卡扣适配。",
+      "useInBaseline": true,
+      "evidenceType": "2026-10-02已观察的淘宝商品页/SKU；转公开资料后未重新验证"
+    },
+    {
+      "materialId": "oled",
+      "itemId": "608307780108",
+      "skuId": "4276111673863",
+      "shop": "育松创达",
+      "variant": "0.96寸白色IIC显示",
+      "url": "https://item.taobao.com/item.htm?id=608307780108&skuId=4276111673863",
+      "unitPrice": 7.5,
+      "displayedPromotionalPrice": 3.5,
+      "freight": 2,
+      "dimensionsMm": [
+        25.2,
+        26,
+        null
+      ],
+      "holes": {
+        "spacingMm": [
+          21,
+          21.8
+        ],
+        "diameterMm": 2
+      },
+      "dimensionEvidence": "卖家尺寸图；厚度和焊接总高未确认",
+      "controller": "卖家标1315，应按SSD1315候选；不能标SSD1306已核实",
+      "sources": [
+        "https://img.alicdn.com/imgextra/i4/2928723973/O1CN012x81Vz1fDgBPtJ9N1_!!2928723973.png"
+      ],
+      "gate": "原CAD27.8×27.3；安装孔位与显示区/玻璃高度需适配，核实3.3V和驱动初始化。",
+      "useInBaseline": false,
+      "evidenceType": "2026-10-02已观察的淘宝商品页/SKU；转公开资料后未重新验证"
+    },
+    {
+      "materialId": "battery_holder",
+      "itemId": "608911086247",
+      "skuId": "4277561585844",
+      "shop": "育松创达",
+      "variant": "18650 1节不带盖",
+      "url": "https://item.taobao.com/item.htm?id=608911086247&skuId=4277561585844",
+      "unitPrice": 0.5,
+      "displayedPromotionalPrice": null,
+      "freight": 2,
+      "dimensionsMm": null,
+      "dimensionEvidence": "未找到所选型号完整尺寸图",
+      "gate": "必须装入平头电芯后测总包络≤74×22×21；检查弹簧、焊线、极性和压降。",
+      "useInBaseline": true,
+      "evidenceType": "2026-10-02已观察的淘宝商品页/SKU；转公开资料后未重新验证"
+    },
+    {
+      "materialId": "bridge_board",
+      "itemId": "613483776328",
+      "skuId": null,
+      "shop": "育松创达",
+      "variant": "DRV8833 红板，双8针排针另附",
+      "url": "https://item.taobao.com/item.htm?id=613483776328",
+      "unitPrice": 2.38,
+      "displayedPromotionalPrice": 1.38,
+      "promotion": "页面满2减1；同店订单不能按每件重复扣券",
+      "freight": 2,
+      "dimensionsMm": null,
+      "dimensionEvidence": "未核得确切板宽/长/高度；其他黑板18.5×16不得套用",
+      "pinoutLeftTopToBottom": [
+        "NC",
+        "AIN2",
+        "AIN1",
+        "STBY",
+        "BIN1",
+        "BIN2",
+        "NC",
+        "GND"
+      ],
+      "pinoutRightTopToBottom": [
+        "VM",
+        "NC",
+        "GND",
+        "AO1",
+        "AO2",
+        "BO2",
+        "BO1",
+        "GND"
+      ],
+      "sources": [
+        "https://img.alicdn.com/imgextra/i4/2928723973/O1CN01thKUZVBgjXH1bS6Q_!!2928723973.jpg",
+        "https://www.ti.com/lit/ds/symlink/drv8833.pdf"
+      ],
+      "gate": "芯片丝印/封装未确认，按PW每通道500mA RMS保守筛选；须测电机启动/堵转及温升。未引出FLT；STBY连通性及默认上下拉待测。",
+      "useInBaseline": false,
+      "evidenceType": "2026-10-02已观察的淘宝商品页/SKU；转公开资料后未重新验证"
+    },
+    {
+      "materialId": "power_board",
+      "itemId": "854449832375",
+      "skuId": "5822396794144",
+      "shop": "成瑞电子",
+      "variant": "黑色升降压短接设置3.3/4.2/5V 输入1.8-5.5",
+      "url": "https://item.taobao.com/item.htm?id=854449832375&skuId=5822396794144",
+      "unitPrice": 6.9,
+      "displayedPromotionalPrice": 3.9,
+      "freight": 0,
+      "dimensionsMm": [
+        25,
+        14.5,
+        4.5
+      ],
+      "dimensionEvidence": "卖家尺寸图，板长25/端孔间22/宽14.5/厚4.5mm",
+      "sources": [
+        "https://img.alicdn.com/imgextra/i3/2214809804000/O1CN01iOq4Wd1fQ3H3Z0JiI_!!2214809804000.jpg",
+        "https://www.ti.com/lit/ds/symlink/tps63020.pdf"
+      ],
+      "gate": "原CAD15×20×7.2，长边增加5mm，必须适配后使用；只短接3V3，先空载量输出；不选输入3–20V的2035；低电池ESP瞬态及待机功耗须实测。",
+      "useInBaseline": false,
+      "evidenceType": "2026-10-02已观察的淘宝商品页/SKU；转公开资料后未重新验证"
+    },
+    {
+      "materialId": "cell",
+      "itemId": "746205673995",
+      "skuId": "5421654243887",
+      "shop": "锂电池超市",
+      "variant": "亿纬18650-25P平头 12C动力2500毫安",
+      "url": "https://item.taobao.com/item.htm?id=746205673995&skuId=5421654243887",
+      "unitPrice": 11,
+      "displayedPromotionalPrice": 8,
+      "freight": 0,
+      "dimensionsMm": {
+        "diameter": 18.35,
+        "diameterTolerance": 0.1,
+        "height": 65,
+        "heightTolerance": 0.15
+      },
+      "dimensionEvidence": "亿纬官方产品规格；卖家商品是否正品及尺寸须收货核实",
+      "capacityMah": 2500,
+      "nominalVoltage": 3.6,
+      "chargeVoltage": 4.2,
+      "dischargeCutoffVoltage": 2.5,
+      "sources": [
+        "https://www.evemall.com/consumer-battery/cylindrical-cell/18650-25p"
+      ],
+      "gate": "平头非保护芯；2500mAh比原2600mAh标称少约3.8%；预售5天；模块保护切断不能低于电芯规格，不默认DW01A足够；整座包络待测。",
+      "useInBaseline": false,
+      "evidenceType": "2026-10-02已观察的淘宝商品页/SKU；转公开资料后未重新验证"
+    }
+  ],
+  "technicalSources": {
+    "hall": "https://www.ti.com/lit/ds/symlink/drv5032.pdf",
+    "motorAlternative": "https://asia.store.bambulab.com/products/n20-m3-threaded-shaft-reduction-gear-motor?variant=42123398381704",
+    "espReference": "https://github.com/NologoTech/ESP32C3-Supermini/tree/main/Hardware",
+    "hallSupplyReference": "https://www.lcsc.com/product-detail/C266118.html"
+  },
+  "shipping": {
+    "sameShopCombinedConfirmed": false,
+    "sameShopCombinedHypothesis": 2,
+    "otherItemsFreightKnown": false,
+    "individualSelectedItemsTotal": 8
+  },
+  "scope": "覆盖整套69行BOM的公开资料核查与预算审计；六项历史人民币SKU报价及五项公开外币参考报价分列。规格冲突、未知完整板图和云南运费明确标识；不是已验证采购BOM。",
+  "researchStatus": {
+    "taobaoLoginExpired": true,
+    "localLoginWindowOpened": true,
+    "remaining": [
+      "motor",
+      "hall",
+      "battery_protection",
+      "battery_connector",
+      "button",
+      "mechanical_and_consumables_freight"
+    ],
+    "note": "按用户最新要求停止淘宝登录访问，使用厂家/供应商公开资料核验。之前六项淘宝会话观察值保留日期，不作为本次公开页面重新验证的报价。未知SKU与运费在报告列明。",
+    "strategy": "public-sources-only",
+    "loginRequiredForNextStep": false
+  },
+  "technicalReviews": [
+    {
+      "materialId": "hall",
+      "candidate": "ScoutMakes DRV5032 breakout",
+      "priceVerified": false,
+      "dimensionsMm": [
+        25.4,
+        17.78,
+        null
+      ],
+      "dimensionEvidence": "厂家GitHub EAGLE .brd layer20外框坐标",
+      "variant": "厂家2026年7月当前FBDBZR，实际淘宝出货批次未知",
+      "gate": "5Hz推挽；不直接替代20Hz开漏ZE；超过旧8×6/6×6mm包络",
+      "sources": [
+        "https://www.ti.com/lit/ds/symlink/drv5032.pdf",
+        "https://www.scoutmakes.com/products/drv5032-hall-sensor/",
+        "https://github.com/tinkeringtech/DRV5032-Hall-Sensor",
+        "https://www.adafruit.com/product/6051"
+      ],
+      "assembledDimensionsMm": [
+        25.6,
+        17.8,
+        7.2
+      ]
+    },
+    {
+      "materialId": "battery_protection",
+      "gate": "现有电池座实体为74×22×21总包络，没有单列保护板适配证据；不能把芯片面积当板件面积。 DW01A过放检测2.40±0.10V可低至2.30V，不能直接匹配亿纬25P的2.50V下限；FS312F-G为2.90±0.08V参考，尚非已选成品。",
+      "sources": [
+        "https://www.ic-fortune.com/upload/Download/DW01A-DS-13_EN.pdf",
+        "https://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf",
+        "https://www.evemall.com/consumer-battery/cylindrical-cell/18650-25p"
+      ]
+    },
+    {
+      "materialId": "battery_connector",
+      "gate": "配对端一起采购；旧小包络及额定电流尚未实测。不得自动把红线当成正确针位。 JST原厂SH是线对板系列，额定1A仅对AWG28；端子适用AWG32–28、绝缘外径0.4–0.8mm。旧成对线接头可能为兼容件，须确认真实型号。",
+      "sources": [
+        "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
+      ]
+    },
+    {
+      "materialId": "motor",
+      "candidate": "驰海CHF-GM12-N20VA M3丝杆版（未取得对应淘宝SKU）",
+      "priceVerified": false,
+      "dimensionsMm": {
+        "bodyLengthFromDrawing": 25,
+        "gearboxSection": [
+          10,
+          12
+        ],
+        "motorDiameterMax": 12.1,
+        "shaftProjection": 33.6,
+        "shaftTipDiameter": 2,
+        "shaftTipSmoothLength": 3.5
+      },
+      "voltage": 3,
+      "variants": [
+        {
+          "motorModel": "45",
+          "noLoadSpeedRpm": 240,
+          "ratedSpeedRpm": 200,
+          "ratedCurrentMaMax": 190,
+          "stallCurrentAMax": 0.95
+        },
+        {
+          "motorModel": "26",
+          "noLoadSpeedRpm": 170,
+          "ratedSpeedRpm": 130,
+          "ratedCurrentMaMax": 100,
+          "stallCurrentAMax": 0.4
+        }
+      ],
+      "gate": "型号45仅规格参考；真实供货尺寸、M3螺距、低电池带载、启动/堵转和自锁须核对。26型额定130rpm不能满足140rpm目标。PW驱动500mA RMS不能由该0.95A堵转数据证明可持续承受堵转。",
+      "sources": [
+        "https://www.airsoftmotor.com/micro-dc-reduction-motor/spur-gear-reduction-motor/n20-dc-gear-motor-with-m3-threaded-screw.html",
+        "https://www.airsoftmotor.com/Content/uploads/2021547745/20210510105506900480af97d74451b380da1a44d8aedf.jpg"
+      ]
+    },
+    {
+      "materialId": "thread_inserts",
+      "candidate": "ruthex RX-M2x4，尺寸反例",
+      "dimensionsMm": {
+        "outerDiameter": 3.6,
+        "lowerDiameter": 3.1,
+        "recommendedHole": 3.2,
+        "length": 4
+      },
+      "gate": "厂家3.2mm为安装孔径；不等于旧候选外径3.2mm，不能自动替换",
+      "sources": [
+        "https://www.ruthex.de/products/ruthex-gewindeeinsatz-m2-70-stuck-rx-m2x4-messing-gewindebuchsen"
+      ]
+    }
+  ],
+  "publicReferenceOffers": [
+    {
+      "materialId": "power_board",
+      "supplier": "Pololu",
+      "model": "S7V8F3 #2122",
+      "currency": "USD",
+      "unitPrice": 9.95,
+      "minimumQuantity": 1,
+      "url": "https://www.pololu.com/product/2122",
+      "gate": "原配置参考；未核人民币汇率、寄云南运费及进口费用，不替换人民币预算"
+    },
+    {
+      "materialId": "bridge_board",
+      "supplier": "Pololu",
+      "model": "DRV8833 #2130",
+      "currency": "USD",
+      "unitPrice": 10.95,
+      "minimumQuantity": 1,
+      "url": "https://www.pololu.com/product/2130",
+      "gate": "页面Backorder；12.7×20.32mm，20.3为圆整；人民币40元仍非实价，云南运费未知"
+    },
+    {
+      "materialId": "hall",
+      "supplier": "Adafruit / ScoutMakes",
+      "model": "6051 / DRV5032FB board",
+      "currency": "USD",
+      "unitPrice": 4.95,
+      "minimumQuantity": 1,
+      "url": "https://www.adafruit.com/product/6051",
+      "gate": "整板25.6×17.8×7.2mm；5Hz推挽；不适配原小板，不计入人民币预算"
+    },
+    {
+      "materialId": "thread_inserts",
+      "supplier": "ruthex",
+      "model": "RX-M2x4 / 70pc",
+      "currency": "EUR",
+      "unitPrice": 0.12842857142857142,
+      "packagePrice": 8.99,
+      "minimumQuantity": 70,
+      "url": "https://www.ruthex.de/products/ruthex-gewindeeinsatz-m2-70-stuck-rx-m2x4-messing-gewindebuchsen",
+      "gate": "外径3.6/底径3.1/安装孔3.2/长4.0mm；非原外径3.2候选，不计入预算"
+    },
+    {
+      "materialId": "magnets",
+      "supplier": "supermagnete",
+      "model": "S-03-02-N / 20pc",
+      "currency": "EUR",
+      "unitPrice": 0.24,
+      "packagePrice": 4.8,
+      "minimumQuantity": 20,
+      "url": "https://www.supermagnete.de/scheibenmagnete-neodym/scheibenmagnet-3mm-2mm_S-03-02-N",
+      "gate": "Ø3×2mm，公差±0.1，轴向N48；未核云南运费，仅规格参照，不推荐一套从欧洲拆单采购"
+    }
+  ]
+}

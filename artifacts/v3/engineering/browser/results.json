@@ -1,0 +1,42 @@
+{
+  "pass": true,
+  "checks": [
+    "all 69 rows and separate cost groups shown with budget conflict",
+    "category and spec search; item acceptance details",
+    "installed versus purchase quantity",
+    "complete CSV export retains provenance and canonical screw rows",
+    "printable complete table with repeated header CSS",
+    "BOM links open associated product part",
+    "BOM usable at 390px without page overflow"
+  ],
+  "errors": [],
+  "source_sha256": {
+    "engineering/assembly-steps.json": "ce5b91200365cbb9b61d943a80c130b5a0986ae4c9ae4815277dc4d1cac951d9",
+    "engineering/drawing-topics.json": "960111587906f359a2f57806c5aa51d7e1a3e29a344960a873c70dc5fb970af9",
+    "engineering/electrical.json": "b436df56af6447a0ce7caa81d70363d802dbd33a2b3a3bdad32663a8b0682a10",
+    "engineering/materials.json": "b12666f6cdb4bae2e09b1a8710278399c13821d5358becdfc521d707901e6d2a",
+    "engineering/part-display.json": "79487def999d15cc549f1d3bb870d8052e65575d3f0fd2a3848f937a70dd0160",
+    "engineering/print-guidance.json": "4ba4a0e6e1e78ef2a9d56c92dfb87735f9968600f4bdb785299353d003296496",
+    "engineering/references.json": "f9069af00d99415f6bf80c07423463d1202e891299ade11124e069a9ba9990c0",
+    "viewer/public/engineering.json": "cc3eac56025b7cde5b6e439c635924a3e7444e0147c3372124c6bcd5583d13d1",
+    "viewer/public/fonts/LICENSE-Noto-CJK.txt": "5bb218343ded506b258d86186d460fc47d9b6b28f0e642cf32676c396b7df763",
+    "viewer/public/fonts/TLBlueprint.otf": "3beaec42581965e340c549eb8d79e7bb2125322145ed5adcccfee1727ed261d0",
+    "viewer/public/fonts/manifest.json": "cc6519a4b75db16ab678284831b273b43ebc79a88955836b7a969b9f1cb870b9",
+    "viewer/public/manifest.json": "cad71c28692745b759c94bf8ce7d70853f673b1919bfd7558f79830323ebb8ea",
+    "viewer/src/assembly-progress.js": "88a42f3dfa814d2a9fa1a97092dc3b96bf309379d7e2143386e7da431f05bd2c",
+    "viewer/src/assembly.js": "acf6615cc825a154fe8b4a6e260e8d3188d4d9ad0d1383e63db561a7350d16f3",
+    "viewer/src/blueprint.js": "0cfa22f63e159b1be5d4a0cb942a404ce2ec569827e1a4d10fa3cde5bd985dc6",
+    "viewer/src/bom.js": "377c900bb4eb014ce06d8bc10bef95b8fa2a16208abb8719ea12c0a8b89fbc52",
+    "viewer/src/drawing.js": "f40963c5a29493d1b8c9e08b52c81a4724ea150e4943ba468f18354c2093a0b5",
+    "viewer/src/engineering.js": "0e17cbdd3c5800de40cc74d93fd769a39ee2515783d54a38ccdd217b98fcec1a",
+    "viewer/src/exports.js": "fc7d045f93463790b960833c2dfd57d50e76151359e17f34ba648a85d69807fe",
+    "viewer/src/icons.js": "eadd24a590ed6a10c5b9cc80991e1cdf4b3dfe09d10e63131f6709bef8435bbc",
+    "viewer/src/main.js": "44821ee1a851463c64cc15275d242965254e2d08c44f8f21bec10c63fc58683d",
+    "viewer/src/references.js": "efee1881962b6000cdd729b87267cf014d1e2957165373feec1e2aa6aaeabdc0",
+    "viewer/src/scene.js": "8304793f7bc445a2bfc67a06bdd5fb1934bb66d30c0a0dab405bf3ad6b1c5470",
+    "viewer/src/sections.js": "7ab966ac141905116d982f1b0c902ab5cc2bff5f442903aa842d7857eb63cf80",
+    "viewer/src/state.js": "d5d9eddf66dfd34473197272ec17422ac91d8c19f8241dc95bb3aef6f5ec9a62",
+    "viewer/src/style.css": "82ed0f48531ac5eaab8b3412fe1a8bf8b15956e3410db3bc6351ca8fd852857f",
+    "viewer/src/tokens.css": "3b5251ca52632535c6e98ef3f2db817baf6e06a9077c12e68fecffe33e7cf134"
+  }
+}

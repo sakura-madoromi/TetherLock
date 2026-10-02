@@ -1,0 +1,26 @@
+{
+  "version": "1",
+  "units": "mm",
+  "phone": {
+    "name": "iPhone 17 Pro Max",
+    "body": [163.4, 78.0, 8.75],
+    "cameraPlateau": 2.55,
+    "cameraGlass": 1.88,
+    "totalThickness": 13.18,
+    "center": [-23, 0],
+    "lowestZ": 5,
+    "lensDiameter": 16.2,
+    "lensCentersFromTopLeft": [[14.37, 14.37], [33.61, 14.37], [23.99, 32.36]],
+    "source": "https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-17-pro-max.pdf",
+    "specification": "https://support.apple.com/en-la/125091",
+    "note": "主体按技术规格；凸起总高4.43及镜头位置按官方配件图第1图。边框、平台轮廓与屏幕装饰仅作比例展示。"
+  },
+  "card": {
+    "name": "ID-1 虚构示意卡",
+    "size": [85.6, 53.98, 0.76],
+    "center": [-7, 0],
+    "bottomZ": 18.18,
+    "source": "https://webstore.iec.ch/en/publication/11595",
+    "note": "名义尺寸参照，不计入设备BOM。"
+  }
+}

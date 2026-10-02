@@ -1,0 +1,39 @@
+{
+  "scope": "nominal axial retention, sampled service paths and Hall geometry; no measured magnetic threshold, torque or strength",
+  "results": [
+    {
+      "name": "left_axial_stop",
+      "expect": "solid",
+      "pass": false,
+      "volume_mm3": 0
+    },
+    {
+      "name": "right_axial_stop",
+      "expect": "solid",
+      "pass": false,
+      "volume_mm3": 0
+    }
+  ],
+  "source_sha256": {
+    "cad/v3/params.scad": "2b3fec4fe147cec3800bee6c14a0d8879d667e80b7925a4c1712a23c5d0138c0",
+    "cad/v3/lock.scad": "673e1637449724dff37ed407c9ed599837dee57b1b1aa7e8ae86e497812ec30c",
+    "cad/v3/enclosure.scad": "61ed497cc0a253b91b03c1ea4e9f5f57633810c7bc9ff3a6890764cb79a60bbb",
+    "cad/v3/electronics.scad": "7b6896255e3b80c8172acf615b5128e7f1fa1981f2d0b01b36fafb651c406fd5",
+    "cad/v3/hardware.scad": "8b152c27f333bbc57b078da4f0ad96c6f0edcd59c72cf52c51f2a4df434d160a",
+    "cad/v3/assembly.scad": "cf13a9887a1b285699245d2e9e82ed38af79fb2e420d1502364b38625bef6015"
+  },
+  "failures": [
+    {
+      "name": "left_axial_stop",
+      "expect": "solid",
+      "pass": false,
+      "volume_mm3": 0
+    },
+    {
+      "name": "right_axial_stop",
+      "expect": "solid",
+      "pass": false,
+      "volume_mm3": 0
+    }
+  ]
+}

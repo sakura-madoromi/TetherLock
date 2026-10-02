@@ -1,0 +1,67 @@
+# TetherLock V3 工程工作台
+
+工作台有“三维预览｜工程资料｜组装指导”三个独立页面，共用44组真实CAD网格与一个WebGL渲染上下文。正式装配为20种打印件、35枚螺钉；29种打印STL另含九种试块。闭合名义外形240×120×55mm，储物验收包络185×95×40mm。外栅随盖一体打印，内栅直接接触149×82×1.5mm无孔亚克力；四个固定耳承担预紧力，不使用窗垫。
+
+## 启动与静态使用
+
+仓库根目录首次运行`npm ci`，然后`npm run dev`，打开 <http://127.0.0.1:5173/>。已生成的资源无需重新调用OpenSCAD。重新构建用`npm run build`；交付ZIP用`npm run package`。
+
+[静态工作台ZIP](../../artifacts/v3/TetherLock-V3-Workbench.zip)解压后，在文件夹内运行`python3 -m http.server 8088 --bind 127.0.0.1`，打开 <http://127.0.0.1:8088/>。页面、网格、参照物、字体、BOM和下载均在本地，不需要Node、OpenSCAD或联网。通过HTTP打开，不双击index.html；支持静态站点子目录。
+
+## 三维预览
+
+拖动旋转、滚轮缩放、右键平移、双击聚焦；搜索ID或中文名、隐藏/隔离、测距、剖切与查看落床STL。开盖联动先退栓；锁栓0～14mm，盖0～105°，不模拟扭矩、摩擦或电机带载速度。
+
+手机、银行卡有独立开关，默认开启；储物验收块默认关闭。裸机iPhone 17 Pro Max主体163.4×78×8.75mm，官方相机凸起计入总厚13.18mm；银行卡85.6×53.98×0.76mm，虚构卡面。两者固定在储物位置，不随盖或爆炸偏移。隐藏手机后银行卡保留既定高度。
+
+PNG、五视图ZIP与WebM录制当前可见参照物。GLB默认排除尺寸参照，勾选“包含尺寸参照”后导出当前显示的参照物；GLB毫米转换为米，保留Z向上。参照物不进入产品数量、制造蓝图或设备BOM。旧视图JSON缺字段时启用手机/卡片默认值。
+
+## 工程资料
+
+默认打开固定蓝图目录；41个主题扩展为88页，包含总装/爆炸编号、内部/栅窗/铰链/驱动/维护/电子剖面、20种打印件与CAD名义特征附页、试块、亚克力1:1 SVG/DXF、钢销、完整采购/打印/工具表及四类电气资料。
+
+制造数据由OpenSCAD参数、稳定F连接ID和工程主表产生；STL只提供实际投影轮廓、网格包络和真实闭合剖面。孔位、打印预孔、装配让位孔、铜螺母孔、沉头和方体特征来自CAD元数据。切除工具长含越界，不是实物钻深；布尔原语不是最终边界的保证公差。剖面以实体闭合路径填充，孔洞用奇偶规则，不把硬件候选盒画成内部结构。
+
+固定制造状态与当前预览的盖角、爆炸、隐藏、手机/卡片开关无关。“当前视图参考图”仍保留原有随姿态改变的投影工具，并明确独立于标准蓝图。
+
+单页SVG与3840×2715 PNG、A3 420×297mm打印/PDF；整套ZIP按冻结目录生成，包含88页SVG、目录、完整BOM、打印/工具CSV、整套可打印组装说明、亚克力加工SVG/DXF、源指纹和字体许可。SVG嵌入允许嵌入的本地Noto CJK子集；按100%打印并量100mm校验线，不能把屏幕比例当加工比例。
+
+物料页区分装机数量、建议采购、整包费用、工具/充电器与外包打印，支持规格搜索、分类、CSV和完整分页打印。点击物料关联零件、图纸或步骤可跳转。当前设备估算216.95元，超出约100元目标；八项未解决冲突保持可见，详见[采购状态](v3-procurement-status.md)。
+
+电气页固定保护后的电源路径、逻辑GPIO接口、线路分支与台架流程。第三方SuperMini焊盘/USB电路需实测，不把逻辑GPIO名当未知板针序；保护B端/P端不得混接。盒内无充电路径，电池取出后独立充电。控制固件另行完成。
+
+## 组装指导与人工进度
+
+22个装配步骤和五个维护步骤包含已装集合、操作顺序、物料/用量、工具、稳定F连接、人工检查、图纸和打印链接。当前件高亮，遮挡壳体半透明；可以自由旋转、聚焦、看完整总装，播放/暂停/重播或拖动进度。
+
+钢销、端盖和内栅维护动画按真实CAD核对路径移动；其六个连续平移段用Minkowski扫掠检查，带完整源与步骤指纹。热装、焊接、粘接及未固定模块的操作动画用文字分段/颜色提示，不声称实体安装路径已通过。螺钉连接按F编号定位，不把示意旋转当真实螺纹或扭矩。切换步骤/标签立即停止旧动画，并恢复预览各自的姿态与镜头。
+
+动画结束不勾选检查；下一步允许浏览，未完成检查提示仍保留。逐项人工确认后才可记录本步完成，撤销检查会撤销完成。当前步骤、检查、备注和完成状态保存在本机，与CAD、步骤版本及步骤内容SHA关联；旧版及重置记录保留，不自动继承确认。可导入/导出JSON；浏览器拒绝存储时仍可使用，改用JSON保存。
+
+支持导出带步骤、版本、日期与CAD指纹的本步PNG，以及27步整套可打印HTML说明。人工完成只表示记录，不表示网页检测到实物合格。
+
+## 重新生成与检查
+
+改变CAD后按顺序执行，避免导出删除中间STL时同时渲染：
+
+```bash
+python3 scripts/v3/export_verify.py
+python3 scripts/v3/verify_window.py
+python3 scripts/v3/verify_hinge_hall.py
+python3 scripts/v3/verify_review.py
+python3 scripts/v3/verify_references.py
+python3 scripts/v3/verify_assembly.py
+python3 scripts/v3/engineering_data.py
+python3 scripts/v3/viewer_assets.py
+python3 scripts/v3/render.py
+node scripts/v3/blueprints.mjs
+python3 scripts/v3/package_cad.py
+npm test
+npm run package
+```
+
+字体重新生成另需兼容Python的FontTools，运行`scripts/v3/blueprint_font.py`；使用仓库中保留的字体资源无需FontTools。生成或重新验证 CAD 前请设置`OPENSCAD`为本机可执行文件路径。数据/几何/路径指纹过期时停止，不供应旧CAD下载或伪完整图页。
+
+浏览器回归为`tests/viewer/browser.mjs`、`references.mjs`、`bom.mjs`、`engineering.mjs`。通过`CHROMIUM_PATH`指定Chromium；`engineering.mjs`支持`WORKBENCH_URL`。工程页证据位于[工程浏览器结果](../../artifacts/v3/engineering-workbench/browser/results.json)，连续安装路径位于[扫掠证据](../../artifacts/v3/assembly-paths/verification.json)。
+
+首件孔径、亚克力板厚/平整度、热装保持力、板件和线束包络、Hall阈值、强度、低压及≤15秒开锁均需实物验收；[测量模板](v3-physical-acceptance.csv)保留空白量测字段。名义几何和人工进度不能代填这些值。

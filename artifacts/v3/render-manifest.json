@@ -1,0 +1,49 @@
+{
+  "source_sha256": {
+    "cad/v3/electronics.scad": "bd5f854dae82ed529ef43f7db90b9375edd244757ad47894063d1646d34ddd69",
+    "cad/v3/assembly.scad": "7304479e6c7b2968cffb7e488b4728c8579ca7367c6f53c62e0564ce39c90cfa",
+    "cad/v3/lock.scad": "4ee4f602398403861993080a554d600159692bc7b3ac6e66cbe3263ccd159d6c",
+    "cad/v3/params.scad": "31d5cc442951d01a18b74cf85745314bf01783d5bc5853a50d2fc954f5695ae6",
+    "cad/v3/hardware.scad": "309ff2c454ff2c1e580efa5f1e8318b34e661713f360097f82a5381c7a78f3d5",
+    "cad/v3/enclosure.scad": "b33ae7a2c86bc1ba4624b840d4ac0ae009bbf5121e078a75332994160957a6f5",
+    "cad/v3/references.scad": "620c0560243bd8b70188eb977f29a3e8935a65ed85f30b2dffb85c839abc466d"
+  },
+  "views": [
+    [
+      "closed",
+      {
+        "travel": 14
+      },
+      60
+    ],
+    [
+      "open",
+      {
+        "lid_angle": 105
+      },
+      60
+    ],
+    [
+      "exploded",
+      {
+        "view": "exploded"
+      },
+      65
+    ],
+    [
+      "lock",
+      {
+        "view": "lock",
+        "travel": 14
+      },
+      50
+    ]
+  ],
+  "output_sha256": {
+    "closed.png": "5e9523014573607d4255bc1e3c7b22b4ae2f423378dd9560c252bb43d15e79da",
+    "open.png": "b4f6c76f51ff9ca67abd83c6d9b3b0290a98b629a66b1a48b74842a0a63e4312",
+    "exploded.png": "54a9f1ecc5e2101c1f82e2886cb4ba70fd5084a53298f1f3f221c4e3c409e68c",
+    "lock.png": "fff2e5d509d44410b700711d8c6544e26e8180778535f61d9e570c9bff7c35ad",
+    "structure.svg": "e67b2924bebd1b719ae1c6313a873b1bd714c7b773c8b1ec6cdc79178aadfa07"
+  }
+}

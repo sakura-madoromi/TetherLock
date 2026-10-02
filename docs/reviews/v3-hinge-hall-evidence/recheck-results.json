@@ -1,0 +1,109 @@
+[
+  {
+    "name": "keepers_pin_nominal",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "keepers_pin_radial_front_019",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "keepers_pin_radial_front_020",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "keepers_pin_radial_front_021",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "keeper_insert_coupon",
+    "volume": 220.79156411511232,
+    "bbox": [
+      [
+        0.0,
+        8.0
+      ],
+      [
+        0.0,
+        6.5
+      ],
+      [
+        0.0,
+        4.8
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 396,
+        "volume": 220.79156411511232
+      }
+    ]
+  },
+  {
+    "name": "window_insert_coupon",
+    "volume": 614.9012978013675,
+    "bbox": [
+      [
+        0.0,
+        18.0
+      ],
+      [
+        -7.0,
+        0.0
+      ],
+      [
+        0.0,
+        5.1
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 396,
+        "volume": 614.9012978013673
+      }
+    ]
+  },
+  {
+    "name": "item_post_clearance",
+    "volume": 0.0,
+    "bbox": [
+      [
+        -112.0,
+        -104.0
+      ],
+      [
+        -47.5,
+        -47.5
+      ],
+      [
+        43.5,
+        45.0
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 4,
+        "volume": 0.0
+      }
+    ]
+  }
+]

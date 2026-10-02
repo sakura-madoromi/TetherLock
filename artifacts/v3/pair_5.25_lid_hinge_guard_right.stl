@@ -1,0 +1,198 @@
+solid OpenSCAD_Model
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -52.17157287525381 53.82842712474619
+      vertex 66 -52.24846411410784 53.89585893143153
+      vertex 66 -52.146642955940834 53.8
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -52.17157287525381 53.82842712474619
+      vertex 66 -52.21959459359079 53.89634009010682
+      vertex 66 -52.24846411410784 53.89585893143153
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.82658663883506 53.435045716034885
+      vertex 66 -50.8 55
+      vertex 66 -52 53.63278575636978
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -52.17157287525381 53.82842712474619
+      vertex 66 -52.146642955940834 53.8
+      vertex 66 -50.8 55
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -52.17157287525381 53.82842712474619
+      vertex 66 -50.8 55
+      vertex 66 -52.21959459359079 53.89634009010682
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -50.8 55
+      vertex 66 -52.146642955940834 53.8
+      vertex 66 -52 53.8
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -50.8 55
+      vertex 66 -52 53.8
+      vertex 66 -52 53.63278575636978
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.026217385126095 51.4
+      vertex 66 -50.8 53.9
+      vertex 66 -51.034220554504756 51.522104768880205
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -50.8 51.4
+      vertex 66 -50.8 53.9
+      vertex 66 -51.026217385126095 51.4
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.034220554504756 51.522104768880205
+      vertex 66 -50.8 53.9
+      vertex 66 -51.13629669484373 52.03527618041008
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.13629669484373 52.03527618041008
+      vertex 66 -50.8 53.9
+      vertex 66 -51.1750929461512 52.14956625129438
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.53589838486224 53
+      vertex 66 -50.8 55
+      vertex 66 -51.82658663883506 53.435045716034885
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.304481869954856 52.53073372946036
+      vertex 66 -50.8 55
+      vertex 66 -51.53589838486224 53
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 66 -51.304481869954856 52.53073372946036
+      vertex 66 -50.8 53.9
+      vertex 66 -50.8 55
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52.146642955940834 53.8
+      vertex 66 -52.24846411410784 53.89585893143153
+      vertex 66 -52.21959459359079 53.89634009010682
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52 53.9
+      vertex 66 -52.146642955940834 53.8
+      vertex 66 -52.21959459359079 53.89634009010682
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52 53.8
+      vertex 66 -52.146642955940834 53.8
+      vertex 66 -52 53.9
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52 53.9
+      vertex 66 -52.21959459359079 53.89634009010682
+      vertex 66 -50.8 55
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52 53.9
+      vertex 66 -50.8 55
+      vertex 66 -50.8 53.9
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52 53.8
+      vertex 66 -50.8 53.9
+      vertex 66 -52 53.63278575636978
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -52 53.8
+      vertex 66 -52 53.9
+      vertex 66 -50.8 53.9
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -50.8 53.9
+      vertex 66 -51.82658663883506 53.435045716034885
+      vertex 66 -52 53.63278575636978
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -50.8 53.9
+      vertex 66 -51.304481869954856 52.53073372946036
+      vertex 66 -51.53589838486224 53
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -51.034220554504756 51.522104768880205
+      vertex 66 -51.13629669484373 52.03527618041008
+      vertex 66 -50.8 51.4
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -51.13629669484373 52.03527618041008
+      vertex 66 -51.1750929461512 52.14956625129438
+      vertex 66 -50.8 51.4
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -51.026217385126095 51.4
+      vertex 66 -51.034220554504756 51.522104768880205
+      vertex 66 -50.8 51.4
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -50.8 53.9
+      vertex 66 -50.8 51.4
+      vertex 66 -51.1750929461512 52.14956625129438
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 66 -50.8 53.9
+      vertex 66 -51.53589838486224 53
+      vertex 66 -51.82658663883506 53.435045716034885
+    endloop
+  endfacet
+endsolid OpenSCAD_Model

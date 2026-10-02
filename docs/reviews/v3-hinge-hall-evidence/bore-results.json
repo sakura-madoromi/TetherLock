@@ -1,0 +1,102 @@
+[
+  {
+    "name": "base_print_extra",
+    "volume": 40.79504769499226,
+    "bbox": [
+      [
+        -109.625,
+        118.625
+      ],
+      [
+        -55.625,
+        25.625
+      ],
+      [
+        2.9,
+        48.3
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 404,
+        "volume": 6.911557667213391
+      },
+      {
+        "triangles": 404,
+        "volume": 6.911557667428098
+      },
+      {
+        "triangles": 384,
+        "volume": 6.7429830900814896
+      },
+      {
+        "triangles": 384,
+        "volume": 6.742983090093422
+      },
+      {
+        "triangles": 384,
+        "volume": 6.742983090088055
+      },
+      {
+        "triangles": 384,
+        "volume": 6.7429830900881145
+      }
+    ]
+  },
+  {
+    "name": "base_installed_extra",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  },
+  {
+    "name": "lid_print_extra",
+    "volume": 26.971932360313,
+    "bbox": [
+      [
+        -95.625,
+        40.625
+      ],
+      [
+        -44.625,
+        46.625
+      ],
+      [
+        49.900000000000006,
+        53.900000000000006
+      ]
+    ],
+    "mesh_errors": [
+      0,
+      0,
+      0
+    ],
+    "components": [
+      {
+        "triangles": 384,
+        "volume": 6.742983090092119
+      },
+      {
+        "triangles": 384,
+        "volume": 6.742983090112667
+      },
+      {
+        "triangles": 384,
+        "volume": 6.742983090046001
+      },
+      {
+        "triangles": 384,
+        "volume": 6.742983090062449
+      }
+    ]
+  },
+  {
+    "name": "lid_installed_extra",
+    "empty": true,
+    "log": "\", \"button\", \"acrylic\", \"hinge_pin\", \"inserts_fixed\", \"inserts_lid\", \"home_sensor\", \"lock_sensor\", \"cover_sensor\", \"bolt_magnet\", \"cover_magnet\", \"battery_connector\", \"motor_pads\", \"sensor_pads\", \"board_pads\", \"window_pad_top\", \"window_pad_bottom\"]], [\"stroke\", 14], [\"closed_min\", [-120, -60, 0]], [\"closed_max\", [120, 60, 55]], [\"hinge_y\", -55], [\"hinge_z\", 51]]\nCurrent top level object is empty.\n"
+  }
+]
