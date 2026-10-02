@@ -54,6 +54,7 @@ test-results/
 # Local tools, browser state and workspace metadata
 .tools/
 .playwright-mcp/
+.vercel/
 .jj/
 .agents/
 .aws/
