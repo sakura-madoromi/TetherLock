@@ -54,6 +54,10 @@ python3 -m http.server 8088 --bind 127.0.0.1
 
 再访问 <http://127.0.0.1:8088/>。静态包不需要 Node、OpenSCAD 或联网。
 
+## Vercel 预览
+
+仓库内的 `vercel.json` 使用 `npm run build:vercel` 发布当前已验证的静态工作台包。这个入口只解包 `artifacts/v3/TetherLock-V3-Workbench.zip`，不在 Vercel 上重新运行 OpenSCAD；更新预览前请先在本地完成 CAD 生成、验证和 `npm run package`，再提交新的交付包。
+
 ## 重新生成 CAD 与验证资料
 
 完整流程见 [V3 工作台说明](docs/design/v3-viewer.md)。常用入口如下：
