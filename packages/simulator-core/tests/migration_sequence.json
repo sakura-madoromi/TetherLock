@@ -1,0 +1,172 @@
+[
+  {
+    "type": "time",
+    "utc": 1700000000
+  },
+  {
+    "type": "lid",
+    "angle": 0
+  },
+  {
+    "type": "advance",
+    "ms": 600
+  },
+  {
+    "type": "command",
+    "command": {
+      "protocol_version": 1,
+      "device_serial": "SIM-001",
+      "challenge": "test",
+      "command_id": "constant",
+      "operation": "start_constant_lock",
+      "arguments": {
+        "task_id": "constant-task"
+      }
+    }
+  },
+  {
+    "type": "button",
+    "pressed": true
+  },
+  {
+    "type": "advance",
+    "ms": 3000
+  },
+  {
+    "type": "button",
+    "pressed": false
+  },
+  {
+    "type": "advance",
+    "ms": 100
+  },
+  {
+    "type": "button",
+    "pressed": true
+  },
+  {
+    "type": "advance",
+    "ms": 10000
+  },
+  {
+    "type": "button",
+    "pressed": false
+  },
+  {
+    "type": "advance",
+    "ms": 2000
+  },
+  {
+    "type": "command",
+    "command": {
+      "protocol_version": 1,
+      "device_serial": "SIM-001",
+      "challenge": "test",
+      "command_id": "unlock",
+      "operation": "unlock_constant",
+      "arguments": {
+        "task_id": "constant-task"
+      }
+    }
+  },
+  {
+    "type": "advance",
+    "ms": 2000
+  },
+  {
+    "type": "command",
+    "command": {
+      "protocol_version": 1,
+      "device_serial": "SIM-001",
+      "challenge": "test",
+      "command_id": "timed",
+      "operation": "start_timed_lock",
+      "arguments": {
+        "task_id": "task",
+        "deadline_utc": 1700000100
+      }
+    }
+  },
+  {
+    "type": "advance",
+    "ms": 2000
+  },
+  {
+    "type": "command",
+    "command": {
+      "protocol_version": 1,
+      "device_serial": "SIM-001",
+      "challenge": "test",
+      "command_id": "emergency",
+      "operation": "emergency_unlock",
+      "arguments": {
+        "task_id": "task",
+        "transaction_id": "transaction"
+      }
+    }
+  },
+  {
+    "type": "advance",
+    "ms": 500
+  },
+  {
+    "type": "faults",
+    "jammed": true,
+    "automatic": true,
+    "lid": null,
+    "retracted": null,
+    "extended": null
+  },
+  {
+    "type": "advance",
+    "ms": 15000
+  },
+  {
+    "type": "faults",
+    "jammed": false,
+    "automatic": true,
+    "lid": null,
+    "retracted": null,
+    "extended": null
+  },
+  {
+    "type": "command",
+    "command": {
+      "protocol_version": 1,
+      "device_serial": "SIM-001",
+      "challenge": "test",
+      "command_id": "retry",
+      "operation": "retry_operation",
+      "arguments": {
+        "task_id": "task",
+        "operation_id": "emergency"
+      }
+    }
+  },
+  {
+    "type": "advance",
+    "ms": 2000
+  },
+  {
+    "type": "command",
+    "command": {
+      "protocol_version": 1,
+      "device_serial": "SIM-001",
+      "challenge": "test",
+      "command_id": "expiry",
+      "operation": "start_timed_lock",
+      "arguments": {
+        "task_id": "expire-task",
+        "deadline_utc": 1700000050
+      }
+    }
+  },
+  {
+    "type": "advance",
+    "ms": 2000
+  },
+  {
+    "type": "advance",
+    "ms": 20000
+  }
+]

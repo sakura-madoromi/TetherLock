@@ -1,0 +1,19 @@
+[package]
+name = "tetherlock-simulator-tauri"
+version = "0.2.0"
+edition = "2021"
+license = "MIT"
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = [] }
+tetherlock-simulator = { path = "../../../packages/simulator-core" }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+tokio = { version = "1", features = ["sync", "rt-multi-thread"] }
+keyring = { version = "3", features = ["sync-secret-service", "crypto-rust"] }
+
+[features]
+custom-protocol = ["tauri/custom-protocol"]

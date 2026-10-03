@@ -1,0 +1,41 @@
+/* Semantic values are mirrored by Flutter ui/theme.dart. */
+:root {
+  color-scheme: light;
+  --background: #f7f6f2; --surface: #ffffff; --ink: #242925;
+  --primary: #246b5a; --on-primary: #ffffff; --primary-soft: #e6f1eb;
+  --muted: #637168; --border: #d9dfd9; --warning: #8b5a14;
+  --error: #b13e36; --error-soft: #fcebe7;
+  --radius-panel: 16px; --radius-control: 10px;
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-6: 24px; --space-8: 32px;
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --background: #171c1a; --surface: #222925; --ink: #eef2ed;
+  --primary: #8cd5bd; --on-primary: #123c2f; --primary-soft: #2e483d;
+  --muted: #afbdb3; --border: #424d46; --warning: #efc477;
+  --error: #ffb4ab; --error-soft: #482822;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; font: 14px/1.6 system-ui, 'Noto Sans CJK SC', sans-serif; color: var(--ink); background: var(--background); }
+button, input, select, textarea { font: inherit; }
+button, select { min-height: 48px; }
+button { padding: 10px 16px; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--surface); color: var(--ink); cursor: pointer; }
+button:hover { border-color: var(--primary); background: var(--primary-soft); }
+button:disabled { opacity: .5; cursor: not-allowed; }
+button.primary { background: var(--primary); color: var(--on-primary); border-color: var(--primary); }
+button.danger { background: var(--error-soft); color: var(--error); border-color: var(--error); }
+button.pressed { background: var(--primary); color: var(--on-primary); }
+:focus-visible { outline: 3px solid var(--primary); outline-offset: 3px; }
+input:not([type=checkbox]), select, textarea { display: block; width: 100%; padding: 12px; border: 1px solid var(--border); border-radius: var(--radius-control); background: var(--background); color: var(--ink); }
+input[type=checkbox] { accent-color: var(--primary); width: 18px; height: 18px; vertical-align: middle; margin-right: 8px; }
+textarea { font: 12px/1.6 ui-monospace, monospace; resize: vertical; }
+label { display: block; color: var(--muted); }
+label > input, label > select, label > textarea { margin-top: 8px; }
+h2 { font-size: 18px; line-height: 1.4; margin: 0 0 16px; font-weight: 600; }
+h3 { font-size: 14px; margin: 24px 0 12px; }
+small, .muted { font-size: 12px; color: var(--muted); }
+.buttons { display: flex; gap: 8px; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 16px; }
+.grid label { min-width: 0; }
+@media (prefers-reduced-motion: no-preference) { button { transition: background .15s ease, border-color .15s ease; } }

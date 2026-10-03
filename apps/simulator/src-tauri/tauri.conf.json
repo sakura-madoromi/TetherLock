@@ -1,0 +1,41 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "TetherLock Simulator",
+  "version": "0.2.0",
+  "identifier": "io.tetherlock.simulator",
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "devUrl": "http://localhost:1420",
+    "beforeBuildCommand": "npm run build",
+    "frontendDist": "../../../generated/simulator/dist"
+  },
+  "app": {
+    "windows": [
+      {
+        "label": "main",
+        "title": "TetherLock \u00b7 Linux \u9501\u6a21\u62df\u5668",
+        "width": 1280,
+        "height": 720,
+        "minWidth": 640,
+        "minHeight": 540
+      }
+    ],
+    "security": {
+      "csp": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src ipc: http://ipc.localhost 'self'"
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": [
+      "deb"
+    ],
+    "category": "Utility",
+    "shortDescription": "TetherLock Rust MQTT simulator",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.png"
+    ]
+  }
+}

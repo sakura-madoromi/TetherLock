@@ -1,0 +1,25 @@
+[package]
+name = "tetherlock-simulator"
+version = "0.2.0"
+edition = "2021"
+description = "Rust MQTT simulator for TetherLock protocol and lock rules"
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0"
+aes-gcm = "0.10"
+base64 = "0.22"
+clap = { version = "4.6", features = ["derive"] }
+hmac = "0.12"
+pbkdf2 = "0.12"
+p256 = { version = "0.13", features = ["ecdsa", "arithmetic"] }
+rand = "0.8"
+rumqttc = "0.24"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+sha2 = "0.10"
+tokio = { version = "1.52", features = ["macros", "rt-multi-thread", "time", "io-util", "io-std", "signal", "sync"] }
+uuid = { version = "1.18", features = ["v4"] }
+
+[dev-dependencies]
+tempfile = "3.23"

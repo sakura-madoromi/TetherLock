@@ -1,0 +1,38 @@
+{
+  "version": 1,
+  "domain": "TetherLock/v1/command\u0000",
+  "signature": "ECDSA-P256-SHA256-RAW-LOW-S",
+  "payload_rules": {
+    "object_keys": "lexicographic",
+    "whitespace": "none",
+    "numbers": "integer",
+    "encoding": "utf-8"
+  },
+  "challenge": {
+    "bytes": 32,
+    "ttl_seconds": 60,
+    "max_outstanding": 8,
+    "single_use": true
+  },
+  "command_vector": {
+    "payload": {
+      "arguments": {
+        "deadline_utc": 1700000100,
+        "task_id": "vector-task"
+      },
+      "challenge": "7QHRYCgKNm-NP8REztCIVR8SZM8UzEkZQ2qCKcKh4W0",
+      "command_id": "vector-operation-1",
+      "device_serial": "SIM-001",
+      "operation": "start_timed_lock",
+      "protocol_version": 1
+    },
+    "payload_base64url": "eyJhcmd1bWVudHMiOnsiZGVhZGxpbmVfdXRjIjoxNzAwMDAwMTAwLCJ0YXNrX2lkIjoidmVjdG9yLXRhc2sifSwiY2hhbGxlbmdlIjoiN1FIUllDZ0tObS1OUDhSRXp0Q0lWUjhTWk04VXpFa1pRMnFDS2NLaDRXMCIsImNvbW1hbmRfaWQiOiJ2ZWN0b3Itb3BlcmF0aW9uLTEiLCJkZXZpY2Vfc2VyaWFsIjoiU0lNLTAwMSIsIm9wZXJhdGlvbiI6InN0YXJ0X3RpbWVkX2xvY2siLCJwcm90b2NvbF92ZXJzaW9uIjoxfQ",
+    "signature_base64url": "1v5gG6NF6cSfd3ihWdOG_KjzfIBXRIkGk1wXfHKwPjI4geFDUX6J4vqaMOIDFAp1FVB9ZU60ktSuRJhoTaiRRA",
+    "public_jwk": {
+      "kty": "EC",
+      "crv": "P-256",
+      "x": "axfR8uEsQkf4vOblY6RA8ncDfYEt6zOg9KE5RdiYwpY",
+      "y": "T-NC4v4af5uO5-tKfA-eFivOM1drMV7Oy7ZAaDe_UfU"
+    }
+  }
+}

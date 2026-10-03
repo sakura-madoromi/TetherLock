@@ -1,0 +1,548 @@
+[
+  {
+    "index": 0,
+    "phase": "idle_retracted",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": false,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 1,
+    "phase": "idle_retracted",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": false,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 2,
+    "phase": "idle_retracted",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 3,
+    "phase": "awaiting_confirmation",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "constant",
+        "phase": "waiting_confirmation",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "phase": "awaiting_confirmation",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 5,
+    "phase": "awaiting_confirmation",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 6,
+    "phase": "awaiting_confirmation",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 7,
+    "phase": "awaiting_confirmation",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 8,
+    "phase": "awaiting_confirmation",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 9,
+    "phase": "locking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "constant",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 10,
+    "phase": "locking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": []
+  },
+  {
+    "index": 11,
+    "phase": "constant_locked",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": true
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "constant",
+        "phase": "succeeded",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 12,
+    "phase": "unlocking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": true
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "unlock",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 13,
+    "phase": "idle_retracted",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "unlock",
+        "phase": "succeeded",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 14,
+    "phase": "locking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": 83,
+    "results": [
+      {
+        "operation_id": "timed",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 15,
+    "phase": "timed_locked",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": true
+    },
+    "remaining": 81,
+    "results": [
+      {
+        "operation_id": "timed",
+        "phase": "succeeded",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 16,
+    "phase": "unlocking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": true
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": true
+    },
+    "remaining": 81,
+    "results": [
+      {
+        "operation_id": "emergency",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 17,
+    "phase": "unlocking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": true
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": false
+    },
+    "remaining": 80,
+    "results": []
+  },
+  {
+    "index": 18,
+    "phase": "unlocking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": true
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": false
+    },
+    "remaining": 80,
+    "results": []
+  },
+  {
+    "index": 19,
+    "phase": "fault",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": true
+    },
+    "fault": "motion_timeout",
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": false
+    },
+    "remaining": 65,
+    "results": [
+      {
+        "operation_id": "emergency",
+        "phase": "failed",
+        "ok": false,
+        "code": "motion_timeout"
+      }
+    ]
+  },
+  {
+    "index": 20,
+    "phase": "fault",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": true
+    },
+    "fault": "motion_timeout",
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": false
+    },
+    "remaining": 65,
+    "results": []
+  },
+  {
+    "index": 21,
+    "phase": "unlocking",
+    "cards": {
+      "total": 3,
+      "remaining": 3,
+      "reserved": true
+    },
+    "fault": "motion_timeout",
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": false
+    },
+    "remaining": 65,
+    "results": [
+      {
+        "operation_id": "retry",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 22,
+    "phase": "idle_retracted",
+    "cards": {
+      "total": 3,
+      "remaining": 2,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "retry",
+        "phase": "succeeded",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 23,
+    "phase": "locking",
+    "cards": {
+      "total": 3,
+      "remaining": 2,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": 13,
+    "results": [
+      {
+        "operation_id": "expiry",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 24,
+    "phase": "timed_locked",
+    "cards": {
+      "total": 3,
+      "remaining": 2,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": false,
+      "extended": true
+    },
+    "remaining": 11,
+    "results": [
+      {
+        "operation_id": "expiry",
+        "phase": "succeeded",
+        "ok": true,
+        "code": null
+      }
+    ]
+  },
+  {
+    "index": 25,
+    "phase": "idle_retracted",
+    "cards": {
+      "total": 3,
+      "remaining": 2,
+      "reserved": false
+    },
+    "fault": null,
+    "inputs": {
+      "lid_closed": true,
+      "retracted": true,
+      "extended": false
+    },
+    "remaining": null,
+    "results": [
+      {
+        "operation_id": "deadline-expiry",
+        "phase": "accepted",
+        "ok": true,
+        "code": null
+      },
+      {
+        "operation_id": "deadline-expiry",
+        "phase": "succeeded",
+        "ok": true,
+        "code": null
+      }
+    ]
+  }
+]
