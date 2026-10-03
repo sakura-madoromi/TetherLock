@@ -8,6 +8,7 @@ const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
 const file = 'assets/deliverables/v3/TetherLock-V3-Workbench.zip';
 // The deployment upload contains only the resource inventory and hydrated ZIP.
 const registry = JSON.parse(resource('assets/manifest.json'));
+if (!registry.files[file]) throw new Error(`Unregistered deployment archive: ${file}`);
 const archive = join(root, file);
 const output = join(root, 'generated/workbench/deploy');
 const files = unzipSync(resource(file, registry.files[file]));

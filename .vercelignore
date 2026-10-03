@@ -1,13 +1,19 @@
-# Vercel only needs the static Workbench archive for the preview build.
-artifacts/v3/*
-!artifacts/v3/TetherLock-V3-Workbench.zip
-
-# Generated or local-only content
-node_modules/
-dist/
-viewer/public/*
-!viewer/public/fonts/
-!viewer/public/fonts/*
+# Local prepared deployment includes the hydrated, hash-checked LFS archive.
+.git/
+.local/
 .tools/
-.playwright-mcp/
 .jj/
+node_modules/
+generated/
+apps/
+hardware/
+packages/
+firmware/
+tests/
+docs/
+assets/cad/
+assets/evidence/
+assets/fonts/
+assets/icons/
+assets/deliverables/v3/*
+!assets/deliverables/v3/TetherLock-V3-Workbench.zip

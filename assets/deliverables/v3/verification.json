@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-03T17:39:30.653522+00:00",
+  "generatedAt": "2026-10-03T18:12:02.702721+00:00",
   "cadFingerprint": "1a348025c698dd913c755cab66703a83ac264a48b1721b8a532c688e8cbe28b5",
   "dataFingerprint": "8eebe3185a10b7773d31488f47a5de90f88ed17b20c44bbc5e90730ad92c3cc2",
   "complete": true,
@@ -1621,13 +1621,13 @@
   "packages": {
     "CAD": {
       "file": "generated/v3/TetherLock-V3-CAD.zip",
-      "sha256": "5d82ba9b0ffd06dac90ba6c46745a51867f9c4904549552a8a333bc64c13907a",
-      "bytes": 4092469
+      "sha256": "ef7f9247b44cc10f52cce0c6e35a0d929b96e095fbbe9501ddb0a1be29c5bb56",
+      "bytes": 4092433
     },
     "Workbench": {
       "file": "generated/v3/TetherLock-V3-Workbench.zip",
-      "sha256": "3199f35d8a8f82fc22ab81aa3590525c2e6490ade99d7fc0263ba4331e9e5947",
-      "bytes": 49773073
+      "sha256": "575912ff2b900c5c18622a49e982948f616289177a08523ba0324e71a124a743",
+      "bytes": 49773035
     },
     "Blueprints": {
       "file": "generated/v3/TetherLock-V3-Blueprints.zip",

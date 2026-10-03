@@ -1,0 +1,49 @@
+{
+  "baseCommit": "95086fa086710571b39ede804c02a39de307ba05",
+  "originalHead": "af968cc0f2ff43381b5b1027d66b9ec64d48cfa7",
+  "originalChanges": [
+    "pzsrrukmnrmrrtmpquvwsmpsnqvyrrkp 53a52a2e08f43bd6d6a2fc1fe49cd14e587c08f0",
+    "oqrtmznyqwyoulrnpvlxpzopmvqwlyyq af968cc0f2ff43381b5b1027d66b9ec64d48cfa7",
+    "ntousptxzsrrmywqkvvpoykyyttxyxkz b806a1e99db53e8ffee81061520e424544431019",
+    "rrysrmvlvzvspovzyynnormprrykwklv e1cec950a9fcafdbe2c6b797e38a65820c2f8a30"
+  ],
+  "backupRef": "refs/archive/pre-governance",
+  "groups": [
+    "chore: centralize assets and adopt Git LFS",
+    "refactor: organize mechanical engineering and workbench",
+    "feat: organize Flutter controller and shared protocol",
+    "feat: organize Rust simulator core and Tauri app",
+    "chore: document Git workflow and enforce repository checks"
+  ],
+  "historyRewritten": "local commits only",
+  "publishedMainUnchanged": true,
+  "consolidatedDocuments": {
+    "docs/superpowers/plans/2026-10-01-plan1.md": "docs/superpowers/plans/2026-10-01-plan1-engineering-workbench.md"
+  },
+  "cadTool": {
+    "url": "https://files.openscad.org/snapshots/OpenSCAD-2026.10.02-x86_64.AppImage",
+    "sha256": "4d81b816058ee7a60128b7fd25f13ac642e8adc68490140d3cb600f3aea26a98"
+  },
+  "rebuiltCommits": [
+    {
+      "title": "chore: centralize assets and adopt Git LFS",
+      "commit": "47016d5576cb91d2e45002b0facdecafd9a78024"
+    },
+    {
+      "title": "refactor: organize mechanical engineering and workbench",
+      "commit": "8d8ddfb2012a25f8fd4cea4d6a8e5a6be5df217a"
+    },
+    {
+      "title": "feat: organize Flutter controller and shared protocol",
+      "commit": "ef280aa38576443ee810f07bc3ca4338dd3f1b07"
+    },
+    {
+      "title": "feat: organize Rust simulator core and Tauri app",
+      "commit": "571f894bd6847f9a6a12e49971d5569f797930ea"
+    },
+    {
+      "title": "chore: document Git workflow and enforce repository checks",
+      "reference": "refactor/repository-governance branch tip"
+    }
+  ]
+}

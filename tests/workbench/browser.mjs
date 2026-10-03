@@ -6,7 +6,7 @@ import path from 'node:path';
 import { unzipSync } from 'fflate';
 import {PerspectiveCamera,Vector3} from 'three';
 
-const output=path.resolve(process.argv.find(arg=>arg.startsWith('--output='))?.slice(9)||'generated/v3/viewer');await mkdir(output,{recursive:true});
+const output=path.resolve(process.argv.find(arg=>arg.startsWith('--output='))?.slice(9)||'generated/v3/purchased-specs/browser');await mkdir(output,{recursive:true});
 const source_sha256={};
 for(const file of ['tests/workbench/browser.mjs','apps/workbench/public/manifest.json','apps/workbench/public/engineering.json',...(await readdir('apps/workbench/src')).filter(n=>/\.(js|css)$/.test(n)).map(n=>'apps/workbench/src/'+n)])source_sha256[file]=createHash('sha256').update(await readFile(file)).digest('hex');
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/opt/google/chrome/chrome',headless:true,
