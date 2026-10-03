@@ -1,0 +1,11 @@
+name: tetherlock_protocol
+description: Shared TetherLock MQTT protocol, signing, key and backup primitives.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+dependencies:
+  pointycastle: ^3.9.1
+  mqtt_client: ^10.5.1
+dev_dependencies:
+  test: ^1.25.0
