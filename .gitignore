@@ -1,64 +1,71 @@
-# Python
+# Generated outputs, dependencies, caches and private local state
+/generated/
+/.local/
+/.tools/
+/.audit/
+/.playwright-mcp/
+/.vercel/
+/.jj/
+/.agents/
+/.aws/
+/.codex/
+node_modules
+target
+build
+dist
+.dart_tool/
+.gradle/
 __pycache__/
 *.py[cod]
-*$py.class
-*.so
-.venv/
-env/
-venv/
-ENV/
-
-# Distribution / Packaging
-dist/
-build/
 *.egg-info/
+.venv/
+venv/
 coverage/
 .coverage
-
-# Logs & Databases
-*.log
-*.sqlite3
-
-# Operating System Files
-.DS_Store
-Thumbs.db
-Desktop.ini
-
-# Editor & IDE artifacts
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# Temporary files
-*.tmp
-*.bak
-
-# Environment files and private keys
+playwright-report/
+test-results/
+tmp/
+# Prepared runtime resources (canonical copies are under assets/)
+/apps/workbench/public/
+/apps/simulator/public/
+/apps/simulator/src-tauri/icons/
+/apps/simulator/src-tauri/gen/
+/apps/controller/android/app/src/main/res/mipmap-*/
+/apps/controller/windows/runner/resources/app_icon.ico
+/apps/controller/linux/flutter/ephemeral/
+/apps/controller/windows/flutter/ephemeral/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+# Preserve caches at their former locations without tracking them
+/apps/tetherlock/
+/apps/tetherlock_simulator_tauri/
+/apps/tetherlock_simulator/
+/packages/tetherlock_protocol/
+/packages/tetherlock_simulator/
+/firmware/simulator/
+/artifacts/
+/stl/
+/viewer/
+/cad/
+/engineering/
+/bench/
+# Local configuration, credentials, OS/editor files
 .env
 .env.*
 !.env.example
 *.pem
 *.key
-
-# V3 web workbench
-node_modules/
-viewer/public/*
-!viewer/public/
-!viewer/public/fonts/
-!viewer/public/fonts/*
-playwright-report/
-test-results/
-
-# Local tools, browser state and workspace metadata
-.tools/
-.playwright-mcp/
-.vercel/
-.jj/
-.agents/
-.aws/
-.codex/
-
-# Local audit output
-.audit/
+*.tetherlock-key.json
+*.sqlite3
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

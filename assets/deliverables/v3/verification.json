@@ -1,0 +1,1699 @@
+{
+  "generatedAt": "2026-10-03T17:39:30.653522+00:00",
+  "cadFingerprint": "1a348025c698dd913c755cab66703a83ac264a48b1721b8a532c688e8cbe28b5",
+  "dataFingerprint": "8eebe3185a10b7773d31488f47a5de90f88ed17b20c44bbc5e90730ad92c3cc2",
+  "complete": true,
+  "checks": [
+    {
+      "name": "CAD CRC",
+      "pass_": true
+    },
+    {
+      "name": "Workbench CRC",
+      "pass_": true
+    },
+    {
+      "name": "Blueprints CRC",
+      "pass_": true
+    },
+    {
+      "name": "verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "window/verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "window/verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "hinge-hall/verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "hinge-hall/verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "review-verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "review-verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "references/verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "references/verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "assembly-paths/verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "assembly-paths/verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "purchased-specs/verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "purchased-specs/verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "engineering-verification.json has current source evidence",
+      "pass_": true
+    },
+    {
+      "name": "engineering-verification.json no failures",
+      "pass_": true
+    },
+    {
+      "name": "CAD manifest fingerprint",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/README.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/assembly.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/electronics.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/enclosure.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/hardware.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/lock.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/params.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/cad/references.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/base_box.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/lock_base.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/guide_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/motor_clamp.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/bolt.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/nut_carriage.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/nut_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/latch.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/latch_retainer.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/window_grille.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/battery_hatch.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/electronics_tray.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/upper_deck.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/esp_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/upper_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/oled_bridge.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/hinge_guard_left.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/hinge_guard_right.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/fit_bar.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/fit_gauge.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/keeper_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/window_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/print/hinge_bore_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/blueprint_font.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/engineering_data.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/export_fasteners.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/export_features.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/export_verify.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/package_cad.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/package_product_render.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/package_viewer.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/procurement_report.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/reference_assets.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/render.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_assembly.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_delivery.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_engineering.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_hinge_hall.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_purchased_specs.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_references.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_review.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/verify_window.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/viewer_assets.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-bom.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-cad.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-window-grille.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-hinge-hall.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-proposal.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-proposal.svg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-purchased-specs.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-purchased-specs-review.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/purchased-specs/verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/bench/hall-measurements-template.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/bench/hall_logger/hall_logger.ino",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/assembly-steps.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/drawing-topics.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/electrical.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/materials.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/part-display.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/print-guidance.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/procurement-current.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/procurement-quotes.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / hardware/v3/engineering/references.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/procurement/data.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-audit-2026-10-02.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-current-2026-10-02.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-current-audit-2026-10-02.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-public-prices-2026-10-02.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-review-2026-10-02.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-evidence/public-source-manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-procurement-evidence/scoutmakes-hall.brd",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/assembly-progress.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/assembly.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/blueprint.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/bom.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/drawing.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/engineering.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/exports.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/icons.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/main.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/references.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/scene.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/sections.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/state.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/style.css",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / apps/workbench/src/tokens.css",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / package.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / package-lock.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / vite.config.js",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/v3/blueprints.mjs",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/engineering/complete-bom.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/engineering/data.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/engineering/print-list.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/engineering/purchase-bom.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/engineering/tools-spares.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/features.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/assembly-paths/verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/references/verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-procurement-status.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-physical-acceptance.csv",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-plan1-delivery.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/design/v3-viewer.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/engineering-verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / scripts/shared/stl_probe.py",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-cad-review-2026-10-01.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-cad-evidence/travel-probe.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-review-2026-10-01.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/blind_roof.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/four_stop_contact.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/inner_pad_fully_supported.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/outer_pad_fully_supported.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/results.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/window_fasteners_in_pane.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-window-grille-evidence/window_install_minus80.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-review-2026-10-01.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/base_box.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/base_installed_extra.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/base_print_extra.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/bore-results.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/continuous_pin_service.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/detail-results.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/hinge_guard_left.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/hinge_guard_right.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/item_post_clearance.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keeper_direct_lift.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keeper_driver.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keeper_half_steps.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keeper_insert_coupon.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keeper_lift_half_steps.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keepers_pin_nominal.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keepers_pin_radial_front_019.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keepers_pin_radial_front_020.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/keepers_pin_radial_front_021.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/left_cheek_slice.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/lid.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/lid_installed_extra.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/lid_print_extra.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/recheck-results.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/results.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/review.md",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/right_cheek_slice.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/source-sha256.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / docs/reviews/v3-hinge-hall-evidence/window_insert_coupon.scad",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/closed.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/open.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/exploded.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/lock.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/structure.svg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/structure.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/review-verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/window/verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/hinge-hall/verification.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/hinge-hall/hall-positions.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/hinge-hall/hall-assessment.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/render-manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / generated/v3/fasteners.json",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-current-procurement-evidence/a80znaro.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-current-procurement-evidence/p8f6gmau.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-current-procurement-evidence/s3if18a7.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/base_box.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/base_print_extra.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/hinge_guard_left.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/hinge_guard_right.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/item_post_clearance.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/keeper_direct_lift.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/keeper_half_steps.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/keeper_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/keeper_lift_half_steps.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/left_cheek_slice.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/lid_print_extra.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/right_cheek_slice.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-hinge-hall-evidence/window_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/chihai-motor-dimensions.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/drv8833-details.jpg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/drv8833-main.jpg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/esp-dimensions.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/esp-schematic.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/hall-module-2.jpg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/hall-module-main.jpg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/motor-m3.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/motor-m4.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/motor-main.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/oled-details.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/power-1.jpg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/power-2.jpg",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-procurement-evidence/scoutmakes-hall-schematic.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-purchased-specs-evidence/bw1v2lpe.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-purchased-specs-evidence/xv97n9y4.webp",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-window-grille-evidence/blind_roof.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/reviews/v3-window-grille-evidence/four_stop_contact.stl",
+      "pass_": true
+    },
+    {
+      "name": "CAD archive / assets/evidence/design/v3-proposal.png",
+      "pass_": true
+    },
+    {
+      "name": "CAD print set equals current verified files",
+      "pass_": true
+    },
+    {
+      "name": "CAD frozen engineering data",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint frozen engineering data",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint pages equal actual generation catalog",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page D00",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page D00-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page D00-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page D00-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page D00-05",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A01",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A02-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A02-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A02-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A05",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A06",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A07",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page A08",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P01",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P01-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P01-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P01-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P01-05",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P01-06",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P02-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P02-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P02-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P03-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P03-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P03-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P04-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P05",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P05-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P06",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P06-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P07",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P07-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P08",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P08-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P09",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P09-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P10",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P10-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P11",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P11-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P11-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P12",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P12-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P12-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P13",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P13-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P13-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P14",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P14-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P15",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P15-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P16",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P16-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P17",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P17-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P19",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P19-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P20",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page P20-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page C01",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page C02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page C03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page F01",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page F02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B01",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B01-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B01-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B01-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B01-05",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B02-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B02-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page B03-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E01",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E01-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E03-02",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E03-03",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E03-04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint archived actual page E04",
+      "pass_": true
+    },
+    {
+      "name": "Blueprint required lists / assembly / factory / license / hashes",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file assets/TLBlueprint-Xup0HsXa.otf",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file assets/index-DnzMx6YU.js",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file assets/index-c0XaSNcR.css",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file downloads/TetherLock-V3-Blueprints.zip",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file downloads/TetherLock-V3-CAD.zip",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file downloads/v3-bom.csv",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file engineering.json",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file fonts/LICENSE-Noto-CJK.txt",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file fonts/TLBlueprint.otf",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file fonts/manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file index.html",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file manifest.json",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/acrylic.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/base_box.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/battery_connector.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/battery_hatch.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/battery_holder.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/board_pads.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/bolt.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/bridge_board.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/button.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/drive_nut.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/electronics_tray.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/esp.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/esp_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/fasteners_drive.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/fasteners_fixed.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/fasteners_lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/guide_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/hinge_guard_left.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/hinge_guard_right.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/hinge_pin.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/inserts_fixed.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/inserts_lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/latch.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/latch_retainer.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/lock_base.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/motor.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/motor_clamp.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/motor_pads.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/nut_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/nut_carriage.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/oled.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/oled_bridge.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/power_board.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/upper_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/upper_deck.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file models/window_grille.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/base_box.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/battery_hatch.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/bolt.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/electronics_tray.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/esp_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/fit_bar.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/fit_gauge.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/guide_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/hinge_bore_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/hinge_guard_left.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/hinge_guard_right.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/keeper_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/latch.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/latch_retainer.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/lid.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/lock_base.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/motor_clamp.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/nut_cap.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/nut_carriage.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/oled_bridge.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/upper_clip.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/upper_deck.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/window_grille.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench actual built file print/window_insert_coupon.stl",
+      "pass_": true
+    },
+    {
+      "name": "Workbench frozen engineering data",
+      "pass_": true
+    },
+    {
+      "name": "Workbench exact nested CAD package",
+      "pass_": true
+    },
+    {
+      "name": "Workbench exact nested Blueprints package",
+      "pass_": true
+    },
+    {
+      "name": "Workbench model and print quantities",
+      "pass_": true
+    },
+    {
+      "name": "current CAD download enabled",
+      "pass_": true
+    },
+    {
+      "name": "purchased-specs/browser/browser-results.json passed",
+      "pass_": true
+    },
+    {
+      "name": "purchased-specs/browser/browser-results.json current runtime sources",
+      "pass_": true
+    },
+    {
+      "name": "engineering-workbench/browser/results.json passed",
+      "pass_": true
+    },
+    {
+      "name": "engineering-workbench/browser/results.json current runtime sources",
+      "pass_": true
+    },
+    {
+      "name": "engineering-workbench/browser/A04.png PNG dimensions",
+      "pass_": true
+    },
+    {
+      "name": "engineering-workbench/browser/M03.png PNG dimensions",
+      "pass_": true
+    },
+    {
+      "name": "purchased-specs/browser/preview-4k.png PNG dimensions",
+      "pass_": true
+    },
+    {
+      "name": "engineering-workbench/browser/A04.pdf actual A3 PDF",
+      "pass_": true
+    }
+  ],
+  "failures": [],
+  "packages": {
+    "CAD": {
+      "file": "generated/v3/TetherLock-V3-CAD.zip",
+      "sha256": "5d82ba9b0ffd06dac90ba6c46745a51867f9c4904549552a8a333bc64c13907a",
+      "bytes": 4092469
+    },
+    "Workbench": {
+      "file": "generated/v3/TetherLock-V3-Workbench.zip",
+      "sha256": "3199f35d8a8f82fc22ab81aa3590525c2e6490ade99d7fc0263ba4331e9e5947",
+      "bytes": 49773073
+    },
+    "Blueprints": {
+      "file": "generated/v3/TetherLock-V3-Blueprints.zip",
+      "sha256": "a22a2d159fce689ed2b9c3c212f9d6074d54b74afd70915bb5f9ad295e08812b",
+      "bytes": 43776635
+    }
+  },
+  "unresolved": [
+    {
+      "id": "esp",
+      "reason": "芯片资料已核对；SuperMini第三方板型及USB电路需实物确认，不能将芯片引脚号当板端针位。 2026-10-02所选SKU优惠前报价10.5元，寄个旧商品页运费2元另计；平台补贴未扣。收货核对宽度较CAD多0.2mm、USB凸出、最高器件、3V3外供及USB隔离；不得直接认定卡扣适配。 用户选已焊排针版本用于台架；装壳前去排针或重新测量排针包络并修改托盘，当前不能直接宣称适配。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "drive_nut",
+      "reason": "随电机配套，避免重复计价；截图无螺母尺寸，CAD为可调候选，不宣称实物适配。需实测AF/法兰外径/厚度，必要时重出螺母座。"
+    },
+    {
+      "id": "battery_holder",
+      "reason": "长保护电芯可能不适配；购买前实测 2026-10-02所选SKU优惠前报价0.5元，寄个旧商品页运费2元另计；平台补贴未扣。必须装入平头电芯后测总包络≤74×22×21；检查弹簧、焊线、极性和压降。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "power_board",
+      "reason": "资料可核对但预算冲突：本模块估算75元替代原4元。来源价格不是人民币报价；人民币成本须用户询价。该板不含电池过放保护。 低价候选为条件替代，尺寸/电路差异见采购审计；主候选人民币价格仍为估算。 厂家公开单件9.95美元，人民币预算仍估算；云南运费/汇率未核。 当前用户采购为优信模块，不能沿用原Pololu尺寸/接线证明；台架可用，装壳须量实物。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "bridge_board",
+      "reason": "板长20.3mm超出旧20mm候选包络0.3mm，局部挡边和焊线空间待适配；人民币估算40元也超出原3元预算。禁止图纸显示已验证装配。 低价候选为条件替代，尺寸/电路差异见采购审计；主候选人民币价格仍为估算。 厂家公开单件10.95美元，人民币预算仍估算；云南运费/汇率未核。 当前用户采购为优信模块，不能沿用原Pololu尺寸/接线证明；台架可用，装壳须量实物。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "oled",
+      "reason": "各厂排针、孔位和玻璃高度有差异 低价候选为条件替代，尺寸/电路差异见采购审计；主候选人民币价格仍为估算。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "button",
+      "reason": "外径/轴向尺寸取卖家图；螺纹直径和螺母厚度未给，孔16.4及螺母包络仍候选，须试装确认。两脚常开、按下导通、松开断开。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "thread_inserts",
+      "reason": "电池盖4、内栅4、销轴端盖2；外径/长度实物复核，预算待询价 ruthex RX-M2x4官方外径3.6、底径3.1、推荐孔3.2、长4.0mm；3.2为安装孔而非外径，该款不直接替换原OD3.2候选。价格仍非国内真实SKU报价。"
+    },
+    {
+      "id": "position_switch",
+      "reason": "用户决定取消霍尔。当前是无位置反馈的人工台架结构；不支持自动闭锁验收。机械开关/支架待选型后另出图。"
+    },
+    {
+      "id": "ties",
+      "reason": "槽加宽并避开相邻支柱，实物检查绑带厚度、头部和打印孔收缩。"
+    },
+    {
+      "id": "battery_protection",
+      "reason": "现有电池座实体为74×22×21总包络，没有单列保护板适配证据；不能把芯片面积当板件面积。 DW01A过放检测2.40±0.10V可低至2.30V，不能直接匹配亿纬25P的2.50V下限；FS312F-G为2.90±0.08V参考，尚非已选成品。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "battery_connector",
+      "reason": "配对端一起采购；旧小包络及额定电流尚未实测。不得自动把红线当成正确针位。 JST原厂SH是线对板系列，额定1A仅对AWG28；端子适用AWG32–28、绝缘外径0.4–0.8mm。旧成对线接头可能为兼容件，须确认真实型号。 2026-10-02用户截图报价已替换旧型号预算；仅报价证据，不证明模块包络或板级电路。"
+    },
+    {
+      "id": "motor_bulk_cap",
+      "reason": "模块现有去耦不能保证电机瞬态，按台架测量决定容量；独立电容安装包络待适配。"
+    },
+    {
+      "id": "external_printing",
+      "reason": "费用尚未报价，不以0元宣称免费；与设备耗材成本分开。"
+    }
+  ],
+  "source_sha256": {
+    "scripts/v3/verify_delivery.py": "4ce5f564eacc61ed526228950bdf76b267864b64685ef29959ab12a504a37fd2"
+  }
+}

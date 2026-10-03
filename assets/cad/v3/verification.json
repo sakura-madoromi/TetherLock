@@ -1,0 +1,8130 @@
+{
+  "scope": "structural CAD prototype; hardware provisional; opening checked by discrete samples",
+  "quick": false,
+  "metadata": {
+    "print_parts": [
+      "base_box",
+      "lid",
+      "lock_base",
+      "guide_cap",
+      "motor_clamp",
+      "bolt",
+      "nut_carriage",
+      "nut_cap",
+      "latch",
+      "latch_retainer",
+      "window_grille",
+      "battery_hatch",
+      "electronics_tray",
+      "upper_deck",
+      "esp_clip",
+      "upper_clip",
+      "oled_bridge",
+      "hinge_guard_left",
+      "hinge_guard_right",
+      "fit_bar",
+      "fit_gauge",
+      "insert_coupon",
+      "keeper_insert_coupon",
+      "window_insert_coupon",
+      "hinge_bore_coupon"
+    ],
+    "assembly_parts": [
+      "base_box",
+      "lid",
+      "lock_base",
+      "guide_cap",
+      "motor_clamp",
+      "bolt",
+      "nut_carriage",
+      "nut_cap",
+      "latch",
+      "latch_retainer",
+      "window_grille",
+      "battery_hatch",
+      "electronics_tray",
+      "upper_deck",
+      "esp_clip",
+      "upper_clip",
+      "oled_bridge",
+      "hinge_guard_left",
+      "hinge_guard_right"
+    ],
+    "hardware_parts": [
+      "motor",
+      "drive_nut",
+      "battery_holder",
+      "esp",
+      "power_board",
+      "bridge_board",
+      "oled",
+      "button",
+      "acrylic",
+      "hinge_pin",
+      "inserts_fixed",
+      "inserts_lid",
+      "battery_connector",
+      "motor_pads",
+      "board_pads"
+    ],
+    "stroke": 14,
+    "closed_min": [
+      -120,
+      -60,
+      0
+    ],
+    "closed_max": [
+      120,
+      60,
+      55
+    ],
+    "hinge_y": -55,
+    "hinge_z": 51
+  },
+  "results": [
+    {
+      "name": "base_box",
+      "volume_mm3": 219079.626381,
+      "bbox": [
+        [
+          -120.0,
+          120.0
+        ],
+        [
+          -60.0,
+          60.0
+        ],
+        [
+          0.0,
+          55.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "lid",
+      "volume_mm3": 62809.892351,
+      "bbox": [
+        [
+          -120.0,
+          120.0
+        ],
+        [
+          -60.0,
+          59.0
+        ],
+        [
+          0.0,
+          8.299999999999997
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "lock_base",
+      "volume_mm3": 11268.69675,
+      "bbox": [
+        [
+          73.8,
+          116.3
+        ],
+        [
+          -46.0,
+          22.0
+        ],
+        [
+          0.0,
+          16.4
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "guide_cap",
+      "volume_mm3": 1169.644779,
+      "bbox": [
+        [
+          92.0,
+          115.0
+        ],
+        [
+          -20.5,
+          5.5
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "motor_clamp",
+      "volume_mm3": 651.796059,
+      "bbox": [
+        [
+          73.8,
+          95.19999999999999
+        ],
+        [
+          -35.0,
+          -19.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "bolt",
+      "volume_mm3": 1522.891416,
+      "bbox": [
+        [
+          -9.25,
+          6.3500000000000085
+        ],
+        [
+          -11.75,
+          11.75
+        ],
+        [
+          0.0,
+          9.199999999999996
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "nut_carriage",
+      "volume_mm3": 855.379611,
+      "bbox": [
+        [
+          77.5,
+          97.7
+        ],
+        [
+          -13.0,
+          -3.0
+        ],
+        [
+          0.0,
+          10.600000000000001
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "nut_cap",
+      "volume_mm3": 231.956059,
+      "bbox": [
+        [
+          78.0,
+          90.5
+        ],
+        [
+          -13.0,
+          -3.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "latch",
+      "volume_mm3": 753.3,
+      "bbox": [
+        [
+          -8.0,
+          8.0
+        ],
+        [
+          -10.0,
+          7.399999999999999
+        ],
+        [
+          0.0,
+          5.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "latch_retainer",
+      "volume_mm3": 239.035665,
+      "bbox": [
+        [
+          92.0,
+          114.0
+        ],
+        [
+          3.0,
+          14.0
+        ],
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "window_grille",
+      "volume_mm3": 11281.277309,
+      "bbox": [
+        [
+          -103.0,
+          48.0
+        ],
+        [
+          -46.5,
+          48.5
+        ],
+        [
+          0.0,
+          3.1000000000000014
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "battery_hatch",
+      "volume_mm3": 6649.495459,
+      "bbox": [
+        [
+          88.0,
+          119.0
+        ],
+        [
+          -56.0,
+          26.0
+        ],
+        [
+          0.0,
+          4.3
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "electronics_tray",
+      "volume_mm3": 2401.346286,
+      "bbox": [
+        [
+          74.5,
+          116.5
+        ],
+        [
+          25.5,
+          52.5
+        ],
+        [
+          0.0,
+          12.6
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "upper_deck",
+      "volume_mm3": 1320.587312,
+      "bbox": [
+        [
+          95.7,
+          117.0
+        ],
+        [
+          25.3,
+          52.5
+        ],
+        [
+          0.0,
+          9.600000000000001
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "esp_clip",
+      "volume_mm3": 173.956059,
+      "bbox": [
+        [
+          74.5,
+          98.5
+        ],
+        [
+          37.0,
+          41.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "upper_clip",
+      "volume_mm3": 156.838078,
+      "bbox": [
+        [
+          95.5,
+          117.0
+        ],
+        [
+          36.0,
+          40.0
+        ],
+        [
+          0.0,
+          2.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "oled_bridge",
+      "volume_mm3": 347.523848,
+      "bbox": [
+        [
+          84.3,
+          118.3
+        ],
+        [
+          52.5,
+          58.6
+        ],
+        [
+          0.0,
+          1.7999999999999972
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "hinge_guard_left",
+      "volume_mm3": 245.848054,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          0.0,
+          6.700000000000003
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "hinge_guard_right",
+      "volume_mm3": 247.373544,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          0.0,
+          6.700000000000003
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "fit_bar",
+      "volume_mm3": 900.0,
+      "bbox": [
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          6.0
+        ],
+        [
+          0.0,
+          25.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "fit_gauge",
+      "volume_mm3": 2313.92,
+      "bbox": [
+        [
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          14.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "insert_coupon",
+      "volume_mm3": 2507.569498,
+      "bbox": [
+        [
+          0.0,
+          36.0
+        ],
+        [
+          0.0,
+          12.0
+        ],
+        [
+          0.0,
+          6.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "keeper_insert_coupon",
+      "volume_mm3": 220.791564,
+      "bbox": [
+        [
+          0.0,
+          8.0
+        ],
+        [
+          0.0,
+          6.5
+        ],
+        [
+          0.0,
+          4.8
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "window_insert_coupon",
+      "volume_mm3": 614.901298,
+      "bbox": [
+        [
+          0.0,
+          18.0
+        ],
+        [
+          -7.0,
+          0.0
+        ],
+        [
+          0.0,
+          5.1
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "hinge_bore_coupon",
+      "volume_mm3": 4528.087836,
+      "bbox": [
+        [
+          0.0,
+          20.0
+        ],
+        [
+          0.0,
+          30.0
+        ],
+        [
+          0.0,
+          8.0
+        ]
+      ],
+      "expect": "part",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "connected_surfaces": 1,
+      "pass": true
+    },
+    {
+      "name": "pose_base_box",
+      "volume_mm3": 219038.831333,
+      "bbox": [
+        [
+          -120.0,
+          120.0
+        ],
+        [
+          -60.0,
+          60.0
+        ],
+        [
+          0.0,
+          55.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_lid",
+      "volume_mm3": 62782.920419,
+      "bbox": [
+        [
+          -120.0,
+          120.0
+        ],
+        [
+          -59.0,
+          60.0
+        ],
+        [
+          46.7,
+          55.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_lock_base",
+      "volume_mm3": 11268.69675,
+      "bbox": [
+        [
+          73.8,
+          116.3
+        ],
+        [
+          -46.0,
+          22.0
+        ],
+        [
+          29.4,
+          45.8
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_guide_cap",
+      "volume_mm3": 1169.644779,
+      "bbox": [
+        [
+          92.0,
+          115.0
+        ],
+        [
+          -20.5,
+          5.5
+        ],
+        [
+          42.9,
+          44.9
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_motor_clamp",
+      "volume_mm3": 651.796059,
+      "bbox": [
+        [
+          73.8,
+          95.19999999999999
+        ],
+        [
+          -35.0,
+          -19.0
+        ],
+        [
+          45.8,
+          47.8
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_bolt",
+      "volume_mm3": 1522.891416,
+      "bbox": [
+        [
+          92.0,
+          107.60000000000001
+        ],
+        [
+          -18.5,
+          5.0
+        ],
+        [
+          33.4,
+          42.599999999999994
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_nut_carriage",
+      "volume_mm3": 855.379611,
+      "bbox": [
+        [
+          77.5,
+          97.7
+        ],
+        [
+          -13.0,
+          -3.0
+        ],
+        [
+          33.4,
+          44.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_nut_cap",
+      "volume_mm3": 231.956059,
+      "bbox": [
+        [
+          78.0,
+          90.5
+        ],
+        [
+          -13.0,
+          -3.0
+        ],
+        [
+          44.0,
+          46.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_latch",
+      "volume_mm3": 753.3,
+      "bbox": [
+        [
+          95.0,
+          111.0
+        ],
+        [
+          6.0,
+          11.0
+        ],
+        [
+          32.6,
+          50.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_latch_retainer",
+      "volume_mm3": 239.035665,
+      "bbox": [
+        [
+          92.0,
+          114.0
+        ],
+        [
+          3.0,
+          14.0
+        ],
+        [
+          45.2,
+          46.7
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_window_grille",
+      "volume_mm3": 11281.277309,
+      "bbox": [
+        [
+          -103.0,
+          48.0
+        ],
+        [
+          -46.5,
+          48.5
+        ],
+        [
+          47.4,
+          50.5
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_battery_hatch",
+      "volume_mm3": 6649.495459,
+      "bbox": [
+        [
+          88.0,
+          119.0
+        ],
+        [
+          -56.0,
+          26.0
+        ],
+        [
+          0.0,
+          4.3
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_electronics_tray",
+      "volume_mm3": 2401.346286,
+      "bbox": [
+        [
+          74.5,
+          116.5
+        ],
+        [
+          25.5,
+          52.5
+        ],
+        [
+          5.4,
+          18.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_upper_deck",
+      "volume_mm3": 1320.587312,
+      "bbox": [
+        [
+          95.7,
+          117.0
+        ],
+        [
+          25.3,
+          52.5
+        ],
+        [
+          18.0,
+          27.6
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_esp_clip",
+      "volume_mm3": 173.956059,
+      "bbox": [
+        [
+          74.5,
+          98.5
+        ],
+        [
+          37.0,
+          41.0
+        ],
+        [
+          14.8,
+          16.8
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_upper_clip",
+      "volume_mm3": 156.838078,
+      "bbox": [
+        [
+          95.5,
+          117.0
+        ],
+        [
+          36.0,
+          40.0
+        ],
+        [
+          27.6,
+          29.6
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_oled_bridge",
+      "volume_mm3": 347.523848,
+      "bbox": [
+        [
+          84.3,
+          118.3
+        ],
+        [
+          52.5,
+          58.6
+        ],
+        [
+          49.2,
+          51.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_hinge_guard_left",
+      "volume_mm3": 245.848054,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          48.3,
+          55.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "pose_hinge_guard_right",
+      "volume_mm3": 247.373544,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -58.0,
+          -47.5
+        ],
+        [
+          48.3,
+          55.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_motor",
+      "volume_mm3": 3693.178295,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -42.0,
+          40.0
+        ],
+        [
+          35.5,
+          45.5
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_drive_nut",
+      "volume_mm3": 178.982234,
+      "bbox": [
+        [
+          79.5,
+          89.5
+        ],
+        [
+          -9.4,
+          -4.4
+        ],
+        [
+          33.0,
+          43.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_battery_holder",
+      "volume_mm3": 34188.0,
+      "bbox": [
+        [
+          93.2,
+          115.2
+        ],
+        [
+          -52.0,
+          22.0
+        ],
+        [
+          4.5,
+          25.5
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_esp",
+      "volume_mm3": 2174.35,
+      "bbox": [
+        [
+          77.5,
+          95.3
+        ],
+        [
+          28.0,
+          52.0
+        ],
+        [
+          8.3,
+          14.5
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_power_board",
+      "volume_mm3": 2160.0,
+      "bbox": [
+        [
+          99.0,
+          114.0
+        ],
+        [
+          29.0,
+          49.0
+        ],
+        [
+          8.3,
+          15.5
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_bridge_board",
+      "volume_mm3": 2100.0,
+      "bbox": [
+        [
+          98.5,
+          113.5
+        ],
+        [
+          29.0,
+          49.0
+        ],
+        [
+          20.3,
+          27.3
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_oled",
+      "volume_mm3": 2019.738,
+      "bbox": [
+        [
+          87.6,
+          115.39999999999999
+        ],
+        [
+          50.5,
+          56.5
+        ],
+        [
+          21.5,
+          48.8
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_button",
+      "volume_mm3": 4683.151429,
+      "bbox": [
+        [
+          89.7,
+          119.7
+        ],
+        [
+          21.1,
+          38.9
+        ],
+        [
+          31.6,
+          49.4
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_acrylic",
+      "volume_mm3": 18327.0,
+      "bbox": [
+        [
+          -102.0,
+          47.0
+        ],
+        [
+          -40.0,
+          42.0
+        ],
+        [
+          50.5,
+          52.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_hinge_pin",
+      "volume_mm3": 563.87315,
+      "bbox": [
+        [
+          -107.0,
+          73.0
+        ],
+        [
+          -56.0,
+          -54.0
+        ],
+        [
+          50.0,
+          52.0
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_inserts_fixed",
+      "volume_mm3": 113.479472,
+      "bbox": [
+        [
+          -109.6,
+          118.6
+        ],
+        [
+          -55.6,
+          25.6
+        ],
+        [
+          2.9,
+          48.3
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_inserts_lid",
+      "volume_mm3": 75.652981,
+      "bbox": [
+        [
+          -95.6,
+          40.6
+        ],
+        [
+          -44.6,
+          46.599999999999994
+        ],
+        [
+          49.9,
+          53.9
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_battery_connector",
+      "volume_mm3": 107.5,
+      "bbox": [
+        [
+          91.5,
+          95.8
+        ],
+        [
+          22.0,
+          27.0
+        ],
+        [
+          12.5,
+          17.5
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_motor_pads",
+      "volume_mm3": 239.970018,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -40.3,
+          -14.7
+        ],
+        [
+          35.2,
+          45.8
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "hardware_board_pads",
+      "volume_mm3": 780.45,
+      "bbox": [
+        [
+          77.5,
+          114.0
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          7.4,
+          20.3
+        ]
+      ],
+      "expect": "solid",
+      "mesh_errors": [
+        0,
+        0,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "closed",
+      "volume_mm3": 393790.83075,
+      "bbox": [
+        [
+          -120.0,
+          120.0
+        ],
+        [
+          -60.0,
+          60.0
+        ],
+        [
+          0.0,
+          55.0
+        ]
+      ],
+      "expect": "assembly",
+      "mesh_errors": [
+        0,
+        120,
+        0
+      ],
+      "pass": true
+    },
+    {
+      "name": "released_base_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "released_lock_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "release_item",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -47.5,
+          -47.5
+        ],
+        [
+          43.5,
+          45.0
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "closed_item_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "negative_locked_open",
+      "volume_mm3": 21.325016,
+      "bbox": [
+        [
+          100.0,
+          106.0
+        ],
+        [
+          6.27692887011132,
+          11.289334689749388
+        ],
+        [
+          35.0,
+          35.754356624295895
+        ]
+      ],
+      "expect": "collision",
+      "pass": true
+    },
+    {
+      "name": "load_float_clear",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "load_screw_clear",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "load_guide_contact",
+      "volume_mm3": 6.52,
+      "bbox": [
+        [
+          92.0,
+          107.60000000000001
+        ],
+        [
+          -4.5,
+          5.5
+        ],
+        [
+          42.9,
+          42.949999999999996
+        ]
+      ],
+      "expect": "collision",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_-0.25_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_-0.25_shaft",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_-0.25_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_-0.25_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_-0.25_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_-0.25_shaft",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_-0.25_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_-0.25_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_0.25_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_0.25_shaft",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_0.25_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_-0.25_0.25_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_0.25_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_0.25_shaft",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_0.25_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "float_0.25_0.25_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "fasteners_0",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          74.5,
+          116.79502440067573
+        ],
+        [
+          -44.73106326168268,
+          57.298006171883856
+        ],
+        [
+          5.4,
+          53.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "tool_access_0",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "fasteners_7.0",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          74.5,
+          116.79502440067573
+        ],
+        [
+          -44.73106326168268,
+          57.298006171883856
+        ],
+        [
+          5.4,
+          53.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "tool_access_7.0",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "fasteners_14",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          74.5,
+          116.79502440067573
+        ],
+        [
+          -44.73106326168268,
+          57.298006171883856
+        ],
+        [
+          5.4,
+          53.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "tool_access_14",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "drive_install_0",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "drive_install_5",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "drive_install_15",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "drive_install_30",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "drive_install_80",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "nut_insert_0",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "nut_insert_1",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "nut_insert_2",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "nut_insert_4",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "nut_insert_8",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_bolt_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_bolt_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_nut_carriage_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_nut_cap_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_nut_carriage_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_drive_nut_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_0_motor_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_bolt_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_bolt_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_nut_carriage_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_nut_cap_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_nut_carriage_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_drive_nut_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_2_motor_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_bolt_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_bolt_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_nut_carriage_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_nut_cap_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_nut_carriage_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_drive_nut_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_4_motor_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_bolt_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_bolt_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_nut_carriage_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_nut_cap_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_nut_carriage_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_drive_nut_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_6_motor_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_bolt_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_bolt_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_nut_carriage_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_nut_cap_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_nut_carriage_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_drive_nut_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_8_motor_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_bolt_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_bolt_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_nut_carriage_lock_base",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_nut_cap_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_nut_carriage_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_drive_nut_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "travel_14_motor_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_lock_base",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          75.0,
+          115.68925137533648
+        ],
+        [
+          -46.0,
+          22.0
+        ],
+        [
+          29.4,
+          29.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_motor_clamp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_nut_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_window_grille",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_battery_hatch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_electronics_tray",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          74.57856591963774,
+          116.42245065093759
+        ],
+        [
+          25.5,
+          52.48449013018752
+        ],
+        [
+          5.4,
+          5.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_upper_deck",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          117.0,
+          117.0
+        ],
+        [
+          50.48529411764706,
+          51.02826523263543
+        ],
+        [
+          19.766081720837487,
+          19.82940944639045
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_esp_clip",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_upper_clip",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_oled_bridge",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          84.37230686187497,
+          118.3
+        ],
+        [
+          52.51111111111112,
+          58.599917095591785
+        ],
+        [
+          49.2,
+          49.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_hinge_guard_left",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -53.6,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_hinge_guard_right",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -57.85680096476585,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_battery_holder",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_esp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_power_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_bridge_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_button",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          111.0,
+          114.0
+        ],
+        [
+          21.315532394393905,
+          38.9
+        ],
+        [
+          34.20674964743973,
+          49.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_acrylic",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_inserts_fixed",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          88.4136882218019,
+          118.5863117781981
+        ],
+        [
+          -55.54548132206251,
+          25.545481322062507
+        ],
+        [
+          6.8999999999999995,
+          6.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_inserts_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_motor_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_base_box_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_motor_clamp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_window_grille",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -103.0,
+          48.0
+        ],
+        [
+          -46.5,
+          48.5
+        ],
+        [
+          49.9,
+          50.5
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_oled_bridge",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_hinge_guard_left",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_hinge_guard_right",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_acrylic",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -100.0,
+          43.423905269013744
+        ],
+        [
+          -40.0,
+          42.0
+        ],
+        [
+          52.0,
+          52.0
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lid_inserts_lid",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -95.26057548523197,
+          40.26057548523195
+        ],
+        [
+          -44.59939610786168,
+          46.59939610786167
+        ],
+        [
+          53.9,
+          53.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_guide_cap",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          92.0,
+          115.0
+        ],
+        [
+          -20.3,
+          0.28032318115976373
+        ],
+        [
+          42.9,
+          42.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_nut_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_lock_base_motor_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -39.34473573765769,
+          -27.326470588235292
+        ],
+        [
+          35.2,
+          35.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_guide_cap_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_guide_cap_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_motor_clamp_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_bolt_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_bolt_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_nut_carriage_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_nut_carriage_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_nut_carriage_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_nut_cap_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_nut_cap_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_latch_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_latch_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_latch_retainer_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_window_grille_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_window_grille_inserts_lid",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -95.5863117781981,
+          40.59710661728094
+        ],
+        [
+          -44.42054232175906,
+          46.42054232175906
+        ],
+        [
+          49.9,
+          49.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_battery_hatch_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_electronics_tray_esp_clip",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          95.5,
+          97.9
+        ],
+        [
+          37.0,
+          37.89130661881296
+        ],
+        [
+          14.8,
+          14.8
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_electronics_tray_esp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_electronics_tray_power_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_electronics_tray_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_electronics_tray_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_electronics_tray_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          77.5,
+          113.86447289809772
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          7.4,
+          7.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_upper_deck_bridge_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_upper_deck_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_upper_deck_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_upper_deck_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          98.5,
+          113.5
+        ],
+        [
+          29.0,
+          49.0
+        ],
+        [
+          19.8,
+          19.8
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_esp_clip_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_hinge_guard_left_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_motor_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_motor_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_motor_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_motor_motor_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -40.0,
+          -15.0
+        ],
+        [
+          35.5,
+          45.5
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_drive_nut_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_battery_holder_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_esp_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          77.5,
+          95.3
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          8.3,
+          8.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_power_board_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_button_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_acrylic_inserts_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_inserts_fixed_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_0_inserts_fixed_motor_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_lock_base",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          75.0,
+          115.68925137533648
+        ],
+        [
+          -46.0,
+          22.0
+        ],
+        [
+          29.4,
+          29.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_motor_clamp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_nut_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_window_grille",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_battery_hatch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_electronics_tray",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          74.57856591963774,
+          116.42245065093759
+        ],
+        [
+          25.5,
+          52.48449013018752
+        ],
+        [
+          5.4,
+          5.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_upper_deck",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          117.0,
+          117.0
+        ],
+        [
+          50.48529411764706,
+          51.02826523263543
+        ],
+        [
+          19.766081720837487,
+          19.82940944639045
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_esp_clip",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_upper_clip",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_oled_bridge",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          84.37230686187497,
+          118.3
+        ],
+        [
+          52.51111111111112,
+          58.599917095591785
+        ],
+        [
+          49.2,
+          49.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_hinge_guard_left",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -53.6,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_hinge_guard_right",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -57.85680096476585,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_battery_holder",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_esp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_power_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_bridge_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_button",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          111.0,
+          114.0
+        ],
+        [
+          21.315532394393905,
+          38.9
+        ],
+        [
+          34.20674964743973,
+          49.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_acrylic",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_inserts_fixed",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          88.4136882218019,
+          118.5863117781981
+        ],
+        [
+          -55.54548132206251,
+          25.545481322062507
+        ],
+        [
+          6.8999999999999995,
+          6.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_inserts_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_motor_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_base_box_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_motor_clamp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_window_grille",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -103.0,
+          48.0
+        ],
+        [
+          -46.5,
+          48.5
+        ],
+        [
+          49.9,
+          50.5
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_oled_bridge",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_hinge_guard_left",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_hinge_guard_right",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_acrylic",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -100.0,
+          43.423905269013744
+        ],
+        [
+          -40.0,
+          42.0
+        ],
+        [
+          52.0,
+          52.0
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lid_inserts_lid",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -95.26057548523197,
+          40.26057548523195
+        ],
+        [
+          -44.59939610786168,
+          46.59939610786167
+        ],
+        [
+          53.9,
+          53.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_guide_cap",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          92.0,
+          115.0
+        ],
+        [
+          -20.3,
+          0.28032318115976373
+        ],
+        [
+          42.9,
+          42.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_nut_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_lock_base_motor_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -39.34473573765769,
+          -27.326470588235292
+        ],
+        [
+          35.2,
+          35.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_guide_cap_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_guide_cap_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_motor_clamp_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_bolt_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_bolt_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_nut_carriage_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_nut_carriage_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_nut_carriage_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_nut_cap_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_nut_cap_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_latch_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_latch_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_latch_retainer_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_window_grille_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_window_grille_inserts_lid",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -95.5863117781981,
+          40.59710661728094
+        ],
+        [
+          -44.42054232175906,
+          46.42054232175906
+        ],
+        [
+          49.9,
+          49.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_battery_hatch_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_electronics_tray_esp_clip",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          95.5,
+          97.9
+        ],
+        [
+          37.0,
+          37.89130661881296
+        ],
+        [
+          14.8,
+          14.8
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_electronics_tray_esp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_electronics_tray_power_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_electronics_tray_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_electronics_tray_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_electronics_tray_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          77.5,
+          113.86447289809772
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          7.4,
+          7.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_upper_deck_bridge_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_upper_deck_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_upper_deck_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_upper_deck_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          98.5,
+          113.5
+        ],
+        [
+          29.0,
+          49.0
+        ],
+        [
+          19.8,
+          19.8
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_esp_clip_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_hinge_guard_left_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_motor_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_motor_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_motor_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_motor_motor_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -40.0,
+          -15.0
+        ],
+        [
+          35.5,
+          45.5
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_drive_nut_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_battery_holder_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_esp_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          77.5,
+          95.3
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          8.3,
+          8.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_power_board_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_button_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_acrylic_inserts_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_inserts_fixed_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_7.0_inserts_fixed_motor_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_lock_base",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          75.0,
+          115.68925137533648
+        ],
+        [
+          -46.0,
+          22.0
+        ],
+        [
+          29.4,
+          29.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_guide_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_motor_clamp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_nut_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_window_grille",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_battery_hatch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_electronics_tray",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          74.57856591963774,
+          116.42245065093759
+        ],
+        [
+          25.5,
+          52.48449013018752
+        ],
+        [
+          5.4,
+          5.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_upper_deck",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          117.0,
+          117.0
+        ],
+        [
+          50.48529411764706,
+          51.02826523263543
+        ],
+        [
+          19.766081720837487,
+          19.82940944639045
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_esp_clip",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_upper_clip",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_oled_bridge",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          84.37230686187497,
+          118.3
+        ],
+        [
+          52.51111111111112,
+          58.599917095591785
+        ],
+        [
+          49.2,
+          49.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_hinge_guard_left",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -53.6,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_hinge_guard_right",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -57.85680096476585,
+          -47.5
+        ],
+        [
+          48.3,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_battery_holder",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_esp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_power_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_bridge_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_button",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          111.0,
+          114.0
+        ],
+        [
+          21.315532394393905,
+          38.9
+        ],
+        [
+          34.20674964743973,
+          49.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_acrylic",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_inserts_fixed",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          88.4136882218019,
+          118.5863117781981
+        ],
+        [
+          -55.54548132206251,
+          25.545481322062507
+        ],
+        [
+          6.8999999999999995,
+          6.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_inserts_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_motor_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_base_box_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_motor_clamp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_window_grille",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -103.0,
+          48.0
+        ],
+        [
+          -46.5,
+          48.5
+        ],
+        [
+          49.9,
+          50.5
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_oled_bridge",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_hinge_guard_left",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_hinge_guard_right",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_acrylic",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -100.0,
+          43.423905269013744
+        ],
+        [
+          -40.0,
+          42.0
+        ],
+        [
+          52.0,
+          52.0
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lid_inserts_lid",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -95.26057548523197,
+          40.26057548523195
+        ],
+        [
+          -44.59939610786168,
+          46.59939610786167
+        ],
+        [
+          53.9,
+          53.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_guide_cap",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          92.0,
+          115.0
+        ],
+        [
+          -20.3,
+          0.28032318115976373
+        ],
+        [
+          42.9,
+          42.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_bolt",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_nut_cap",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_lock_base_motor_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -39.34473573765769,
+          -27.326470588235292
+        ],
+        [
+          35.2,
+          35.2
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_guide_cap_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_guide_cap_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_motor_clamp_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_bolt_nut_carriage",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_bolt_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_bolt_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_nut_carriage_latch",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_nut_carriage_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_nut_carriage_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_nut_carriage_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_nut_cap_motor",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_nut_cap_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_latch_latch_retainer",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_latch_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_latch_retainer_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_window_grille_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_window_grille_inserts_lid",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -95.5863117781981,
+          40.59710661728094
+        ],
+        [
+          -44.42054232175906,
+          46.42054232175906
+        ],
+        [
+          49.9,
+          49.9
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_battery_hatch_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_electronics_tray_esp_clip",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          95.5,
+          97.9
+        ],
+        [
+          37.0,
+          37.89130661881296
+        ],
+        [
+          14.8,
+          14.8
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_electronics_tray_esp",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_electronics_tray_power_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_electronics_tray_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_electronics_tray_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_electronics_tray_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          77.5,
+          113.86447289809772
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          7.4,
+          7.4
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_upper_deck_bridge_board",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_upper_deck_oled",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_upper_deck_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_upper_deck_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          98.5,
+          113.5
+        ],
+        [
+          29.0,
+          49.0
+        ],
+        [
+          19.8,
+          19.8
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_esp_clip_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_hinge_guard_left_hinge_pin",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_motor_drive_nut",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_motor_button",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_motor_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_motor_motor_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -40.0,
+          -15.0
+        ],
+        [
+          35.5,
+          45.5
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_drive_nut_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_battery_holder_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_esp_board_pads",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          77.5,
+          95.3
+        ],
+        [
+          28.0,
+          50.5
+        ],
+        [
+          8.3,
+          8.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_power_board_board_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_button_inserts_fixed",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_acrylic_inserts_lid",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_inserts_fixed_battery_connector",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "pair_14_inserts_fixed_motor_pads",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.25_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.25_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.25_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.25_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.25_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.5_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.5_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.5_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.5_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0.5_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_0_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_1_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_1_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_1_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_1_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_1_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_2_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_2_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_2_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_2_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_2_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_3_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_3_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_3_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_3_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_3_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_4_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_4_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_4_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_4_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_4_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_5_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_5_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_5_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_5_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_5_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_6_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_6_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_6_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_6_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_6_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_7_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_7_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_7_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_7_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_7_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_8_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_8_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_8_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_8_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_8_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_9_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_9_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_9_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_9_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_9_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_10_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_10_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_10_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_10_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_10_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_11_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_11_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_11_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_11_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_11_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_12_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_12_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_12_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_12_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_12_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_13_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_13_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_13_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_13_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_13_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_14_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_14_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_14_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_14_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_14_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_15_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_15_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_15_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_15_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_15_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_16_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_16_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_16_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_16_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_16_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_17_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_17_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_17_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_17_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_17_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_18_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_18_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_18_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_18_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_18_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_19_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_19_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_19_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_19_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_19_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_20_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_20_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_20_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_20_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_20_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_21_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_21_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_21_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_21_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_21_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_22_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_22_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_22_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_22_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_22_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_23_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_23_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_23_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_23_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_23_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_24_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_24_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_24_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_24_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_24_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_25_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_25_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_25_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_25_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_25_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_26_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_26_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_26_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_26_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_26_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_27_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_27_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_27_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_27_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_27_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_28_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_28_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_28_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_28_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_28_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_29_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_29_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_29_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_29_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_29_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_30_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_30_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_30_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_30_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_30_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_31_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_31_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_31_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_31_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_31_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_32_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_32_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_32_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_32_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_32_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_33_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_33_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_33_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_33_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_33_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_34_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_34_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_34_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_34_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_34_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_35_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_35_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_35_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_35_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_35_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_36_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_36_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_36_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_36_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_36_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_37_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_37_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_37_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_37_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_37_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_38_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_38_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_38_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_38_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_38_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_39_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_39_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_39_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_39_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_39_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_40_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_40_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_40_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_40_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_40_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_41_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_41_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_41_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_41_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_41_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_42_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_42_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_42_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_42_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_42_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_43_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_43_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_43_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_43_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_43_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_44_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_44_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_44_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_44_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_44_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_45_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_45_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_45_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_45_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_45_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_46_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_46_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_46_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_46_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_46_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_47_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_47_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_47_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_47_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_47_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_48_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_48_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_48_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_48_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_48_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_49_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_49_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_49_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_49_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_49_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_50_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_50_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_50_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_50_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_50_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_51_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_51_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_51_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_51_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_51_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_52_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_52_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_52_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_52_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_52_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_53_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_53_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_53_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_53_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_53_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_54_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_54_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_54_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_54_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_54_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_55_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_55_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_55_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_55_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_55_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_56_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_56_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_56_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_56_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_56_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_57_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_57_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_57_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_57_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_57_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_58_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_58_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_58_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_58_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_58_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_59_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_59_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_59_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_59_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_59_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_60_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_60_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_60_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_60_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_60_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_61_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_61_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_61_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_61_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_61_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_62_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_62_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_62_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_62_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_62_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_63_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_63_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_63_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_63_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_63_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_64_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_64_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_64_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_64_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_64_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_65_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_65_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_65_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_65_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_65_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_66_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_66_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_66_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_66_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_66_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_67_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_67_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_67_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_67_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_67_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_68_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_68_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_68_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_68_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_68_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_69_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_69_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_69_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_69_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_69_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_70_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_70_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_70_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_70_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_70_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_71_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_71_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_71_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_71_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_71_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_72_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_72_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_72_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_72_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_72_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_73_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_73_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_73_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_73_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_73_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_74_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_74_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_74_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_74_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_74_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_75_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_75_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_75_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_75_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_75_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_76_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_76_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_76_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_76_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_76_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_77_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_77_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_77_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_77_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_77_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_78_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_78_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_78_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_78_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_78_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_79_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_79_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_79_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_79_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_79_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_80_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_80_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_80_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_80_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_80_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_81_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_81_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_81_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_81_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_81_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_82_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_82_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_82_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_82_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_82_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_83_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_83_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_83_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_83_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_83_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_84_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_84_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_84_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_84_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_84_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_85_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_85_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_85_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_85_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_85_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_86_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_86_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_86_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_86_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_86_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_87_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_87_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_87_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_87_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_87_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_88_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_88_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_88_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_88_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_88_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_89_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_89_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_89_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_89_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_89_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_90_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_90_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_90_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_90_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_90_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_91_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_91_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_91_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_91_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_91_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_92_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_92_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_92_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_92_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_92_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_93_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_93_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_93_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_93_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_93_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_94_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_94_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_94_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_94_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_94_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_95_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_95_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_95_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_95_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_95_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_96_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_96_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_96_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_96_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_96_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_97_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_97_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_97_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_97_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_97_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_98_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_98_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_98_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_98_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_98_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_99_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_99_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_99_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_99_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_99_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_100_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_100_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_100_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_100_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_100_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_101_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_101_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_101_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_101_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_101_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_102_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_102_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_102_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_102_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_102_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_103_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_103_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_103_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_103_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_103_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_104_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_104_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_104_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_104_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_104_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_105_moving_lid_base_box",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_105_moving_lid_lock_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_105_moving_lid_electronics_all",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_105_moving_lid_fixed_fasteners",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "open_105_moving_lid_stationary_extras",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "item_path_0",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -47.5,
+          -47.5
+        ],
+        [
+          43.5,
+          45.0
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "item_path_10",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "item_path_20",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "item_path_40",
+      "volume_mm3": 0.0,
+      "bbox": [
+        [
+          -112.0,
+          -104.0
+        ],
+        [
+          -47.5,
+          -47.5
+        ],
+        [
+          45.0,
+          48.3
+        ]
+      ],
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "item_path_80",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "battery_path_0",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "battery_path_-5",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "battery_path_-15",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "battery_path_-30",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    },
+    {
+      "name": "battery_path_-80",
+      "volume_mm3": 0,
+      "expect": "empty",
+      "pass": true
+    }
+  ],
+  "source_export_sha256": {
+    "hardware/v3/cad/assembly.scad": "7304479e6c7b2968cffb7e488b4728c8579ca7367c6f53c62e0564ce39c90cfa",
+    "hardware/v3/cad/electronics.scad": "bd5f854dae82ed529ef43f7db90b9375edd244757ad47894063d1646d34ddd69",
+    "hardware/v3/cad/enclosure.scad": "b33ae7a2c86bc1ba4624b840d4ac0ae009bbf5121e078a75332994160957a6f5",
+    "hardware/v3/cad/hardware.scad": "309ff2c454ff2c1e580efa5f1e8318b34e661713f360097f82a5381c7a78f3d5",
+    "hardware/v3/cad/lock.scad": "4ee4f602398403861993080a554d600159692bc7b3ac6e66cbe3263ccd159d6c",
+    "hardware/v3/cad/params.scad": "31d5cc442951d01a18b74cf85745314bf01783d5bc5853a50d2fc954f5695ae6",
+    "hardware/v3/cad/references.scad": "92b071fb2df720dbd5a07d35087a748d51a6a49f83e73377ddda1c649a3bce7d",
+    "generated/v3/print/guide_cap.stl": "771d8dda8bf4f598d623762dc2a28689f3f7c8ca01f95732c73314d56f107703",
+    "generated/v3/print/lock_base.stl": "7e3c9d9b0a94f28f9c9308b5d0b5be41852e3db47fc1af7004d01763d8c84620",
+    "generated/v3/print/lid.stl": "86803521dda030ce1a86128ede78639edf3bdc5962d3cc5b9c10f5d922b544c2",
+    "generated/v3/print/motor_clamp.stl": "852bdcbee1686891bff3ebdd7e1a125c35695f3f0190fe21d6e8e3c4295b3d99",
+    "generated/v3/print/base_box.stl": "516b2c264ec001ed279908a26baf2ef418c3f2dbdd8936497427aea7f2a11a87",
+    "generated/v3/print/bolt.stl": "6a547cc6079e239f8d0cd94d3cd0ad7864c8e47e558939fd28cec9fbf36a8053",
+    "generated/v3/print/nut_carriage.stl": "0bbbd5f166f95a63eccf95343e3c4ba4f855ee02ea9e78b416211ae25bbee399",
+    "generated/v3/print/nut_cap.stl": "6fdc0480a018625e77e4e3d42e2a6b89985fa97f08bb772e42dfd2a52b358c4f",
+    "generated/v3/print/latch.stl": "369fccb2e035f7b39f7c0f68860656fbad9a163f4ee4863bb36128bd25887e99",
+    "generated/v3/print/latch_retainer.stl": "c95f0305d5a5bf2cba02206ac76fca46d469cb66e3d0b4f286afc4e440011123",
+    "generated/v3/print/electronics_tray.stl": "d3a2b726751cd2e5779a6b6caf3792eba306124bed915ce66c8e37b3d4d4790c",
+    "generated/v3/print/battery_hatch.stl": "789c3cd04ebb61f7de287ebe10aa1be202024159bdc53ba2f18cfe9da5c52f04",
+    "generated/v3/print/window_grille.stl": "e6797e279010b823bf2faca785c38b681e481c573212a4844df5f816431516a5",
+    "generated/v3/print/upper_deck.stl": "21844efc50a29e760924f372a05fe3a984234eeb1672507f1d12f113b3565099",
+    "generated/v3/print/esp_clip.stl": "f36bbd1e6e203269b8146f7c9ac0c26dfb042eac3d7d4bba0189fd429549265b",
+    "generated/v3/print/upper_clip.stl": "3b187739ef084575aebc78bd95423fcff3844efef50fd7cbe62b0c742b62e137",
+    "generated/v3/print/oled_bridge.stl": "cae0d3d30bf445c5618443ad253f8a218b7e7ba4b7d6a80575cd7c98c747f7d2",
+    "generated/v3/print/fit_bar.stl": "30b9eef4038e370e17b1e9f82b2eecdec8b7639282813bbb590c9c62a857078e",
+    "generated/v3/print/hinge_guard_left.stl": "aea2c3bd8a06ed4e22987a179a5fc890a0aef4a2a416730efb35b033984874b9",
+    "generated/v3/print/hinge_guard_right.stl": "ba38e951518c0e4e885393ea8c961a03619dd5bdd953c2281c341c0335e493a4",
+    "generated/v3/print/fit_gauge.stl": "bf634db31429d53357ff791fcee82f89f5377ba653f90b025175377b1a80a58d",
+    "generated/v3/print/insert_coupon.stl": "3e9df46c6c140dd899c091bbf5245fe49206e851a7f8291687cc8b342416ae19",
+    "generated/v3/print/window_insert_coupon.stl": "058d2c8830836d4e7358da705ac68482e4a17df631b85b1c6277514f4fe43a8c",
+    "generated/v3/print/keeper_insert_coupon.stl": "d4a7ddc4884725fb62bf7ab449912ccf49a7b4367424b82709c37522478bf157",
+    "generated/v3/print/hinge_bore_coupon.stl": "24ea072b9dcd9211fb83724d1cb489ffafbdce3a55696cedeb0c713322387514"
+  },
+  "failures": []
+}

@@ -1,0 +1,595 @@
+{
+  "version": 1,
+  "files": {
+    "assets/cad/v3/assembly/acrylic.stl": {
+      "sha256": "654fb529b81755e37123830576978174f2b4bcec451a32f603a92ce3b8b3323c",
+      "bytes": 684
+    },
+    "assets/cad/v3/assembly/base_box.stl": {
+      "sha256": "5bd6fa5fb5e9f488bacc01dec3f0ec37996211db5298682cd8fec5454034be03",
+      "bytes": 433484
+    },
+    "assets/cad/v3/assembly/battery_connector.stl": {
+      "sha256": "45263880e6716dcb426e20cba015998f00d69bcae81f318147ea46aaa9b1bce7",
+      "bytes": 684
+    },
+    "assets/cad/v3/assembly/battery_hatch.stl": {
+      "sha256": "cb605a98b556954f5a9e056df7c7c2d8e73770ff350b16b947f13e9f574e407a",
+      "bytes": 63884
+    },
+    "assets/cad/v3/assembly/battery_holder.stl": {
+      "sha256": "34a585e854171675f8e5922feffb3e9553410e5c9a66066c1948f20a48a1358f",
+      "bytes": 684
+    },
+    "assets/cad/v3/assembly/board_pads.stl": {
+      "sha256": "247fd2253c6696b88dccef1e5d303942a3d1f751b9eb8549fb1dad969389ec33",
+      "bytes": 1884
+    },
+    "assets/cad/v3/assembly/bolt.stl": {
+      "sha256": "f637a542e2a2e82e0500e5896d09bec41826d5fcbc1490d9f64b83a7b8b406a5",
+      "bytes": 4684
+    },
+    "assets/cad/v3/assembly/bridge_board.stl": {
+      "sha256": "a789fb2baaa1dfb9eb8be43b729aa3814ff228d6cd969c38aeac2cb0948f7877",
+      "bytes": 684
+    },
+    "assets/cad/v3/assembly/button.stl": {
+      "sha256": "ebe59feaec66911ad5e2cb90106e34daa101aa8fa924b3bc3368eaa7c09e5258",
+      "bytes": 49484
+    },
+    "assets/cad/v3/assembly/drive_nut.stl": {
+      "sha256": "39e8813b02741a5017a6625bbea28821abf76f78031526ac293f6ed9f54556eb",
+      "bytes": 20484
+    },
+    "assets/cad/v3/assembly/electronics_tray.stl": {
+      "sha256": "98cea523e5a34ce8c4c828365cb41420fd3cc1a5ff38d6cdffac776cbd4b549c",
+      "bytes": 90384
+    },
+    "assets/cad/v3/assembly/esp.stl": {
+      "sha256": "c3c4d5d818abf1bf5a13fe272fd5e42acd148b96f8312e12941b847819dc522d",
+      "bytes": 2484
+    },
+    "assets/cad/v3/assembly/esp_clip.stl": {
+      "sha256": "4a52d62c1b9e83e9b5f890103f1c2017f92fbb6ec635966a803af318a68e883a",
+      "bytes": 20284
+    },
+    "assets/cad/v3/assembly/fasteners_drive.stl": {
+      "sha256": "9be254f9f08005e76a5a0b300a9aa43b6b376e3651629800e2a14a0de4c0881e",
+      "bytes": 38084
+    },
+    "assets/cad/v3/assembly/fasteners_fixed.stl": {
+      "sha256": "d3158d9b3a0d1b60365aa4cfcfc26b764e14247e2912bd83e7d43e6ac636d507",
+      "bytes": 447884
+    },
+    "assets/cad/v3/assembly/fasteners_lid.stl": {
+      "sha256": "723bc38b3081a6478acb6a93914cb61db63af0516b572a398ebd052ccab6033a",
+      "bytes": 100484
+    },
+    "assets/cad/v3/assembly/guide_cap.stl": {
+      "sha256": "d327e15c98c3c9e25a39e73f854c7828bf374c3b25dd6a101ef5d56b559c8e39",
+      "bytes": 26884
+    },
+    "assets/cad/v3/assembly/hinge_guard_left.stl": {
+      "sha256": "8daa45dff043be9f8ea40af253d9751184e0e5a1ce5fad41c362fc6539934c59",
+      "bytes": 35684
+    },
+    "assets/cad/v3/assembly/hinge_guard_right.stl": {
+      "sha256": "75062143f7a2fa8af673e0be280215f7f591a53b511720ecf803d0003213ab39",
+      "bytes": 36084
+    },
+    "assets/cad/v3/assembly/hinge_pin.stl": {
+      "sha256": "530e6f46144698976358216cb00cb71e805c592b38a49c6566a47d26ae3bebeb",
+      "bytes": 9484
+    },
+    "assets/cad/v3/assembly/inserts_fixed.stl": {
+      "sha256": "254d8af6ef5a46d54013ff119ec85512325e37b7a6e79690283fd58cad664cfd",
+      "bytes": 115284
+    },
+    "assets/cad/v3/assembly/inserts_lid.stl": {
+      "sha256": "de0f82c409e09864cc28191fcfea1b69d06e05005e2035510352c1e8681d2592",
+      "bytes": 76884
+    },
+    "assets/cad/v3/assembly/latch.stl": {
+      "sha256": "b6a259952137819a35f7515132b88fe4de0209018b846992fe3eadcfcf41b2cd",
+      "bytes": 4084
+    },
+    "assets/cad/v3/assembly/latch_retainer.stl": {
+      "sha256": "62c6896e87834570037d3ff28c80041fc401357705cafa23d3869d155fa19257",
+      "bytes": 18884
+    },
+    "assets/cad/v3/assembly/lid.stl": {
+      "sha256": "2638fa369cca564dadc0693352699e7a9ad1d8c64da21f84fb324b14e3756dfc",
+      "bytes": 218384
+    },
+    "assets/cad/v3/assembly/lock_base.stl": {
+      "sha256": "8da9fe8d1b865447fd8febaffd856fef4ea1def73ce2ae18cbaeb0972dab5994",
+      "bytes": 148684
+    },
+    "assets/cad/v3/assembly/motor.stl": {
+      "sha256": "add871c2dab571a47f1658e9cd54749146e8cb9a967ba19ebb6101e97194af33",
+      "bytes": 11884
+    },
+    "assets/cad/v3/assembly/motor_clamp.stl": {
+      "sha256": "cd9d223f10aed9609789b6529860c4b87c426c32b6f1bac5acf7a23a4a0a2fcf",
+      "bytes": 20784
+    },
+    "assets/cad/v3/assembly/motor_pads.stl": {
+      "sha256": "359bacf99c852b785eef5672e33b04895448dbf99169977d5d6eb834d46286d6",
+      "bytes": 13284
+    },
+    "assets/cad/v3/assembly/nut_cap.stl": {
+      "sha256": "77a0aa0a71d56cd405be9ac87e49919326cfdb89066b152aca33bcbc2f03ad15",
+      "bytes": 20284
+    },
+    "assets/cad/v3/assembly/nut_carriage.stl": {
+      "sha256": "05a2473a41c52544e0423492f7a68a0842e1354974eb7d26b9b05d524adc4154",
+      "bytes": 46384
+    },
+    "assets/cad/v3/assembly/oled.stl": {
+      "sha256": "9417b4ff67b98472888e4ac39506769f29ead6025190659b8cb59bfacfc84ed3",
+      "bytes": 2284
+    },
+    "assets/cad/v3/assembly/oled_bridge.stl": {
+      "sha256": "abc9b92b3394e9d365ddece137bb52ee334b134c6f7695de018cbe98dcc9d445",
+      "bytes": 29884
+    },
+    "assets/cad/v3/assembly/power_board.stl": {
+      "sha256": "46be5d9892adb4e0f17b172e37f8edc3cf181c783e014083ff39a211052a0373",
+      "bytes": 684
+    },
+    "assets/cad/v3/assembly/upper_clip.stl": {
+      "sha256": "16b72f14d26e06ccc390bd8128355dfbcb5d0995d78849c40d7b24cfe8b4fc76",
+      "bytes": 20284
+    },
+    "assets/cad/v3/assembly/upper_deck.stl": {
+      "sha256": "c4295b8e37696d1578bd16c902e4f217c8470d6a3e1b13fb53fc58724058d0cd",
+      "bytes": 51284
+    },
+    "assets/cad/v3/assembly/window_grille.stl": {
+      "sha256": "1c98c0f83b8ffbf23e60767806b92e2f07a5eed6b56a84bda3485781dcc4f444",
+      "bytes": 117384
+    },
+    "assets/cad/v3/engineering.json": {
+      "sha256": "e58ef1eed6cc546d7186878aa10ee44d7daf5fa0afa528c35006a40fcc6d2da1",
+      "bytes": 444004
+    },
+    "assets/cad/v3/manifest.json": {
+      "sha256": "f17ac72e87ce508efc752c512a712e2c4ef89af8d18e9cefe937a886b4bb282d",
+      "bytes": 30228
+    },
+    "assets/cad/v3/print/base_box.stl": {
+      "sha256": "516b2c264ec001ed279908a26baf2ef418c3f2dbdd8936497427aea7f2a11a87",
+      "bytes": 1978348
+    },
+    "assets/cad/v3/print/battery_hatch.stl": {
+      "sha256": "789c3cd04ebb61f7de287ebe10aa1be202024159bdc53ba2f18cfe9da5c52f04",
+      "bytes": 290651
+    },
+    "assets/cad/v3/print/bolt.stl": {
+      "sha256": "6a547cc6079e239f8d0cd94d3cd0ad7864c8e47e558939fd28cec9fbf36a8053",
+      "bytes": 20071
+    },
+    "assets/cad/v3/print/electronics_tray.stl": {
+      "sha256": "d3a2b726751cd2e5779a6b6caf3792eba306124bed915ce66c8e37b3d4d4790c",
+      "bytes": 401060
+    },
+    "assets/cad/v3/print/esp_clip.stl": {
+      "sha256": "f36bbd1e6e203269b8146f7c9ac0c26dfb042eac3d7d4bba0189fd429549265b",
+      "bytes": 82129
+    },
+    "assets/cad/v3/print/fit_bar.stl": {
+      "sha256": "30b9eef4038e370e17b1e9f82b2eecdec8b7639282813bbb590c9c62a857078e",
+      "bytes": 1461
+    },
+    "assets/cad/v3/print/fit_gauge.stl": {
+      "sha256": "bf634db31429d53357ff791fcee82f89f5377ba653f90b025175377b1a80a58d",
+      "bytes": 9299
+    },
+    "assets/cad/v3/print/guide_cap.stl": {
+      "sha256": "771d8dda8bf4f598d623762dc2a28689f3f7c8ca01f95732c73314d56f107703",
+      "bytes": 114003
+    },
+    "assets/cad/v3/print/hinge_bore_coupon.stl": {
+      "sha256": "24ea072b9dcd9211fb83724d1cb489ffafbdce3a55696cedeb0c713322387514",
+      "bytes": 126196
+    },
+    "assets/cad/v3/print/hinge_guard_left.stl": {
+      "sha256": "aea2c3bd8a06ed4e22987a179a5fc890a0aef4a2a416730efb35b033984874b9",
+      "bytes": 180501
+    },
+    "assets/cad/v3/print/hinge_guard_right.stl": {
+      "sha256": "ba38e951518c0e4e885393ea8c961a03619dd5bdd953c2281c341c0335e493a4",
+      "bytes": 180435
+    },
+    "assets/cad/v3/print/insert_coupon.stl": {
+      "sha256": "3e9df46c6c140dd899c091bbf5245fe49206e851a7f8291687cc8b342416ae19",
+      "bytes": 201496
+    },
+    "assets/cad/v3/print/keeper_insert_coupon.stl": {
+      "sha256": "d4a7ddc4884725fb62bf7ab449912ccf49a7b4367424b82709c37522478bf157",
+      "bytes": 85913
+    },
+    "assets/cad/v3/print/latch.stl": {
+      "sha256": "369fccb2e035f7b39f7c0f68860656fbad9a163f4ee4863bb36128bd25887e99",
+      "bytes": 12825
+    },
+    "assets/cad/v3/print/latch_retainer.stl": {
+      "sha256": "c95f0305d5a5bf2cba02206ac76fca46d469cb66e3d0b4f286afc4e440011123",
+      "bytes": 79187
+    },
+    "assets/cad/v3/print/lid.stl": {
+      "sha256": "86803521dda030ce1a86128ede78639edf3bdc5962d3cc5b9c10f5d922b544c2",
+      "bytes": 1051953
+    },
+    "assets/cad/v3/print/lock_base.stl": {
+      "sha256": "7e3c9d9b0a94f28f9c9308b5d0b5be41852e3db47fc1af7004d01763d8c84620",
+      "bytes": 680720
+    },
+    "assets/cad/v3/print/motor_clamp.stl": {
+      "sha256": "852bdcbee1686891bff3ebdd7e1a125c35695f3f0190fe21d6e8e3c4295b3d99",
+      "bytes": 85958
+    },
+    "assets/cad/v3/print/nut_cap.stl": {
+      "sha256": "6fdc0480a018625e77e4e3d42e2a6b89985fa97f08bb772e42dfd2a52b358c4f",
+      "bytes": 85393
+    },
+    "assets/cad/v3/print/nut_carriage.stl": {
+      "sha256": "0bbbd5f166f95a63eccf95343e3c4ba4f855ee02ea9e78b416211ae25bbee399",
+      "bytes": 222173
+    },
+    "assets/cad/v3/print/oled_bridge.stl": {
+      "sha256": "cae0d3d30bf445c5618443ad253f8a218b7e7ba4b7d6a80575cd7c98c747f7d2",
+      "bytes": 145014
+    },
+    "assets/cad/v3/print/upper_clip.stl": {
+      "sha256": "3b187739ef084575aebc78bd95423fcff3844efef50fd7cbe62b0c742b62e137",
+      "bytes": 81970
+    },
+    "assets/cad/v3/print/upper_deck.stl": {
+      "sha256": "21844efc50a29e760924f372a05fe3a984234eeb1672507f1d12f113b3565099",
+      "bytes": 239533
+    },
+    "assets/cad/v3/print/window_grille.stl": {
+      "sha256": "e6797e279010b823bf2faca785c38b681e481c573212a4844df5f816431516a5",
+      "bytes": 559121
+    },
+    "assets/cad/v3/print/window_insert_coupon.stl": {
+      "sha256": "058d2c8830836d4e7358da705ac68482e4a17df631b85b1c6277514f4fe43a8c",
+      "bytes": 91346
+    },
+    "assets/cad/v3/verification.json": {
+      "sha256": "0e84232c402a24851e6bc2ba51d287181e8f569be879e6681e5baa9e7ac48212",
+      "bytes": 159785
+    },
+    "assets/deliverables/v3/TetherLock-V3-Blueprints.zip": {
+      "sha256": "a22a2d159fce689ed2b9c3c212f9d6074d54b74afd70915bb5f9ad295e08812b",
+      "bytes": 43776635
+    },
+    "assets/deliverables/v3/TetherLock-V3-CAD.zip": {
+      "sha256": "5d82ba9b0ffd06dac90ba6c46745a51867f9c4904549552a8a333bc64c13907a",
+      "bytes": 4092469
+    },
+    "assets/deliverables/v3/TetherLock-V3-Workbench.zip": {
+      "sha256": "3199f35d8a8f82fc22ab81aa3590525c2e6490ade99d7fc0263ba4331e9e5947",
+      "bytes": 49773073
+    },
+    "assets/deliverables/v3/verification.json": {
+      "sha256": "f7f68f6d71e930d9760875336cf3a22aee613179114e4adf5152db51e925687c",
+      "bytes": 46862
+    },
+    "assets/evidence/design/v3-proposal.png": {
+      "sha256": "2eb024de25b2526bf21622b047b1a3dfeaf52502589990ce7e21ef2d2f75a8ab",
+      "bytes": 185166
+    },
+    "assets/evidence/reviews/v3-current-procurement-evidence/a80znaro.webp": {
+      "sha256": "3ec3e6e03f5b8695c02bfa69a24cc45d1bcab4d634df0dbcf20a7f489b4d07b6",
+      "bytes": 297526
+    },
+    "assets/evidence/reviews/v3-current-procurement-evidence/p8f6gmau.webp": {
+      "sha256": "be606ee4ef6f8da354849406c31de2b12743b102750c3ba7bddd3e6d6e0b0ac2",
+      "bytes": 370836
+    },
+    "assets/evidence/reviews/v3-current-procurement-evidence/s3if18a7.webp": {
+      "sha256": "efde61c7271f30e46b8c22610a77b1b87c54de3bc0aae6aef8411e7e36d6ae7a",
+      "bytes": 374324
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/base_box.stl": {
+      "sha256": "fe7077405881a23d992a6daca2fcc6948c983f365b3e6c1f7807523968b5a994",
+      "bytes": 2043568
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/base_print_extra.stl": {
+      "sha256": "1aaac6d76319aade4665468e44aa7470fd36972f651e9f6081a878029f11f8ab",
+      "bytes": 574224
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/hinge_guard_left.stl": {
+      "sha256": "61fd8c4cf2d3a22d124ef65ce5c461ee556574d77ccb8a0259ded2fea5c036dc",
+      "bytes": 171644
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/hinge_guard_right.stl": {
+      "sha256": "00316b9af962541751002ed462bb4c3c19956e04bc1b394a3b67fec693662409",
+      "bytes": 171403
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/item_post_clearance.stl": {
+      "sha256": "eb5cac4c74c26ebeca196246494cc7db237461af1f7e014cecc453cfbed06f65",
+      "bytes": 619
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/keeper_direct_lift.stl": {
+      "sha256": "33ecdc9ea91572a1099000e132ac8fdc715400854c67619f69364a41380e990b",
+      "bytes": 11679
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/keeper_half_steps.stl": {
+      "sha256": "e5911249329dab2727ed62803a0dcf9341478843a4305288244dc60302872026",
+      "bytes": 472873
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/keeper_insert_coupon.stl": {
+      "sha256": "52b5342a9d1da01dd4c3b22d30b9d458f0d2b391fb08347485e05246963837c2",
+      "bytes": 85923
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/keeper_lift_half_steps.stl": {
+      "sha256": "4498a7833fcbeaa64c5a5743d5a86da84ec361770c3278919c3bbdcdf501da64",
+      "bytes": 754
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/left_cheek_slice.stl": {
+      "sha256": "cc557b239d01b9d51fc631db599d84aee5e3793932ec0d022f8743cd58503e16",
+      "bytes": 1695
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/lid.stl": {
+      "sha256": "359c1ddc02aa920a3b61bd756988dd90e53af6ce8d85dd0b5132fa091b7dcd96",
+      "bytes": 1079866
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/lid_print_extra.stl": {
+      "sha256": "1971728f8f38dc4a3ad71bc772f879dbb436df1566c9ce1b2edc17e9b0484a87",
+      "bytes": 420073
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/right_cheek_slice.stl": {
+      "sha256": "5178a3d4d4318a69cac1a748e65efe3af27fa93769bad552756b7f159fc590b3",
+      "bytes": 1623
+    },
+    "assets/evidence/reviews/v3-hinge-hall-evidence/window_insert_coupon.stl": {
+      "sha256": "ccc05d48c83477201ad2b9a5c6c138ea3ae9dc5daf36aeb483ef8f288bd5bbee",
+      "bytes": 91353
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/chihai-motor-dimensions.webp": {
+      "sha256": "7e43f5a25c6bc5afb47bf970632c5f199601235887d439b7e7c5475a1bb25762",
+      "bytes": 30382
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/drv8833-details.jpg": {
+      "sha256": "d726fc843b7d9c86b020fdf1c764698f8cdb1d55bbb3ef9c45219b1ac5e41c7e",
+      "bytes": 103384
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/drv8833-main.jpg": {
+      "sha256": "069d05e263a1a450d4263636c658a6137ce7314e936a20ce5ce45bbc6e0e7261",
+      "bytes": 77600
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/esp-dimensions.png": {
+      "sha256": "ef9cd1f57c73ab1450bb383e24f2b0f5ffbaf14731c120673b131a8a43056f60",
+      "bytes": 115852
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/esp-schematic.png": {
+      "sha256": "a01f9807ecd48a1d8d33472d00ffc969b7bf7b1197ec2eccf3fb6e5a917ff8b6",
+      "bytes": 177448
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/hall-module-2.jpg": {
+      "sha256": "ea8f6e52df456483bc860662eaa04f352e8f098e0ca06c0fab6ca64e7319a195",
+      "bytes": 183050
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/hall-module-main.jpg": {
+      "sha256": "ca13a99bc8080c12235f90ca6b007ec29bd354aceb0d21a3c123c971f92a8bb0",
+      "bytes": 107186
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/motor-m3.webp": {
+      "sha256": "a4eb7fb09df2cc4e0876a31ad23c72a663e6face79a73ae70c37ded7ff7e9b5b",
+      "bytes": 39790
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/motor-m4.webp": {
+      "sha256": "5abc3f30a17e936a9ded1a03b034cc2336ffedebf1ae355a045304aed246fda3",
+      "bytes": 44108
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/motor-main.webp": {
+      "sha256": "718461da73b77c8638d86f69060ca05203db97f75f31cf4386467ea01c137e72",
+      "bytes": 59610
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/oled-details.png": {
+      "sha256": "bc8b0bed6a03e1f72816a29cdcd45914523b43606b9631ebfae5faa74edb0b54",
+      "bytes": 38611
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/power-1.jpg": {
+      "sha256": "e89b10215db310687b06f7e43495e013d5188e620fe3072e657a9041767a6421",
+      "bytes": 109710
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/power-2.jpg": {
+      "sha256": "faaa880f752ab2f136d4026c9ddc1a32a7869ba88b3bb7d814139af5052648cc",
+      "bytes": 125766
+    },
+    "assets/evidence/reviews/v3-procurement-evidence/scoutmakes-hall-schematic.png": {
+      "sha256": "c62d60a0ff689ee3d62ac395816570c3c8835c3301c19575bbc48bb8ceaf933a",
+      "bytes": 40213
+    },
+    "assets/evidence/reviews/v3-purchased-specs-evidence/bw1v2lpe.webp": {
+      "sha256": "ffcfc646694cee00f6b7ac8513991ce67926868794d003bba566f516cc05c774",
+      "bytes": 55346
+    },
+    "assets/evidence/reviews/v3-purchased-specs-evidence/xv97n9y4.webp": {
+      "sha256": "851bcac3d68aad2879c2578d89e53f34245b73df31b5f6ddb7ee063d9e886837",
+      "bytes": 175868
+    },
+    "assets/evidence/reviews/v3-window-grille-evidence/blind_roof.stl": {
+      "sha256": "71880f36e6a441b87ed0eb94609323e9375143d785d88dae73ea202ca40c7da4",
+      "bytes": 9597
+    },
+    "assets/evidence/reviews/v3-window-grille-evidence/four_stop_contact.stl": {
+      "sha256": "8ab2abcc1c028bc0aae112ee180fe1423bb31ad2feee733d96826e6e6782e096",
+      "bytes": 212551
+    },
+    "assets/evidence/validation/simulator-rendering/closed-dark.png": {
+      "sha256": "35fa95e6cfffeacb02ea971a255d3f04cbcc2afe13101dfb3687a2cfb82967aa",
+      "bytes": 128630
+    },
+    "assets/evidence/validation/simulator-rendering/closed-light.png": {
+      "sha256": "c4be421c859ebbd8d29b939b71acd65d272c620d402c5e0652e06fba6c71efef",
+      "bytes": 148310
+    },
+    "assets/evidence/validation/simulator-rendering/mechanism-dark.png": {
+      "sha256": "b854b40a1a7cd69a248e81a628675c4d202e263c595c3342aa57385c539eb143",
+      "bytes": 161224
+    },
+    "assets/evidence/validation/simulator-rendering/open-dark.png": {
+      "sha256": "433a72858c41c88454ca373b396fbd31c5c12d2099f88e3c1f501fbe59bfa066",
+      "bytes": 142870
+    },
+    "assets/evidence/validation/simulator-rendering/open-light.png": {
+      "sha256": "7863cf2b21bc842e87123703d3bf4bfef059d0c1b6f1ebf1ccef59d13f4c86c7",
+      "bytes": 156109
+    },
+    "assets/evidence/validation/tauri-webkit-smoke.png": {
+      "sha256": "2cb03c594b839193f1562c4b71c024cadb04e9201e0d0988741a3231ba0073df",
+      "bytes": 98397
+    },
+    "assets/evidence/validation/visual-system/app-desktop-dark.png": {
+      "sha256": "2ad7d423d82c7a91192dd432efb9a009289e959d538aa30ac7a805af75015519",
+      "bytes": 102495
+    },
+    "assets/evidence/validation/visual-system/app-desktop-light.png": {
+      "sha256": "ea2c213dd4f7f8e144606ff1e1138a2eb3c5c3c634313e281596e25780bf8920",
+      "bytes": 102131
+    },
+    "assets/evidence/validation/visual-system/app-phone-dark.png": {
+      "sha256": "9846eeb2a0f64fe821735878028d03dd8744a638ef981659d704dcd056bfbd9c",
+      "bytes": 56740
+    },
+    "assets/evidence/validation/visual-system/app-phone-light.png": {
+      "sha256": "1b53c597d356750888ea30e0b98dd583d10c36693762cab433976d90c0c62b00",
+      "bytes": 56175
+    },
+    "assets/evidence/validation/visual-system/simulator-desktop-dark.png": {
+      "sha256": "fc1e638b0374279bf0824519dd9ec02eca0bbe2e10cfcf6cf5362a438e5009ab",
+      "bytes": 72470
+    },
+    "assets/evidence/validation/visual-system/simulator-desktop-light.png": {
+      "sha256": "1e6c40609a5db0f2bf4c5fcf470c8fa6ebe6e5397ff6afd33fb353de153e755e",
+      "bytes": 71976
+    },
+    "assets/evidence/validation/visual-system/simulator-narrow-dark.png": {
+      "sha256": "fcdd704077bd3e9d20f43699b177685756709d0efbd113c4ba037f4bec466be6",
+      "bytes": 29571
+    },
+    "assets/evidence/validation/visual-system/simulator-narrow-light.png": {
+      "sha256": "63982377d852399bf64e1fb3ee4611cd5de3acd3ad22369031f2d1f773540f7f",
+      "bytes": 28593
+    },
+    "assets/fonts/LICENSE-Noto-CJK.txt": {
+      "sha256": "5bb218343ded506b258d86186d460fc47d9b6b28f0e642cf32676c396b7df763",
+      "bytes": 14716
+    },
+    "assets/fonts/TLBlueprint.otf": {
+      "sha256": "7da8b7c0c907274d3dae9450dc864b4d2d36eaa54df7c065ff1e42a9ab941273",
+      "bytes": 502600
+    },
+    "assets/fonts/manifest.json": {
+      "sha256": "c1e50d4ba74dd60dee8f100880a2434b4f287171b572ad8098faf0bf82b683d0",
+      "bytes": 3554
+    },
+    "assets/icons/controller/android/app/src/main/res/mipmap-hdpi/ic_launcher.png": {
+      "sha256": "6a7c8f0d703e3682108f9662f813302236240d3f8f638bb391e32bfb96055fef",
+      "bytes": 544
+    },
+    "assets/icons/controller/android/app/src/main/res/mipmap-mdpi/ic_launcher.png": {
+      "sha256": "c7c0c0189145e4e32a401c61c9bdc615754b0264e7afae24e834bb81049eaf81",
+      "bytes": 442
+    },
+    "assets/icons/controller/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png": {
+      "sha256": "e14aa40904929bf313fded22cf7e7ffcbf1d1aac4263b5ef1be8bfce650397aa",
+      "bytes": 721
+    },
+    "assets/icons/controller/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png": {
+      "sha256": "4d470bf22d5c17d84edc5f82516d1ba8a1c09559cd761cefb792f86d9f52b540",
+      "bytes": 1031
+    },
+    "assets/icons/controller/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png": {
+      "sha256": "3c34e1f298d0c9ea3455d46db6b7759c8211a49e9ec6e44b635fc5c87dfb4180",
+      "bytes": 1443
+    },
+    "assets/icons/controller/windows/runner/resources/app_icon.ico": {
+      "sha256": "c098d3fc85cacff98b8e69811b48e9f0d852fcee278132d794411d978869cbf8",
+      "bytes": 33772
+    },
+    "assets/icons/simulator/src-tauri/icons/128x128.png": {
+      "sha256": "fa0868ed56f9220701971d969871a3ae31c3fecd06e19786ebdb25dbf3b08e90",
+      "bytes": 2296
+    },
+    "assets/icons/simulator/src-tauri/icons/128x128@2x.png": {
+      "sha256": "2d6d9a381e6b63657b99c110dc5ce774bf58dfc9d2a1473d9f02b906e04be668",
+      "bytes": 4569
+    },
+    "assets/icons/simulator/src-tauri/icons/32x32.png": {
+      "sha256": "80f55287224de54fc35bccf2a4b8550b76ac946c815d664017dfe2b2f50bfa61",
+      "bytes": 664
+    },
+    "assets/icons/simulator/src-tauri/icons/icon.png": {
+      "sha256": "6a5e0219063e970969f9b00455d4b71819279a8a632985b8fdb1c440d10df478",
+      "bytes": 9166
+    },
+    "assets/icons/simulator/src-tauri/icons/icon.svg": {
+      "sha256": "2bc7d2df659c186bde35f3949883fa83c8f4eaf87b4a316a0e2c140e2e775a8a",
+      "bytes": 402
+    }
+  },
+  "copies": [
+    {
+      "source": "assets/icons/controller/android/app/src/main/res/mipmap-hdpi/ic_launcher.png",
+      "target": "apps/controller/android/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+      "source": "assets/icons/controller/android/app/src/main/res/mipmap-mdpi/ic_launcher.png",
+      "target": "apps/controller/android/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+      "source": "assets/icons/controller/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png",
+      "target": "apps/controller/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+      "source": "assets/icons/controller/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png",
+      "target": "apps/controller/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+      "source": "assets/icons/controller/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png",
+      "target": "apps/controller/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+      "source": "assets/icons/controller/windows/runner/resources/app_icon.ico",
+      "target": "apps/controller/windows/runner/resources/app_icon.ico"
+    },
+    {
+      "source": "assets/icons/simulator/src-tauri/icons/128x128.png",
+      "target": "apps/simulator/src-tauri/icons/128x128.png"
+    },
+    {
+      "source": "assets/icons/simulator/src-tauri/icons/128x128@2x.png",
+      "target": "apps/simulator/src-tauri/icons/128x128@2x.png"
+    },
+    {
+      "source": "assets/icons/simulator/src-tauri/icons/32x32.png",
+      "target": "apps/simulator/src-tauri/icons/32x32.png"
+    },
+    {
+      "source": "assets/icons/simulator/src-tauri/icons/icon.png",
+      "target": "apps/simulator/src-tauri/icons/icon.png"
+    },
+    {
+      "source": "assets/icons/simulator/src-tauri/icons/icon.svg",
+      "target": "apps/simulator/src-tauri/icons/icon.svg"
+    },
+    {
+      "source": "assets/fonts/LICENSE-Noto-CJK.txt",
+      "target": "apps/workbench/public/fonts/LICENSE-Noto-CJK.txt"
+    },
+    {
+      "source": "assets/fonts/TLBlueprint.otf",
+      "target": "apps/workbench/public/fonts/TLBlueprint.otf"
+    },
+    {
+      "source": "assets/fonts/manifest.json",
+      "target": "apps/workbench/public/fonts/manifest.json"
+    }
+  ]
+}

@@ -1,0 +1,1529 @@
+{
+  "version": "V3-purchased-specs-1",
+  "units": "mm",
+  "cadPackageCurrent": true,
+  "closedSize": [
+    240,
+    120,
+    55
+  ],
+  "storageSize": [
+    185,
+    95,
+    40
+  ],
+  "stroke": 14,
+  "hinge": [
+    0,
+    -55,
+    51
+  ],
+  "checks": 989,
+  "sourceSHA256": {
+    "hardware/v3/cad/assembly.scad": "7304479e6c7b2968cffb7e488b4728c8579ca7367c6f53c62e0564ce39c90cfa",
+    "hardware/v3/cad/electronics.scad": "bd5f854dae82ed529ef43f7db90b9375edd244757ad47894063d1646d34ddd69",
+    "hardware/v3/cad/enclosure.scad": "b33ae7a2c86bc1ba4624b840d4ac0ae009bbf5121e078a75332994160957a6f5",
+    "hardware/v3/cad/hardware.scad": "309ff2c454ff2c1e580efa5f1e8318b34e661713f360097f82a5381c7a78f3d5",
+    "hardware/v3/cad/lock.scad": "4ee4f602398403861993080a554d600159692bc7b3ac6e66cbe3263ccd159d6c",
+    "hardware/v3/cad/params.scad": "31d5cc442951d01a18b74cf85745314bf01783d5bc5853a50d2fc954f5695ae6",
+    "hardware/v3/cad/references.scad": "92b071fb2df720dbd5a07d35087a748d51a6a49f83e73377ddda1c649a3bce7d"
+  },
+  "groups": [
+    {
+      "id": "shell",
+      "label": "外壳与铰链"
+    },
+    {
+      "id": "lid",
+      "label": "顶盖与锁扣"
+    },
+    {
+      "id": "lock",
+      "label": "锁驱动机构"
+    },
+    {
+      "id": "electronics",
+      "label": "电子与显示"
+    },
+    {
+      "id": "battery",
+      "label": "电池维护"
+    },
+    {
+      "id": "fasteners",
+      "label": "紧固件"
+    }
+  ],
+  "printParts": [
+    "base_box",
+    "lid",
+    "lock_base",
+    "guide_cap",
+    "motor_clamp",
+    "bolt",
+    "nut_carriage",
+    "nut_cap",
+    "latch",
+    "latch_retainer",
+    "window_grille",
+    "battery_hatch",
+    "electronics_tray",
+    "upper_deck",
+    "esp_clip",
+    "upper_clip",
+    "oled_bridge",
+    "hinge_guard_left",
+    "hinge_guard_right",
+    "fit_bar",
+    "fit_gauge",
+    "insert_coupon",
+    "keeper_insert_coupon",
+    "window_insert_coupon",
+    "hinge_bore_coupon"
+  ],
+  "parts": [
+    {
+      "id": "base_box",
+      "label": "底壳与隔离仓",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/base_box.stl",
+      "printFile": "print/base_box.stl",
+      "bounds": [
+        [
+          -120,
+          120
+        ],
+        [
+          -60,
+          60
+        ],
+        [
+          0,
+          55
+        ]
+      ],
+      "size": [
+        240,
+        120,
+        55
+      ],
+      "volume": 219038.831,
+      "triangles": 8668,
+      "sha256": "5bd6fa5fb5e9f488bacc01dec3f0ec37996211db5298682cd8fec5454034be03",
+      "source": "generated/v3/pose_base_box.stl"
+    },
+    {
+      "id": "lid",
+      "label": "一体外栅栏顶盖",
+      "group": "lid",
+      "role": "lid",
+      "color": "#d2d7db",
+      "explode": [
+        0,
+        0,
+        125
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/lid.stl",
+      "printFile": "print/lid.stl",
+      "bounds": [
+        [
+          -120,
+          120
+        ],
+        [
+          -59,
+          60
+        ],
+        [
+          46.7,
+          55
+        ]
+      ],
+      "size": [
+        240,
+        119,
+        8.3
+      ],
+      "volume": 62782.92,
+      "triangles": 4366,
+      "sha256": "2638fa369cca564dadc0693352699e7a9ad1d8c64da21f84fb324b14e3756dfc",
+      "source": "generated/v3/pose_lid.stl"
+    },
+    {
+      "id": "lock_base",
+      "label": "锁模块底座",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        40,
+        0,
+        25
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/lock_base.stl",
+      "printFile": "print/lock_base.stl",
+      "bounds": [
+        [
+          73.8,
+          116.3
+        ],
+        [
+          -46,
+          22
+        ],
+        [
+          29.4,
+          45.8
+        ]
+      ],
+      "size": [
+        42.5,
+        68,
+        16.4
+      ],
+      "volume": 11268.697,
+      "triangles": 2972,
+      "sha256": "8da9fe8d1b865447fd8febaffd856fef4ea1def73ce2ae18cbaeb0972dab5994",
+      "source": "generated/v3/pose_lock_base.stl"
+    },
+    {
+      "id": "guide_cap",
+      "label": "锁栓导向盖",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        40,
+        0,
+        80
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/guide_cap.stl",
+      "printFile": "print/guide_cap.stl",
+      "bounds": [
+        [
+          92,
+          115
+        ],
+        [
+          -20.5,
+          5.5
+        ],
+        [
+          42.9,
+          44.9
+        ]
+      ],
+      "size": [
+        23,
+        26,
+        2
+      ],
+      "volume": 1169.645,
+      "triangles": 536,
+      "sha256": "d327e15c98c3c9e25a39e73f854c7828bf374c3b25dd6a101ef5d56b559c8e39",
+      "source": "generated/v3/pose_guide_cap.stl"
+    },
+    {
+      "id": "motor_clamp",
+      "label": "电机压板",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        20,
+        0,
+        75
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/motor_clamp.stl",
+      "printFile": "print/motor_clamp.stl",
+      "bounds": [
+        [
+          73.8,
+          95.19999999999999
+        ],
+        [
+          -35,
+          -19
+        ],
+        [
+          45.8,
+          47.8
+        ]
+      ],
+      "size": [
+        21.4,
+        16,
+        2
+      ],
+      "volume": 651.796,
+      "triangles": 414,
+      "sha256": "cd9d223f10aed9609789b6529860c4b87c426c32b6f1bac5acf7a23a4a0a2fcf",
+      "source": "generated/v3/pose_motor_clamp.stl"
+    },
+    {
+      "id": "bolt",
+      "label": "实心锁栓",
+      "group": "lock",
+      "role": "drive",
+      "color": "#d17b49",
+      "explode": [
+        40,
+        0,
+        48
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/bolt.stl",
+      "printFile": "print/bolt.stl",
+      "bounds": [
+        [
+          92,
+          107.60000000000001
+        ],
+        [
+          -18.5,
+          5
+        ],
+        [
+          33.4,
+          42.599999999999994
+        ]
+      ],
+      "size": [
+        15.6,
+        23.5,
+        9.2
+      ],
+      "volume": 1522.891,
+      "triangles": 92,
+      "sha256": "f637a542e2a2e82e0500e5896d09bec41826d5fcbc1490d9f64b83a7b8b406a5",
+      "source": "generated/v3/pose_bolt.stl"
+    },
+    {
+      "id": "nut_carriage",
+      "label": "浮动螺母滑块",
+      "group": "lock",
+      "role": "drive",
+      "color": "#428d9b",
+      "explode": [
+        10,
+        0,
+        48
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/nut_carriage.stl",
+      "printFile": "print/nut_carriage.stl",
+      "bounds": [
+        [
+          77.5,
+          97.7
+        ],
+        [
+          -13,
+          -3
+        ],
+        [
+          33.4,
+          44
+        ]
+      ],
+      "size": [
+        20.2,
+        10,
+        10.6
+      ],
+      "volume": 855.38,
+      "triangles": 926,
+      "sha256": "05a2473a41c52544e0423492f7a68a0842e1354974eb7d26b9b05d524adc4154",
+      "source": "generated/v3/pose_nut_carriage.stl"
+    },
+    {
+      "id": "nut_cap",
+      "label": "螺母盖板",
+      "group": "lock",
+      "role": "drive",
+      "color": "#8c9dab",
+      "explode": [
+        10,
+        0,
+        75
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/nut_cap.stl",
+      "printFile": "print/nut_cap.stl",
+      "bounds": [
+        [
+          78,
+          90.5
+        ],
+        [
+          -13,
+          -3
+        ],
+        [
+          44,
+          46
+        ]
+      ],
+      "size": [
+        12.5,
+        10,
+        2
+      ],
+      "volume": 231.956,
+      "triangles": 404,
+      "sha256": "77a0aa0a71d56cd405be9ac87e49919326cfdb89066b152aca33bcbc2f03ad15",
+      "source": "generated/v3/pose_nut_cap.stl"
+    },
+    {
+      "id": "latch",
+      "label": "可替换锁扣",
+      "group": "lid",
+      "role": "lid",
+      "color": "#e7e5df",
+      "explode": [
+        0,
+        0,
+        75
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/latch.stl",
+      "printFile": "print/latch.stl",
+      "bounds": [
+        [
+          95,
+          111
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          32.6,
+          50
+        ]
+      ],
+      "size": [
+        16,
+        5,
+        17.4
+      ],
+      "volume": 753.3,
+      "triangles": 80,
+      "sha256": "b6a259952137819a35f7515132b88fe4de0209018b846992fe3eadcfcf41b2cd",
+      "source": "generated/v3/pose_latch.stl"
+    },
+    {
+      "id": "latch_retainer",
+      "label": "锁扣内侧压板",
+      "group": "lid",
+      "role": "lid",
+      "color": "#e7e5df",
+      "explode": [
+        0,
+        0,
+        88
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/latch_retainer.stl",
+      "printFile": "print/latch_retainer.stl",
+      "bounds": [
+        [
+          92,
+          114
+        ],
+        [
+          3,
+          14
+        ],
+        [
+          45.2,
+          46.7
+        ]
+      ],
+      "size": [
+        22,
+        11,
+        1.5
+      ],
+      "volume": 239.036,
+      "triangles": 376,
+      "sha256": "62c6896e87834570037d3ff28c80041fc401357705cafa23d3869d155fa19257",
+      "source": "generated/v3/pose_latch_retainer.stl"
+    },
+    {
+      "id": "window_grille",
+      "label": "可拆内侧防护栅栏",
+      "group": "lid",
+      "role": "lid",
+      "color": "#d2d7db",
+      "explode": [
+        0,
+        0,
+        60
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/window_grille.stl",
+      "printFile": "print/window_grille.stl",
+      "bounds": [
+        [
+          -103,
+          48
+        ],
+        [
+          -46.5,
+          48.5
+        ],
+        [
+          47.4,
+          50.5
+        ]
+      ],
+      "size": [
+        151,
+        95,
+        3.1
+      ],
+      "volume": 11281.277,
+      "triangles": 2346,
+      "sha256": "1c98c0f83b8ffbf23e60767806b92e2f07a5eed6b56a84bda3485781dcc4f444",
+      "source": "generated/v3/pose_window_grille.stl"
+    },
+    {
+      "id": "battery_hatch",
+      "label": "电池维护盖",
+      "group": "battery",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        30,
+        0,
+        -65
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/battery_hatch.stl",
+      "printFile": "print/battery_hatch.stl",
+      "bounds": [
+        [
+          88,
+          119
+        ],
+        [
+          -56,
+          26
+        ],
+        [
+          0,
+          4.3
+        ]
+      ],
+      "size": [
+        31,
+        82,
+        4.3
+      ],
+      "volume": 6649.495,
+      "triangles": 1276,
+      "sha256": "cb605a98b556954f5a9e056df7c7c2d8e73770ff350b16b947f13e9f574e407a",
+      "source": "generated/v3/pose_battery_hatch.stl"
+    },
+    {
+      "id": "electronics_tray",
+      "label": "电子底托",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        0,
+        20
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/electronics_tray.stl",
+      "printFile": "print/electronics_tray.stl",
+      "bounds": [
+        [
+          74.5,
+          116.5
+        ],
+        [
+          25.5,
+          52.5
+        ],
+        [
+          5.4,
+          18
+        ]
+      ],
+      "size": [
+        42,
+        27,
+        12.6
+      ],
+      "volume": 2401.346,
+      "triangles": 1806,
+      "sha256": "98cea523e5a34ce8c4c828365cb41420fd3cc1a5ff38d6cdffac776cbd4b549c",
+      "source": "generated/v3/pose_electronics_tray.stl"
+    },
+    {
+      "id": "upper_deck",
+      "label": "电子上层托板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        20,
+        50
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/upper_deck.stl",
+      "printFile": "print/upper_deck.stl",
+      "bounds": [
+        [
+          95.7,
+          117
+        ],
+        [
+          25.3,
+          52.5
+        ],
+        [
+          18,
+          27.6
+        ]
+      ],
+      "size": [
+        21.3,
+        27.2,
+        9.6
+      ],
+      "volume": 1320.587,
+      "triangles": 1024,
+      "sha256": "c4295b8e37696d1578bd16c902e4f217c8470d6a3e1b13fb53fc58724058d0cd",
+      "source": "generated/v3/pose_upper_deck.stl"
+    },
+    {
+      "id": "esp_clip",
+      "label": "主控压条",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        -10,
+        25,
+        55
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/esp_clip.stl",
+      "printFile": "print/esp_clip.stl",
+      "bounds": [
+        [
+          74.5,
+          98.5
+        ],
+        [
+          37,
+          41
+        ],
+        [
+          14.8,
+          16.8
+        ]
+      ],
+      "size": [
+        24,
+        4,
+        2
+      ],
+      "volume": 173.956,
+      "triangles": 404,
+      "sha256": "4a52d62c1b9e83e9b5f890103f1c2017f92fbb6ec635966a803af318a68e883a",
+      "source": "generated/v3/pose_esp_clip.stl"
+    },
+    {
+      "id": "upper_clip",
+      "label": "驱动板压条",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        20,
+        85
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/upper_clip.stl",
+      "printFile": "print/upper_clip.stl",
+      "bounds": [
+        [
+          95.5,
+          117
+        ],
+        [
+          36,
+          40
+        ],
+        [
+          27.6,
+          29.6
+        ]
+      ],
+      "size": [
+        21.5,
+        4,
+        2
+      ],
+      "volume": 156.838,
+      "triangles": 404,
+      "sha256": "16b72f14d26e06ccc390bd8128355dfbcb5d0995d78849c40d7b24cfe8b4fc76",
+      "source": "generated/v3/pose_upper_clip.stl"
+    },
+    {
+      "id": "oled_bridge",
+      "label": "OLED固定压条",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#e7e5df",
+      "explode": [
+        45,
+        35,
+        55
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/oled_bridge.stl",
+      "printFile": "print/oled_bridge.stl",
+      "bounds": [
+        [
+          84.3,
+          118.3
+        ],
+        [
+          52.5,
+          58.6
+        ],
+        [
+          49.2,
+          51
+        ]
+      ],
+      "size": [
+        34,
+        6.1,
+        1.8
+      ],
+      "volume": 347.524,
+      "triangles": 596,
+      "sha256": "abc9b92b3394e9d365ddece137bb52ee334b134c6f7695de018cbe98dcc9d445",
+      "source": "generated/v3/pose_oled_bridge.stl"
+    },
+    {
+      "id": "hinge_guard_left",
+      "label": "左销轴限位端盖",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        30,
+        0,
+        35
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/hinge_guard_left.stl",
+      "printFile": "print/hinge_guard_left.stl",
+      "bounds": [
+        [
+          -112,
+          -104
+        ],
+        [
+          -58,
+          -47.5
+        ],
+        [
+          48.3,
+          55
+        ]
+      ],
+      "size": [
+        8,
+        10.5,
+        6.7
+      ],
+      "volume": 245.848,
+      "triangles": 712,
+      "sha256": "8daa45dff043be9f8ea40af253d9751184e0e5a1ce5fad41c362fc6539934c59",
+      "source": "generated/v3/pose_hinge_guard_left.stl"
+    },
+    {
+      "id": "hinge_guard_right",
+      "label": "右销轴限位端盖",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        30,
+        0,
+        35
+      ],
+      "kind": "printed",
+      "quantity": 1,
+      "file": "assembly/hinge_guard_right.stl",
+      "printFile": "print/hinge_guard_right.stl",
+      "bounds": [
+        [
+          73.5,
+          81.5
+        ],
+        [
+          -58,
+          -47.5
+        ],
+        [
+          48.3,
+          55
+        ]
+      ],
+      "size": [
+        8,
+        10.5,
+        6.7
+      ],
+      "volume": 247.374,
+      "triangles": 720,
+      "sha256": "75062143f7a2fa8af673e0be280215f7f591a53b511720ecf803d0003213ab39",
+      "source": "generated/v3/pose_hinge_guard_right.stl"
+    },
+    {
+      "id": "motor",
+      "label": "N20丝杠电机",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#bd9a58",
+      "explode": [
+        -20,
+        0,
+        45
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/motor.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -42,
+          40
+        ],
+        [
+          35.5,
+          45.5
+        ]
+      ],
+      "size": [
+        12,
+        82,
+        10
+      ],
+      "volume": 3693.178,
+      "triangles": 236,
+      "sha256": "add871c2dab571a47f1658e9cd54749146e8cb9a967ba19ebb6101e97194af33",
+      "source": "generated/v3/hardware_motor.stl"
+    },
+    {
+      "id": "drive_nut",
+      "label": "M4法兰驱动螺母（尺寸候选）",
+      "group": "lock",
+      "role": "drive",
+      "color": "#8c9dab",
+      "explode": [
+        10,
+        0,
+        50
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/drive_nut.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          79.5,
+          89.5
+        ],
+        [
+          -9.4,
+          -4.4
+        ],
+        [
+          33,
+          43
+        ]
+      ],
+      "size": [
+        10,
+        5,
+        10
+      ],
+      "volume": 178.982,
+      "triangles": 408,
+      "sha256": "39e8813b02741a5017a6625bbea28821abf76f78031526ac293f6ed9f54556eb",
+      "source": "generated/v3/hardware_drive_nut.stl"
+    },
+    {
+      "id": "battery_holder",
+      "label": "18650电池与电池座",
+      "group": "battery",
+      "role": "fixed",
+      "color": "#46695e",
+      "explode": [
+        30,
+        0,
+        -35
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/battery_holder.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          93.2,
+          115.2
+        ],
+        [
+          -52,
+          22
+        ],
+        [
+          4.5,
+          25.5
+        ]
+      ],
+      "size": [
+        22,
+        74,
+        21
+      ],
+      "volume": 34188,
+      "triangles": 12,
+      "sha256": "34a585e854171675f8e5922feffb3e9553410e5c9a66066c1948f20a48a1358f",
+      "source": "generated/v3/hardware_battery_holder.stl"
+    },
+    {
+      "id": "esp",
+      "label": "ESP32-C3主控板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#2f7867",
+      "explode": [
+        -10,
+        25,
+        35
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/esp.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          77.5,
+          95.3
+        ],
+        [
+          28,
+          52
+        ],
+        [
+          8.3,
+          14.5
+        ]
+      ],
+      "size": [
+        17.8,
+        24,
+        6.2
+      ],
+      "volume": 2174.35,
+      "triangles": 48,
+      "sha256": "c3c4d5d818abf1bf5a13fe272fd5e42acd148b96f8312e12941b847819dc522d",
+      "source": "generated/v3/hardware_esp.stl"
+    },
+    {
+      "id": "power_board",
+      "label": "稳压与保护板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#2f7867",
+      "explode": [
+        35,
+        25,
+        30
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/power_board.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          99,
+          114
+        ],
+        [
+          29,
+          49
+        ],
+        [
+          8.3,
+          15.5
+        ]
+      ],
+      "size": [
+        15,
+        20,
+        7.2
+      ],
+      "volume": 2160,
+      "triangles": 12,
+      "sha256": "46be5d9892adb4e0f17b172e37f8edc3cf181c783e014083ff39a211052a0373",
+      "source": "generated/v3/hardware_power_board.stl"
+    },
+    {
+      "id": "bridge_board",
+      "label": "电机驱动板",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#2f7867",
+      "explode": [
+        45,
+        20,
+        65
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/bridge_board.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          98.5,
+          113.5
+        ],
+        [
+          29,
+          49
+        ],
+        [
+          20.3,
+          27.3
+        ]
+      ],
+      "size": [
+        15,
+        20,
+        7
+      ],
+      "volume": 2100,
+      "triangles": 12,
+      "sha256": "a789fb2baaa1dfb9eb8be43b729aa3814ff228d6cd969c38aeac2cb0948f7877",
+      "source": "generated/v3/hardware_bridge_board.stl"
+    },
+    {
+      "id": "oled",
+      "label": "OLED显示组件",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#263239",
+      "explode": [
+        45,
+        35,
+        25
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/oled.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          87.6,
+          115.39999999999999
+        ],
+        [
+          50.5,
+          56.5
+        ],
+        [
+          21.5,
+          48.8
+        ]
+      ],
+      "size": [
+        27.8,
+        6,
+        27.3
+      ],
+      "volume": 2019.738,
+      "triangles": 44,
+      "sha256": "9417b4ff67b98472888e4ac39506769f29ead6025190659b8cb59bfacfc84ed3",
+      "source": "generated/v3/hardware_oled.stl"
+    },
+    {
+      "id": "button",
+      "label": "R16-503侧壁按钮",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        -15,
+        35,
+        20
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/button.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          89.7,
+          119.7
+        ],
+        [
+          21.1,
+          38.9
+        ],
+        [
+          31.6,
+          49.4
+        ]
+      ],
+      "size": [
+        30,
+        17.8,
+        17.8
+      ],
+      "volume": 4683.151,
+      "triangles": 988,
+      "sha256": "ebe59feaec66911ad5e2cb90106e34daa101aa8fa924b3bc3368eaa7c09e5258",
+      "source": "generated/v3/hardware_button.stl"
+    },
+    {
+      "id": "acrylic",
+      "label": "亚克力窗片",
+      "group": "lid",
+      "role": "lid",
+      "color": "#bfdde4",
+      "explode": [
+        0,
+        0,
+        95
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/acrylic.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          -102,
+          47
+        ],
+        [
+          -40,
+          42
+        ],
+        [
+          50.5,
+          52
+        ]
+      ],
+      "size": [
+        149,
+        82,
+        1.5
+      ],
+      "volume": 18327,
+      "triangles": 12,
+      "sha256": "654fb529b81755e37123830576978174f2b4bcec451a32f603a92ce3b8b3323c",
+      "source": "generated/v3/hardware_acrylic.stl"
+    },
+    {
+      "id": "hinge_pin",
+      "label": "钢制铰链销轴",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#d2d7db",
+      "explode": [
+        30,
+        0,
+        35
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/hinge_pin.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          -107,
+          73
+        ],
+        [
+          -56,
+          -54
+        ],
+        [
+          50,
+          52
+        ]
+      ],
+      "size": [
+        180,
+        2,
+        2
+      ],
+      "volume": 563.873,
+      "triangles": 188,
+      "sha256": "530e6f46144698976358216cb00cb71e805c592b38a49c6566a47d26ae3bebeb",
+      "source": "generated/v3/hardware_hinge_pin.stl"
+    },
+    {
+      "id": "inserts_fixed",
+      "label": "底壳M2铜螺母（6枚）",
+      "group": "shell",
+      "role": "fixed",
+      "color": "#bd9a58",
+      "explode": [
+        30,
+        0,
+        35
+      ],
+      "kind": "hardware",
+      "quantity": 6,
+      "file": "assembly/inserts_fixed.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          -109.6,
+          118.6
+        ],
+        [
+          -55.6,
+          25.6
+        ],
+        [
+          2.9,
+          48.3
+        ]
+      ],
+      "size": [
+        228.2,
+        81.2,
+        45.4
+      ],
+      "volume": 113.479,
+      "triangles": 2304,
+      "sha256": "254d8af6ef5a46d54013ff119ec85512325e37b7a6e79690283fd58cad664cfd",
+      "source": "generated/v3/hardware_inserts_fixed.stl"
+    },
+    {
+      "id": "inserts_lid",
+      "label": "盖内M2铜螺母（4枚）",
+      "group": "lid",
+      "role": "lid",
+      "color": "#bd9a58",
+      "explode": [
+        30,
+        0,
+        100
+      ],
+      "kind": "hardware",
+      "quantity": 4,
+      "file": "assembly/inserts_lid.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          -95.6,
+          40.6
+        ],
+        [
+          -44.6,
+          46.599999999999994
+        ],
+        [
+          49.9,
+          53.9
+        ]
+      ],
+      "size": [
+        136.2,
+        91.2,
+        4
+      ],
+      "volume": 75.653,
+      "triangles": 1536,
+      "sha256": "de0f82c409e09864cc28191fcfea1b69d06e05005e2035510352c1e8681d2592",
+      "source": "generated/v3/hardware_inserts_lid.stl"
+    },
+    {
+      "id": "battery_connector",
+      "label": "可拆电池接头",
+      "group": "battery",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        20,
+        10,
+        -15
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/battery_connector.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          91.5,
+          95.8
+        ],
+        [
+          22,
+          27
+        ],
+        [
+          12.5,
+          17.5
+        ]
+      ],
+      "size": [
+        4.3,
+        5,
+        5
+      ],
+      "volume": 107.5,
+      "triangles": 12,
+      "sha256": "45263880e6716dcb426e20cba015998f00d69bcae81f318147ea46aaa9b1bce7",
+      "source": "generated/v3/hardware_battery_connector.stl"
+    },
+    {
+      "id": "motor_pads",
+      "label": "电机定位垫片",
+      "group": "lock",
+      "role": "fixed",
+      "color": "#8c9dab",
+      "explode": [
+        30,
+        0,
+        35
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/motor_pads.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          78.5,
+          90.5
+        ],
+        [
+          -40.3,
+          -14.7
+        ],
+        [
+          35.2,
+          45.8
+        ]
+      ],
+      "size": [
+        12,
+        25.6,
+        10.6
+      ],
+      "volume": 239.97,
+      "triangles": 264,
+      "sha256": "359bacf99c852b785eef5672e33b04895448dbf99169977d5d6eb834d46286d6",
+      "source": "generated/v3/hardware_motor_pads.stl"
+    },
+    {
+      "id": "board_pads",
+      "label": "PCB定位胶垫",
+      "group": "electronics",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        30,
+        0,
+        35
+      ],
+      "kind": "hardware",
+      "quantity": 1,
+      "file": "assembly/board_pads.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          77.5,
+          114
+        ],
+        [
+          28,
+          50.5
+        ],
+        [
+          7.4,
+          20.3
+        ]
+      ],
+      "size": [
+        36.5,
+        22.5,
+        12.9
+      ],
+      "volume": 780.45,
+      "triangles": 36,
+      "sha256": "247fd2253c6696b88dccef1e5d303942a3d1f751b9eb8549fb1dad969389ec33",
+      "source": "generated/v3/hardware_board_pads.stl"
+    },
+    {
+      "id": "fasteners_fixed",
+      "label": "底壳固定螺钉",
+      "group": "fasteners",
+      "role": "fixed",
+      "color": "#a5afb8",
+      "explode": [
+        30,
+        0,
+        30
+      ],
+      "kind": "fastener",
+      "quantity": 25,
+      "file": "assembly/fasteners_fixed.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          -110,
+          119
+        ],
+        [
+          -56,
+          58.3
+        ],
+        [
+          0,
+          51.1
+        ]
+      ],
+      "size": [
+        229,
+        114.3,
+        51.1
+      ],
+      "volume": 798.753,
+      "triangles": 8956,
+      "sha256": "d3158d9b3a0d1b60365aa4cfcfc26b764e14247e2912bd83e7d43e6ac636d507",
+      "source": "generated/v3/viewer-assets/fasteners_fixed.stl"
+    },
+    {
+      "id": "fasteners_drive",
+      "label": "滑块螺钉",
+      "group": "fasteners",
+      "role": "drive",
+      "color": "#a5afb8",
+      "explode": [
+        10,
+        0,
+        85
+      ],
+      "kind": "fastener",
+      "quantity": 2,
+      "file": "assembly/fasteners_drive.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          78.2,
+          90.8
+        ],
+        [
+          -13,
+          -9.399999999999999
+        ],
+        [
+          40,
+          47.4
+        ]
+      ],
+      "size": [
+        12.6,
+        3.6,
+        7.4
+      ],
+      "volume": 66.011,
+      "triangles": 760,
+      "sha256": "9be254f9f08005e76a5a0b300a9aa43b6b376e3651629800e2a14a0de4c0881e",
+      "source": "generated/v3/viewer-assets/fasteners_drive.stl"
+    },
+    {
+      "id": "fasteners_lid",
+      "label": "盖内固定螺钉",
+      "group": "fasteners",
+      "role": "lid",
+      "color": "#a5afb8",
+      "explode": [
+        0,
+        0,
+        100
+      ],
+      "kind": "fastener",
+      "quantity": 6,
+      "file": "assembly/fasteners_lid.stl",
+      "printFile": null,
+      "bounds": [
+        [
+          -96,
+          115.25
+        ],
+        [
+          -45,
+          47
+        ],
+        [
+          43.2,
+          53.4
+        ]
+      ],
+      "size": [
+        211.25,
+        92,
+        10.2
+      ],
+      "volume": 304.439,
+      "triangles": 2008,
+      "sha256": "723bc38b3081a6478acb6a93914cb61db63af0516b572a398ebd052ccab6033a",
+      "source": "generated/v3/viewer-assets/fasteners_lid.stl"
+    }
+  ]
+}
