@@ -3,10 +3,10 @@ from pathlib import Path
 import hashlib, json, zipfile
 
 root=Path(__file__).resolve().parents[2]
-dist=root/'dist'
+dist=root/'generated/workbench/dist'
 manifest=json.loads((dist/'manifest.json').read_text())
 assert {'base_box','lid','window_grille','acrylic'}.issubset({p['id'] for p in manifest['parts']})
-assert (dist/'manifest.json').read_bytes()==(root/'viewer/public/manifest.json').read_bytes(), 'Stale build: npm run build first'
+assert (dist/'manifest.json').read_bytes()==(root/'apps/workbench/public/manifest.json').read_bytes(), 'Stale build: npm run build first'
 for file,expected in manifest['sourceSHA256'].items():
     assert hashlib.sha256((root/file).read_bytes()).hexdigest()==expected, f'Stale CAD: {file}'
 for part in manifest['parts']:
@@ -34,7 +34,7 @@ GLB 长度单位为米，保留 CAD 的 Z 向上坐标；剖切仅影响屏幕�
 快捷键：1–6 视角，F 聚焦，M 测量，E PNG，空格播放/暂停，Esc 退出隔离。
 源工程与详细说明：TetherLock 仓库 docs/design/v3-viewer.md。
 '''
-destination=root/'artifacts/v3/TetherLock-V3-Workbench.zip'
+destination=root/'generated/v3/TetherLock-V3-Workbench.zip'
 with zipfile.ZipFile(destination,'w',zipfile.ZIP_DEFLATED,compresslevel=9) as archive:
     archive.writestr('README.txt',readme)
     for file in sorted(dist.rglob('*')):

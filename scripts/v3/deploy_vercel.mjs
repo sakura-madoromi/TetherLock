@@ -1,12 +1,16 @@
 import { dirname, join, relative, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { mkdir, readFile, rm, writeFile } from 'node:fs/promises';
+import { mkdir, rm, writeFile } from 'node:fs/promises';
 import { unzipSync } from 'fflate';
+import { resource } from '../assets/prepare.mjs';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '../..');
-const archive = join(root, 'artifacts/v3/TetherLock-V3-Workbench.zip');
-const output = join(root, 'dist');
-const files = unzipSync(await readFile(archive));
+const file = 'assets/deliverables/v3/TetherLock-V3-Workbench.zip';
+// The deployment upload contains only the resource inventory and hydrated ZIP.
+const registry = JSON.parse(resource('assets/manifest.json'));
+const archive = join(root, file);
+const output = join(root, 'generated/workbench/deploy');
+const files = unzipSync(resource(file, registry.files[file]));
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });

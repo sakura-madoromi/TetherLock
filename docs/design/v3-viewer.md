@@ -6,7 +6,7 @@
 
 仓库根目录首次运行`npm ci`，然后`npm run dev`，打开 <http://127.0.0.1:5173/>。已生成的资源无需重新调用OpenSCAD。重新构建用`npm run build`；交付ZIP用`npm run package`。
 
-[静态工作台ZIP](../../artifacts/v3/TetherLock-V3-Workbench.zip)解压后，在文件夹内运行`python3 -m http.server 8088 --bind 127.0.0.1`，打开 <http://127.0.0.1:8088/>。页面、网格、参照物、字体、BOM和下载均在本地，不需要Node、OpenSCAD或联网。通过HTTP打开，不双击index.html；支持静态站点子目录。
+[静态工作台ZIP](../../assets/deliverables/v3/TetherLock-V3-Workbench.zip)解压后，在文件夹内运行`python3 -m http.server 8088 --bind 127.0.0.1`，打开 <http://127.0.0.1:8088/>。页面、网格、参照物、字体、BOM和下载均在本地，不需要Node、OpenSCAD或联网。通过HTTP打开，不双击index.html；支持静态站点子目录。
 
 ## 三维预览
 
@@ -42,26 +42,10 @@ PNG、五视图ZIP与WebM录制当前可见参照物。GLB默认排除尺寸参�
 
 ## 重新生成与检查
 
-改变CAD后按顺序执行，避免导出删除中间STL时同时渲染：
-
-```bash
-python3 scripts/v3/export_verify.py
-python3 scripts/v3/verify_window.py
-python3 scripts/v3/verify_hinge_hall.py
-python3 scripts/v3/verify_review.py
-python3 scripts/v3/verify_references.py
-python3 scripts/v3/verify_assembly.py
-python3 scripts/v3/engineering_data.py
-python3 scripts/v3/viewer_assets.py
-python3 scripts/v3/render.py
-node scripts/v3/blueprints.mjs
-python3 scripts/v3/package_cad.py
-npm test
-npm run package
-```
+改变 CAD 或工程主表后，按 [Git/LFS 维护说明中的完整更新流程](../maintenance/repository.md#更新机械资源与交付包)依次重新生成、验证和晋升快照；不要把 `generated/` 整个加入 Git。日常构建使用已验证的 LFS 快照，运行 `git lfs pull`、`npm run assets` 和 `npm run build` 即可。
 
 字体重新生成另需兼容Python的FontTools，运行`scripts/v3/blueprint_font.py`；使用仓库中保留的字体资源无需FontTools。生成或重新验证 CAD 前请设置`OPENSCAD`为本机可执行文件路径。数据/几何/路径指纹过期时停止，不供应旧CAD下载或伪完整图页。
 
-浏览器回归为`tests/viewer/browser.mjs`、`references.mjs`、`bom.mjs`、`engineering.mjs`。通过`CHROMIUM_PATH`指定Chromium；`engineering.mjs`支持`WORKBENCH_URL`。工程页证据位于[工程浏览器结果](../../artifacts/v3/engineering-workbench/browser/results.json)，连续安装路径位于[扫掠证据](../../artifacts/v3/assembly-paths/verification.json)。
+浏览器回归为`tests/workbench/browser.mjs`、`references.mjs`、`bom.mjs`、`engineering.mjs`。通过`CHROMIUM_PATH`指定Chromium；`engineering.mjs`支持`WORKBENCH_URL`。工程页证据位于[工程浏览器结果](../../generated/v3/engineering-workbench/browser/results.json)，连续安装路径位于[扫掠证据](../../generated/v3/assembly-paths/verification.json)。
 
 首件孔径、亚克力板厚/平整度、热装保持力、板件和线束包络、Hall阈值、强度、低压及≤15秒开锁均需实物验收；[测量模板](v3-physical-acceptance.csv)保留空白量测字段。名义几何和人工进度不能代填这些值。

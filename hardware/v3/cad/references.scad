@@ -1,4 +1,4 @@
-// Generated from engineering/references.json; do not edit.
+// Generated from hardware/v3/engineering/references.json; do not edit.
 // SHA256 f9069af00d99415f6bf80c07423463d1202e891299ade11124e069a9ba9990c0
 // Visual corner/platform profiles are approximate. Dimensions are nominal mm.
 module reference_phone() {

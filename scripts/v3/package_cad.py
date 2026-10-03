@@ -2,7 +2,7 @@
 from pathlib import Path
 import hashlib,json,os,subprocess,zipfile
 
-root=Path(__file__).resolve().parents[2];out=root/'artifacts/v3'
+root=Path(__file__).resolve().parents[2];out=root/'generated/v3'
 proof=json.loads((out/'verification.json').read_text());assert not proof['failures'] and not proof['quick']
 for file,sha in proof['source_export_sha256'].items():assert hashlib.sha256((root/file).read_bytes()).hexdigest()==sha,file
 for file in ['window/verification.json','review-verification.json','hinge-hall/verification.json','references/verification.json','assembly-paths/verification.json','purchased-specs/verification.json']:
@@ -18,18 +18,18 @@ assert all(hashlib.sha256((out/p).read_bytes()).hexdigest()==sha for p,sha in re
 from export_fasteners import export
 export(root)
 
-files=[*sorted((root/'cad/v3').glob('*')),*[root/f'stl/v3/{part}.stl' for part in proof['metadata']['print_parts']],
+files=[*sorted((root/'hardware/v3/cad').glob('*')),*[root/f'generated/v3/print/{part}.stl' for part in proof['metadata']['print_parts']],
        *sorted((root/'scripts/v3').glob('*.py'))]
-files += [root/f'docs/design/{name}' for name in ['v3-bom.csv','v3-cad.md','v3-window-grille.md','v3-hinge-hall.md','v3-proposal.md','v3-proposal.svg','v3-proposal.png']]
+files += [root/f'docs/design/{name}' for name in ['v3-bom.csv','v3-cad.md','v3-window-grille.md','v3-hinge-hall.md','v3-proposal.md','v3-proposal.svg']]
 files += [root/'docs/design/v3-purchased-specs.md',root/'docs/reviews/v3-purchased-specs-review.md',out/'purchased-specs/verification.json']
 files += list((root/'docs/reviews/v3-purchased-specs-evidence').glob('*'))
-files += list((root/'bench/v3').rglob('*'))
-files += list((root/'engineering').glob('*.json'))
+files += list((root/'hardware/v3/bench').rglob('*'))
+files += list((root/'hardware/v3/engineering').glob('*.json'))
 files += list((out/'procurement').glob('*.json'))
 files += list((root/'docs/reviews').glob('v3-procurement-*2026-10-02.*'))
 files += list((root/'docs/reviews/v3-procurement-evidence').glob('*'))
 files += list((root/'docs/reviews/v3-current-procurement-evidence').glob('*'))
-files += list((root/'viewer/src').glob('*'))
+files += list((root/'apps/workbench/src').glob('*'))
 files += [root/'package.json',root/'package-lock.json',root/'vite.config.js',root/'scripts/v3/blueprints.mjs']
 files += list((out/'engineering').glob('*'))
 files += [out/'features.json',out/'assembly-paths/verification.json',out/'references/verification.json',root/'docs/design/v3-procurement-status.md',root/'docs/design/v3-physical-acceptance.csv',root/'docs/design/v3-plan1-delivery.md',root/'docs/design/v3-viewer.md',out/'engineering-verification.json']
@@ -39,7 +39,10 @@ files += list((root/'docs/reviews/v3-window-grille-evidence').glob('*'))
 files += [root/'docs/reviews/v3-hinge-hall-review-2026-10-01.md',*list((root/'docs/reviews/v3-hinge-hall-evidence').glob('*'))]
 files += [out/name for name in ['closed.png','open.png','exploded.png','lock.png','structure.svg','structure.png',
                                 'verification.json','review-verification.json','window/verification.json','hinge-hall/verification.json','hinge-hall/hall-positions.json','hinge-hall/hall-assessment.json','render-manifest.json','fasteners.json']]
+files += list((root/'assets/evidence/reviews').rglob('*'))
+files += [root/'assets/evidence/design/v3-proposal.png']
 files=[p for p in files if p.is_file()]
+files=list(dict.fromkeys(files))
 data=json.loads((out/'engineering/data.json').read_text())
 manifest={
     'version':data['version'],
@@ -55,10 +58,10 @@ manifest={
 }
 (out/'delivery-manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n');files.append(out/'delivery-manifest.json')
 readme='''TetherLock V3 双层同色防护栅窗结构样机
-打开 cad/v3/assembly.scad，单位mm；闭合240×120×55。
+打开 hardware/v3/cad/assembly.scad，单位mm；闭合240×120×55。
 外栅随盖一体打印，内栅独立打印，与外壳同色同耗材；亚克力149×82×1.5，内外栅直接捕获，固定耳承载预紧力。
 说明：docs/design/v3-cad.md、v3-window-grille.md；BOM：docs/design/v3-bom.csv。
-stl/v3 内25种打印文件，含两只不同的销轴限位端盖及孔径试块。
+generated/v3/print 内25种打印文件，含两只不同的销轴限位端盖及孔径试块。
 电机已改M4×0.7输出55mm；R16按钮移到右侧凹入安装位；绑带槽3mm。
 保留钢销，取消独立轴环和紧定螺钉；十处可拆连接采用M2铜螺母原型。
 霍尔和磁铁已取消；机械到位检测尚待选型/支架/触发验收。

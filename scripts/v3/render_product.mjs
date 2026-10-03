@@ -2,7 +2,7 @@ import { chromium } from '@playwright/test';
 import { mkdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 
-const out = path.resolve(process.argv.find(a => a.startsWith('--output='))?.slice(9) || 'artifacts/v3/product-render');
+const out = path.resolve(process.argv.find(a => a.startsWith('--output='))?.slice(9) || 'generated/v3/product-render');
 const url = process.argv.find(a => a.startsWith('--url='))?.slice(6) || 'http://192.168.2.178:4173/';
 await mkdir(out, { recursive: true });
 const browser = await chromium.launch({ executablePath: process.env.CHROMIUM_PATH || '/tmp/tetherlock-browsers/chromium-1243/chrome-linux64/chrome', headless: true,

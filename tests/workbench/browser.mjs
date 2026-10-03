@@ -6,9 +6,9 @@ import path from 'node:path';
 import { unzipSync } from 'fflate';
 import {PerspectiveCamera,Vector3} from 'three';
 
-const output=path.resolve(process.argv.find(arg=>arg.startsWith('--output='))?.slice(9)||'artifacts/v3/viewer');await mkdir(output,{recursive:true});
+const output=path.resolve(process.argv.find(arg=>arg.startsWith('--output='))?.slice(9)||'generated/v3/viewer');await mkdir(output,{recursive:true});
 const source_sha256={};
-for(const file of ['tests/viewer/browser.mjs','viewer/public/manifest.json','viewer/public/engineering.json',...(await readdir('viewer/src')).filter(n=>/\.(js|css)$/.test(n)).map(n=>'viewer/src/'+n)])source_sha256[file]=createHash('sha256').update(await readFile(file)).digest('hex');
+for(const file of ['tests/workbench/browser.mjs','apps/workbench/public/manifest.json','apps/workbench/public/engineering.json',...(await readdir('apps/workbench/src')).filter(n=>/\.(js|css)$/.test(n)).map(n=>'apps/workbench/src/'+n)])source_sha256[file]=createHash('sha256').update(await readFile(file)).digest('hex');
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/opt/google/chrome/chrome',headless:true,
   args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage']});
 const context=await browser.newContext({viewport:{width:1600,height:1000},acceptDownloads:true});

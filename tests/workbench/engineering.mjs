@@ -3,10 +3,10 @@ import assert from 'node:assert/strict';
 import { mkdir,readFile,writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 import { unzipSync,strFromU8 } from 'fflate';
-const output=process.env.ENGINEERING_TEST_OUTPUT||'artifacts/v3/engineering-workbench/browser';await mkdir(output,{recursive:true});
-const data=JSON.parse(await readFile('viewer/public/engineering.json','utf8'));
-const generation=JSON.parse(await readFile('artifacts/v3/blueprints/generation.json','utf8'));assert.equal(generation.complete,true);const pageCount=generation.pages.length;
-const sources={};for(const directory of ['viewer/src','engineering']){const {readdir}=await import('node:fs/promises');for(const name of await readdir(directory)){if(/\.(js|css|json)$/.test(name))sources[directory+'/'+name]=createHash('sha256').update(await readFile(directory+'/'+name)).digest('hex');}}
+const output=process.env.ENGINEERING_TEST_OUTPUT||'generated/v3/engineering-workbench/browser';await mkdir(output,{recursive:true});
+const data=JSON.parse(await readFile('apps/workbench/public/engineering.json','utf8'));
+const generation=JSON.parse(await readFile('generated/v3/blueprints/generation.json','utf8'));assert.equal(generation.complete,true);const pageCount=generation.pages.length;
+const sources={};for(const directory of ['apps/workbench/src','hardware/v3/engineering']){const {readdir}=await import('node:fs/promises');for(const name of await readdir(directory)){if(/\.(js|css|json)$/.test(name))sources[directory+'/'+name]=createHash('sha256').update(await readFile(directory+'/'+name)).digest('hex');}}
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,headless:true,args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage']});
 const context=await browser.newContext({viewport:{width:1600,height:1000},acceptDownloads:true}),page=await context.newPage(),checks=[],errors=[],external=[];
 page.on('pageerror',e=>errors.push(e.message));page.on('request',r=>{if(!r.url().startsWith(process.env.WORKBENCH_URL||'http://127.0.0.1:5173/')&&!/^(data:|blob:)/.test(r.url()))external.push(r.url());});

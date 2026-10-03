@@ -2,13 +2,13 @@
 
 # TetherLock V3 结构样机 CAD · 2026-10-01
 
-已按方案 A 生成独立的 [CAD 源文件](../../cad/v3/assembly.scad)、[29 种 STL](../../stl/v3/)、[物料表](v3-bom.csv) 和可复跑的 [几何验证脚本](../../scripts/v3/export_verify.py)。V3 是当前唯一的结构基线，用于采购、尺寸复核、切片和试装；电路和控制固件尚未完成 N20 电机控制。
+已按方案 A 生成独立的 [CAD 源文件](../../hardware/v3/cad/assembly.scad)、[29 种 STL](../../generated/v3/print/)、[物料表](v3-bom.csv) 和可复跑的 [几何验证脚本](../../scripts/v3/export_verify.py)。V3 是当前唯一的结构基线，用于采购、尺寸复核、切片和试装；电路和控制固件尚未完成 N20 电机控制。
 
-![开盖总装](../../artifacts/v3/open.png)
+![开盖总装](../../generated/v3/open.png)
 
 ## 尺寸与结构
 
-![尺寸俯视图](../../artifacts/v3/structure.png)
+![尺寸俯视图](../../generated/v3/structure.png)
 
 | 项目 | 当前 CAD |
 |---|---|
@@ -46,9 +46,9 @@ N20 的 M3×0.5 丝杠位于 X=84.5，锁栓位于 X=103，两者轴心高 Z=38�
 
 锁扣颈部尺寸是样机起点。材料、层向、缺口和拉力尚未标定，不能将它作为已经验证的应急脱困机构。铰链、锁栓和箱体的力学极限同样需样件验证。
 
-![闭合总装](../../artifacts/v3/closed.png)
-![锁模块](../../artifacts/v3/lock.png)
-![主要件分解](../../artifacts/v3/exploded.png)
+![闭合总装](../../generated/v3/closed.png)
+![锁模块](../../generated/v3/lock.png)
+![主要件分解](../../generated/v3/exploded.png)
 
 ## 外购件与百元预算
 
@@ -107,9 +107,9 @@ N20 的 M3×0.5 丝杠位于 X=84.5，锁栓位于 X=103，两者轴心高 Z=38�
 
 ## 验证证据与待测项
 
-结果见 [verification.json](../../artifacts/v3/verification.json)。脚本每次重新从源文件生成STL，再执行检查，并记录源文件及打印STL的SHA256。
+结果见 [verification.json](../../generated/v3/verification.json)。脚本每次重新从源文件生成STL，再执行检查，并记录源文件及打印STL的SHA256。
 
-铰链限位与维护螺纹更新后主检查 **1,078项、0失败**。无独立轴环/紧定螺钉，新增两组铜螺母，配对检查数量相应变化。另有[铰链/霍尔专项](../../artifacts/v3/hinge-hall/verification.json)81项名义几何检查；霍尔真实触发/释放未测，不能作为锁扣已对准的证据。[栅窗专项检查](../../artifacts/v3/window/verification.json)另有31项；10个附加驱动位置结果见 [review-verification.json](../../artifacts/v3/review-verification.json)。本次[独立审查](../reviews/v3-hinge-hall-review-2026-10-01.md)包含连续销轴抽出探针；[独立复核](../reviews/v3-cad-review-2026-10-01.md)保留当前评审记录。开发过程的修改前快照不纳入公开目录。预览由 `scripts/v3/render.py` 从同一总装源生成，俯视图由实际分件STL投影生成。
+铰链限位与维护螺纹更新后主检查 **1,078项、0失败**。无独立轴环/紧定螺钉，新增两组铜螺母，配对检查数量相应变化。另有[铰链/霍尔专项](../../generated/v3/hinge-hall/verification.json)81项名义几何检查；霍尔真实触发/释放未测，不能作为锁扣已对准的证据。[栅窗专项检查](../../generated/v3/window/verification.json)另有31项；10个附加驱动位置结果见 [review-verification.json](../../generated/v3/review-verification.json)。本次[独立审查](../reviews/v3-hinge-hall-review-2026-10-01.md)包含连续销轴抽出探针；[独立复核](../reviews/v3-cad-review-2026-10-01.md)保留当前评审记录。开发过程的修改前快照不纳入公开目录。预览由 `scripts/v3/render.py` 从同一总装源生成，俯视图由实际分件STL投影生成。
 
 - 29种打印STL：正体积、封闭边、单连通表面、最低点Z=0。
 - 带硬件和螺钉的闭合总装：包络恰为240×120×55；总装布尔STL含接触/攻牙，**不作为单件打印网格**。

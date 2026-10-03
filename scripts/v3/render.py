@@ -3,8 +3,8 @@ from pathlib import Path
 import concurrent.futures, hashlib, json, os, shutil, subprocess, sys
 
 root=Path(__file__).resolve().parents[2]
-out=root/'artifacts/v3'
-oscad=os.environ.get('OPENSCAD',str(root/'.tools/squashfs-root/AppRun'))
+out=root/'generated/v3'
+oscad=os.environ.get('OPENSCAD','openscad')
 views=[('closed',{'travel':14},60),('open',{'lid_angle':105},60),
        ('exploded',{'view':'exploded'},65),('lock',{'view':'lock','travel':14},50)]
 
@@ -13,7 +13,7 @@ def render(v):
     cmd=[oscad,'-o',str(out/(name+'.png')),'--imgsize=1600,1000','--viewall','--autocenter',
          '--projection=o','--colorscheme=Tomorrow',f'--camera=0,0,0,{angle},0,205,500']
     for k,x in params.items():cmd+=['-D',f'{k}={json.dumps(x)}']
-    p=subprocess.run(cmd+[str(root/'cad/v3/assembly.scad')],capture_output=True,text=True,
+    p=subprocess.run(cmd+[str(root/'hardware/v3/cad/assembly.scad')],capture_output=True,text=True,
                      env={**os.environ,'QT_QPA_PLATFORM':'offscreen'})
     assert p.returncode==0 and 'ERROR:' not in p.stderr,p.stderr
     return name
@@ -70,6 +70,6 @@ if converter:
 else:
     # Never ship a previous revision's raster if no SVG rasterizer is available.
     (out/'structure.png').unlink(missing_ok=True)
-hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'cad/v3').glob('*.scad')}
+hashes={str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'hardware/v3/cad').glob('*.scad')}
 manifest={'source_sha256':hashes,'views':views,'output_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in [*(out/(n+'.png') for n,_,_ in views),out/'structure.svg',out/'structure.png'] if p.exists()}}
 (out/'render-manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')

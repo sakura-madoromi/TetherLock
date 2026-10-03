@@ -3,10 +3,10 @@ from pathlib import Path
 import json, os, subprocess
 
 def export(root):
-    out=root/'artifacts/v3';out.mkdir(exist_ok=True)
+    out=root/'generated/v3';out.mkdir(exist_ok=True)
     wrapper=out/'fastener-metadata.scad'
-    wrapper.write_text(f'include <{root}/cad/v3/assembly.scad>\nview="metadata";\necho([for(k=["fixed","drive","lid"]) [k,fastener_specs(k),fastener_ids(k)]]);\n')
-    p=subprocess.run([os.environ.get('OPENSCAD',str(root/'.tools/squashfs-root/AppRun')),'-o',str(out/'fastener-metadata.csg'),str(wrapper)],capture_output=True,text=True,env={**os.environ,'QT_QPA_PLATFORM':'offscreen'})
+    wrapper.write_text(f'include <{root}/hardware/v3/cad/assembly.scad>\nview="metadata";\necho([for(k=["fixed","drive","lid"]) [k,fastener_specs(k),fastener_ids(k)]]);\n')
+    p=subprocess.run([os.environ.get('OPENSCAD','openscad'),'-o',str(out/'fastener-metadata.csg'),str(wrapper)],capture_output=True,text=True,env={**os.environ,'QT_QPA_PLATFORM':'offscreen'})
     assert p.returncode==0 and 'ERROR:' not in p.stderr,p.stderr
     groups=json.loads([l[6:] for l in p.stderr.splitlines() if l.startswith('ECHO: ')][-1])
     specs=[];connections=[];counts={}

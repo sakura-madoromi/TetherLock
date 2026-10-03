@@ -1,3 +1,3 @@
-include <../../../cad/v3/assembly.scad>
+include <../../../hardware/v3/cad/assembly.scad>
 view="metadata";
 named("hinge_guard_right");

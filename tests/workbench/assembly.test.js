@@ -1,9 +1,9 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { AssemblyProgress, progressSignature } from '../../viewer/src/assembly-progress.js';
-import { pathOffset } from '../../viewer/src/assembly.js';
-const data=JSON.parse(readFileSync('artifacts/v3/engineering/data.json'));
+import { AssemblyProgress, progressSignature } from '../../apps/workbench/src/assembly-progress.js';
+import { pathOffset } from '../../apps/workbench/src/assembly.js';
+const data=JSON.parse(readFileSync('assets/cad/v3/engineering.json'));
 const storage=()=>{const store=new Map();return {getItem:k=>store.get(k),setItem:(k,v)=>store.set(k,v)};};
 test('manual completion requires all checks, revokes on unchecking and survives reload',()=>{
  const db=storage(),p=new AssemblyProgress(data,db),s=data.assembly.steps[0];assert.throws(()=>p.complete(s.id),/人工确认/);

@@ -4,8 +4,8 @@ import concurrent.futures, hashlib, json, os, subprocess, sys
 root=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(root/'scripts/shared'))
 from stl_probe import load_stl, bbox, volume, manifold_report
-out=root/'artifacts/v3/references';out.mkdir(exist_ok=True)
-oscad=os.environ.get('OPENSCAD',str(root/'.tools/squashfs-root/AppRun'))
+out=root/'generated/v3/references';out.mkdir(exist_ok=True)
+oscad=os.environ.get('OPENSCAD','openscad')
 jobs=[]
 for name in ['phone','card']:
     jobs.append((name, f'reference_{name}();', 'solid'))
@@ -15,7 +15,7 @@ for name in ['phone','card']:
 jobs.append(('phone_card_clear','intersection(){reference_phone();reference_card();}','empty'))
 def run(job):
     name,body,expect=job;source=out/f'{name}.scad';dest=out/f'{name}.stl';dest.unlink(missing_ok=True)
-    source.write_text(f'include <{root}/cad/v3/assembly.scad>\nview="metadata";\n'+body+'\n')
+    source.write_text(f'include <{root}/hardware/v3/cad/assembly.scad>\nview="metadata";\n'+body+'\n')
     p=subprocess.run([oscad,'-o',str(dest),str(source)],capture_output=True,text=True,env={**os.environ,'QT_QPA_PLATFORM':'offscreen'})
     (out/f'{name}.log').write_text(p.stderr)
     r={'name':name,'expect':expect,'pass':False}
@@ -26,12 +26,12 @@ def run(job):
     else:r['error']=p.stderr[-1000:]
     return r
 with concurrent.futures.ThreadPoolExecutor(max_workers=4) as pool:results=list(pool.map(run,jobs))
-by={r['name']:r for r in results};dims=json.loads((root/'engineering/references.json').read_text())
+by={r['name']:r for r in results};dims=json.loads((root/'hardware/v3/engineering/references.json').read_text())
 for name in ['phone','card']:
     b=by[name].get('bbox');d=dims[name];target=d['lowestZ'] if name=='phone' else d['bottomZ']
     results.append({'name':name+'_fixed_height','pass':bool(b) and abs(b[2][0]-target)<.002,'target':target,'actual':b})
     results.append({'name':name+'_inside_storage','pass':bool(b) and b[0][0]>=-115.5 and b[0][1]<=69.5 and b[1][0]>=-47.5 and b[1][1]<=47.5 and b[2][0]>=5 and b[2][1]<=45})
-files=[root/'engineering/references.json',*sorted((root/'cad/v3').glob('*.scad'))]
+files=[root/'hardware/v3/engineering/references.json',*sorted((root/'hardware/v3/cad').glob('*.scad'))]
 report={'scope':'nominal reference solids, fixed storage fit and discrete lid poses; no physical phone/drop test', 'results':results,'failures':[r for r in results if not r['pass']], 'source_sha256':{str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in files}}
 (out/'verification.json').write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
 print('Reference checks:',len(results),'Failures:',len(report['failures']))

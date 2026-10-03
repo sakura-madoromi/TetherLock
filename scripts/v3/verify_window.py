@@ -6,8 +6,8 @@ root=Path(__file__).resolve().parents[2]
 sys.path.insert(0,str(root/'scripts/shared'))
 from stl_probe import load_stl,bbox,volume,manifold_report
 parser=argparse.ArgumentParser();parser.add_argument('--outer-only',action='store_true');args=parser.parse_args()
-out=root/'artifacts/v3/window';out.mkdir(parents=True,exist_ok=True)
-oscad=os.environ.get('OPENSCAD',str(root/'.tools/squashfs-root/AppRun'))
+out=root/'generated/v3/window';out.mkdir(parents=True,exist_ok=True)
+oscad=os.environ.get('OPENSCAD','openscad')
 jobs=[]
 def add(name,expression,expected='empty',minimum=0):jobs.append((name,expression,expected,minimum))
 # Removing an outer rib must fail this probe; each cube is wholly inside a rib.
@@ -37,7 +37,7 @@ if not args.outer_only:
 def run(job):
     name,expression,expected,minimum=job
     source=out/f'{name}.scad';dest=out/f'{name}.stl';dest.unlink(missing_ok=True)
-    source.write_text(f'include <{root}/cad/v3/assembly.scad>\nview="metadata";\n'+expression+'\n')
+    source.write_text(f'include <{root}/hardware/v3/cad/assembly.scad>\nview="metadata";\n'+expression+'\n')
     p=subprocess.run([oscad,'-o',str(dest),str(source)],capture_output=True,text=True,env={**os.environ,'QT_QPA_PLATFORM':'offscreen'})
     (out/f'{name}.log').write_text(p.stderr)
     result={'name':name,'expect':expected,'pass':False}
@@ -63,7 +63,7 @@ if not args.outer_only:
     results.append({'name':'unchanged_pane_size','pass':all(abs((b-a)-v)<.002 for (a,b),v in zip(bounds,[149,82,1.5]))})
     r=by_name['window_grille'];results.append({'name':'storage_headroom','pass':r.get('bbox',[[0,0]]*3)[2][0]-45>=2.39})
 report={'scope':'direct contact grille geometry and sampled installation; strength and first-print fit require measurement','results':results,
-        'source_sha256':{str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'cad/v3').glob('*.scad')},
+        'source_sha256':{str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'hardware/v3/cad').glob('*.scad')},
         'failures':[r for r in results if not r['pass']]}
 (out/('outer-red.json' if args.outer_only else 'verification.json')).write_text(json.dumps(report,indent=2,ensure_ascii=False)+'\n')
 for r in report['failures']:print('FAIL',json.dumps(r,ensure_ascii=False))

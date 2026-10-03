@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { mkdir, writeFile } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
 
-const output='artifacts/v3/references/browser';await mkdir(output,{recursive:true});
+const output='generated/v3/references/browser';await mkdir(output,{recursive:true});
 const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH,headless:true,args:['--no-sandbox','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage']});
 const page=await browser.newPage({viewport:{width:1600,height:1000},acceptDownloads:true}),errors=[],external=[],checks=[];
 const url=process.env.WORKBENCH_URL||'http://127.0.0.1:5173/';

@@ -8,8 +8,8 @@ from stl_probe import load_stl, bbox, volume, manifold_report
 parser = argparse.ArgumentParser()
 parser.add_argument('--retention-only', action='store_true')
 args = parser.parse_args()
-out = root / 'artifacts/v3/hinge-hall'; out.mkdir(parents=True, exist_ok=True)
-oscad = os.environ.get('OPENSCAD', str(root / '.tools/squashfs-root/AppRun'))
+out = root / 'generated/v3/hinge-hall'; out.mkdir(parents=True, exist_ok=True)
+oscad = os.environ.get('OPENSCAD', 'openscad')
 jobs = []
 def add(name, expression, expect='empty', minimum=0):
     jobs.append((name, expression, expect, minimum))
@@ -44,7 +44,7 @@ if not args.retention_only:
 def run(job):
     name, expression, expect, minimum = job
     source = out / f'{name}.scad'; dest = out / f'{name}.stl'; dest.unlink(missing_ok=True)
-    source.write_text(f'include <{root}/cad/v3/assembly.scad>\nview="metadata";\n' + expression + '\n')
+    source.write_text(f'include <{root}/hardware/v3/cad/assembly.scad>\nview="metadata";\n' + expression + '\n')
     p = subprocess.run([oscad, '-o', str(dest), str(source)], capture_output=True, text=True,
                        env={**os.environ, 'QT_QPA_PLATFORM':'offscreen'})
     (out / f'{name}.log').write_text(p.stderr)
@@ -75,7 +75,7 @@ if not args.retention_only:
                 'status':'Hall removed; manual electrical bench only; automatic lock disabled until feedback validation'}
     (out/'hall-assessment.json').write_text(json.dumps(assessment,ensure_ascii=False,indent=2)+'\n')
 report={'scope':'nominal axial retention, sampled service paths and latch alignment; Hall removed; mechanical feedback pending',
-        'results':results,'source_sha256':{str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'cad/v3').glob('*.scad')},
+        'results':results,'source_sha256':{str(p.relative_to(root)):hashlib.sha256(p.read_bytes()).hexdigest() for p in (root/'hardware/v3/cad').glob('*.scad')},
         'failures':[r for r in results if not r['pass']]}
 (out/('retention-red.json' if args.retention_only else 'verification.json')).write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
 for r in report['failures']: print('FAIL',json.dumps(r,ensure_ascii=False))

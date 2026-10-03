@@ -2,9 +2,9 @@
 
 # V3 plan1 采购资料与待解决项目
 
-工程数据版本：V3-plan1.1；CAD指纹：`d1dc445e5ce543239a1012be095a35d1c04742943b300b049524b15deb2aeb14`。精确生成时间和数据指纹见`artifacts/v3/engineering/data.json`、CSV标题与蓝图标题栏。
+工程数据版本：V3-plan1.1；CAD指纹：`d1dc445e5ce543239a1012be095a35d1c04742943b300b049524b15deb2aeb14`。精确生成时间和数据指纹见`generated/v3/engineering/data.json`、CSV标题与蓝图标题栏。
 
-主表：`engineering/materials.json`；紧固件型号和数量从 `cad/v3/hardware.scad` 的配置导出。`docs/design/v3-bom.csv` 是生成后的完整CSV，含版本与指纹；不得手工改CSV数量。
+主表：`hardware/v3/engineering/materials.json`；紧固件型号和数量从 `hardware/v3/cad/hardware.scad` 的配置导出。`docs/design/v3-bom.csv` 是生成后的完整CSV，含版本与指纹；不得手工改CSV数量。
 
 设备装机估算 **215.95元**，采购整包 **274.50元**，工具与外置充电器 **178.00元**。2026-10-02已观察主控及单节电池座SKU报价并更新，其余主配置金额仍为估算；运费另计。外包打印仍待报价。可靠资料候选不能满足约100元目标，不能宣称已达预算。
 
@@ -22,7 +22,7 @@
 
 - [TI DRV5032](https://www.ti.com/lit/ds/symlink/drv5032.pdf)：ZE芯片电气条件已核对，但成品小板尚未找到满足安装条件的确定SKU；芯片尺寸不能当成板件尺寸。合盖检测仍须测触发、释放和锁扣可通过范围。
 
-- [Apple 手机技术规格](https://support.apple.com/en-la/125091)和[官方配件尺寸图](https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-17-pro-max.pdf)用于尺寸参照。`engineering/references.json`记录主体8.75mm、相机平台2.55mm与玻璃1.88mm，总厚13.18mm。该参照不计设备采购、打印数量或耗材。
+- [Apple 手机技术规格](https://support.apple.com/en-la/125091)和[官方配件尺寸图](https://developer.apple.com/download/files/accessories/dimensional-drawings/iphone-17-pro-max.pdf)用于尺寸参照。`hardware/v3/engineering/references.json`记录主体8.75mm、相机平台2.55mm与玻璃1.88mm，总厚13.18mm。该参照不计设备采购、打印数量或耗材。
 
 ## 未解决项目
 

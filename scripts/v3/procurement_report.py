@@ -5,21 +5,21 @@ import csv
 import json
 
 root = Path(__file__).resolve().parents[2]
-data = json.loads((root / 'artifacts/v3/engineering/data.json').read_text())
+data = json.loads((root / 'generated/v3/engineering/data.json').read_text())
 import argparse
 parser=argparse.ArgumentParser();parser.add_argument('--historical',action='store_true');args=parser.parse_args()
 if not args.historical:
-    current=json.loads((root/'engineering/procurement-current.json').read_text())
+    current=json.loads((root/'hardware/v3/engineering/procurement-current.json').read_text())
     scenario={**current,'cadFingerprint':data['cadFingerprint'],'dataFingerprint':data['dataFingerprint'],
               'currentEstimatedCostsExcludingUnknownFreight':data['costs'],
               'fullDeliveredCostVerified':False,'allPhysicalSpecsVerified':False,
               'remaining':data['unresolved'],
               'report':'docs/reviews/v3-procurement-current-2026-10-02.md',
               'auditCSV':'docs/reviews/v3-procurement-current-audit-2026-10-02.csv'}
-    out=root/'artifacts/v3/procurement';out.mkdir(parents=True,exist_ok=True)
+    out=root/'generated/v3/procurement';out.mkdir(parents=True,exist_ok=True)
     (out/'data.json').write_text(json.dumps(scenario,ensure_ascii=False,indent=2)+'\n')
     print('Current screenshot totals:',current['totals']);print('Known limits:',len(data['unresolved']));raise SystemExit(0)
-audit = json.loads((root / 'engineering/procurement-quotes.json').read_text())
+audit = json.loads((root / 'hardware/v3/engineering/procurement-quotes.json').read_text())
 quotes = {q['materialId']: q for q in audit['quotes']}
 assert len(quotes) == len(audit['quotes'])
 assert set(quotes) <= {r['id'] for r in data['materials']}
@@ -48,7 +48,7 @@ scenario = {
     'quotedItemCount': len(quotes),
     'note': f'仅替换{len(quotes)}项报价，其余仍沿用旧估算。总到手价未知；优惠未扣。电机、霍尔板、保护板及替代适配未解决。',
 }
-out = root / 'artifacts/v3/procurement'
+out = root / 'generated/v3/procurement'
 out.mkdir(parents=True, exist_ok=True)
 (out / 'data.json').write_text(json.dumps(scenario, ensure_ascii=False, indent=2) + '\n')
 csv_path = root / 'docs/reviews/v3-procurement-audit-2026-10-02.csv'

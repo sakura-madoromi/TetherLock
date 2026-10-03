@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import sizes from '../../engineering/references.json' with { type: 'json' };
+import sizes from '../../../hardware/v3/engineering/references.json' with { type: 'json' };
 
 export { sizes as referenceDimensions };
 

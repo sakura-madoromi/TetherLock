@@ -23,7 +23,7 @@
 
 六项商品优惠前合计**38.78元**，分别购买的商品页运费合计**8元**，该小计到手参考**46.78元**。四件育松商品若最终能合单只收2元，则六项小计为40.78元；**同店合并运费尚未核实**。按分别购买运费，整包情景168.28+8=176.28元，**还须加其他零件运费和可能的外包打印费**，不能标作完整到手价。
 
-主表仍保留Pololu及SSD1306原配置；低价型号另列条件候选，防止把不同商品报价套到原零件。结构模型没有修改。最新完整逐项表见 [采购审计CSV](v3-procurement-audit-2026-10-02.csv)，机器可读报价见 [procurement-quotes.json](../../engineering/procurement-quotes.json)。
+主表仍保留Pololu及SSD1306原配置；低价型号另列条件候选，防止把不同商品报价套到原零件。结构模型没有修改。最新完整逐项表见 [采购审计CSV](v3-procurement-audit-2026-10-02.csv)，机器可读报价见 [procurement-quotes.json](../../hardware/v3/engineering/procurement-quotes.json)。
 
 ## 已查到的商品
 
@@ -42,15 +42,15 @@
 
 保留公开图片及来源，未保存账户资料：
 
-- 主控：[官方参考尺寸图](v3-procurement-evidence/esp-dimensions.png)、[官方参考原理图](v3-procurement-evidence/esp-schematic.png)，来源 [Nologo硬件仓库](https://github.com/NologoTech/ESP32C3-Supermini/tree/main/Hardware)。图中有USB电源二极管和ME6211稳压；淘宝无排针SKU是否同版尚未确认。商品文本22.52与图22.50的差异保留，不冒充实测精度。
-- OLED：[卖家尺寸图](v3-procurement-evidence/oled-details.png)，[原始图片](https://img.alicdn.com/imgextra/i4/2928723973/O1CN012x81Vz1fDgBPtJ9N1_!!2928723973.png)。无该完整板级原理图，不能由SSD1306芯片手册证明SSD1315模块兼容。
-- 驱动：[卖家接口说明](v3-procurement-evidence/drv8833-details.jpg)、[商品实拍](v3-procurement-evidence/drv8833-main.jpg)，[TI芯片数据手册](https://www.ti.com/lit/ds/symlink/drv8833.pdf)。实拍芯片丝印受水印/分辨率影响，封装未确认。PW每通道500mA RMS、PWP/RTY每通道1.5A RMS，峰值2A也不能当连续电流。尺寸不能借用其他18.5×16黑板。
-- 稳压：[卖家尺寸/接口图](v3-procurement-evidence/power-1.jpg)、[使用条件](v3-procurement-evidence/power-2.jpg)，[TI数据手册及参考电路](https://www.ti.com/lit/ds/symlink/tps63020.pdf)。只短接3V3，不同时短接多个输出选择焊盘。芯片4A开关能力和商家最大3A均不等于低电池时可持续输出；实际模块的电感、散热及焊线仍需测试。
+- 主控：[官方参考尺寸图](../../assets/evidence/reviews/v3-procurement-evidence/esp-dimensions.png)、[官方参考原理图](../../assets/evidence/reviews/v3-procurement-evidence/esp-schematic.png)，来源 [Nologo硬件仓库](https://github.com/NologoTech/ESP32C3-Supermini/tree/main/Hardware)。图中有USB电源二极管和ME6211稳压；淘宝无排针SKU是否同版尚未确认。商品文本22.52与图22.50的差异保留，不冒充实测精度。
+- OLED：[卖家尺寸图](../../assets/evidence/reviews/v3-procurement-evidence/oled-details.png)，[原始图片](https://img.alicdn.com/imgextra/i4/2928723973/O1CN012x81Vz1fDgBPtJ9N1_!!2928723973.png)。无该完整板级原理图，不能由SSD1306芯片手册证明SSD1315模块兼容。
+- 驱动：[卖家接口说明](../../assets/evidence/reviews/v3-procurement-evidence/drv8833-details.jpg)、[商品实拍](../../assets/evidence/reviews/v3-procurement-evidence/drv8833-main.jpg)，[TI芯片数据手册](https://www.ti.com/lit/ds/symlink/drv8833.pdf)。实拍芯片丝印受水印/分辨率影响，封装未确认。PW每通道500mA RMS、PWP/RTY每通道1.5A RMS，峰值2A也不能当连续电流。尺寸不能借用其他18.5×16黑板。
+- 稳压：[卖家尺寸/接口图](../../assets/evidence/reviews/v3-procurement-evidence/power-1.jpg)、[使用条件](../../assets/evidence/reviews/v3-procurement-evidence/power-2.jpg)，[TI数据手册及参考电路](https://www.ti.com/lit/ds/symlink/tps63020.pdf)。只短接3V3，不同时短接多个输出选择焊盘。芯片4A开关能力和商家最大3A均不等于低电池时可持续输出；实际模块的电感、散热及焊线仍需测试。
 - 霍尔：[TI DRV5032手册](https://www.ti.com/lit/ds/symlink/drv5032.pdf)。ZE为20Hz、全极性、开漏、BOP最大63mT，供电1.65–5.5V；SOT-23(DBZ)脚1 VCC、2 OUT、3 GND。TO-92脚序不同，不能混用。原8×6及6×6mm是设计包络，未证明存在相同商品板。
 
 ## 低价候选的接线差异
 
-下面仅为待核对候选连接，不能替代当前Pololu配置的 [electrical.json](../../engineering/electrical.json)。完整模块原理图不足之处，需要连通测量。
+下面仅为待核对候选连接，不能替代当前Pololu配置的 [electrical.json](../../hardware/v3/engineering/electrical.json)。完整模块原理图不足之处，需要连通测量。
 
 ```mermaid
 flowchart LR
@@ -106,17 +106,17 @@ flowchart LR
 
 - 亿纬25P的[官方规格](https://www.evemall.com/consumer-battery/cylindrical-cell/18650-25p)规定4.20V充电、2.50V放电截止。所选淘宝SKU11元、寄个旧包邮，页面8元优惠不计入预算；卖家标称不证明正品。
 - [富晶DW01A手册](https://www.ic-fortune.com/upload/Download/DW01A-DS-13_EN.pdf)过放检测2.40±0.10V，包含2.30V情形，不能直接作为25P欠压保护。应重新选择完整板并验证阈值。[FS312F-G手册](https://www.ic-fortune.com/upload/Download/FS312F-G-DS-12_EN.pdf)2.90±0.08V仅为可比较芯片参数，不是已取得报价/实测的替代板。不要把参考芯片价格当成品保护板价格。
-- 淘宝候选霍尔板[图片](v3-procurement-evidence/hall-module-main.jpg)与[ScoutMakes板](https://www.scoutmakes.com/products/drv5032-hall-sensor/)相似；厂家当前标DRV5032FBDBZR，5Hz推挽、BOP最大4.8mT，原ZE为20Hz开漏、最大63mT；实际卖家出货版本未核定。厂家[开放板文件](https://github.com/tinkeringtech/DRV5032-Hall-Sensor)外框25.4×17.78mm，无法直接放入原8×6/6×6小板位置。见[原理图](v3-procurement-evidence/scoutmakes-hall-schematic.png)：已有100nF去耦，OUT直接接插座/排针。该板的真实淘宝SKU、价格和运费未取得，不采用搜索索引价格。原理图/板文件归TinkeringTech/ScoutMakes，原仓库许可证CC-BY-SA-4.0；保留来源。
+- 淘宝候选霍尔板[图片](../../assets/evidence/reviews/v3-procurement-evidence/hall-module-main.jpg)与[ScoutMakes板](https://www.scoutmakes.com/products/drv5032-hall-sensor/)相似；厂家当前标DRV5032FBDBZR，5Hz推挽、BOP最大4.8mT，原ZE为20Hz开漏、最大63mT；实际卖家出货版本未核定。厂家[开放板文件](https://github.com/tinkeringtech/DRV5032-Hall-Sensor)外框25.4×17.78mm，无法直接放入原8×6/6×6小板位置。见[原理图](../../assets/evidence/reviews/v3-procurement-evidence/scoutmakes-hall-schematic.png)：已有100nF去耦，OUT直接接插座/排针。该板的真实淘宝SKU、价格和运费未取得，不采用搜索索引价格。原理图/板文件归TinkeringTech/ScoutMakes，原仓库许可证CC-BY-SA-4.0；保留来源。
 - 按14mm/12s=1.167mm/s作示例推算，5Hz采样的最长200ms间隔对应约0.233mm运动，20Hz约0.058mm；这是未计磁滞、过滤和停车惯性的采样推算，不能替代实际限位误差测试。
 - [JST SH原厂手册](https://www.jst-mfg.com/product/pdf/eng/eSH.pdf)规定AWG32–28、绝缘外径0.4–0.8mm；主支路26/24AWG应通过合适接头或已压接尾线连接，并测启动/堵转压降。通用“SH对插线”可能不是原厂产品，不能自动套用原厂额定值。
 
-电机新增[卖家M3款公开图片](v3-procurement-evidence/motor-m3.webp)，[来源](https://img.alicdn.com/imgextra/i4/654342335/O1CN01oz7km21T7TxSZY680_!!654342335.jpg)仅写M3/3V6V12V，未给杆长、转速、启动/堵转电流或尺寸。另有M4图，必须选择M3规格；不能靠通用主图确定所选SKU。
+电机新增[卖家M3款公开图片](../../assets/evidence/reviews/v3-procurement-evidence/motor-m3.webp)，[来源](https://img.alicdn.com/imgextra/i4/654342335/O1CN01oz7km21T7TxSZY680_!!654342335.jpg)仅写M3/3V6V12V，未给杆长、转速、启动/堵转电流或尺寸。另有M4图，必须选择M3规格；不能靠通用主图确定所选SKU。
 
 淘宝登录访问已按用户要求停止。公开资料仍无法确认的电机/保护板/按钮SKU及云南运费已保留为未知；无需再次登录来完成本次资料对照。采购选型和实物适配尚未冻结，整套到手价尚未确定。
 
 ## 电机厂家资料补充
 
-找到[驰海CHF-GM12-N20VA M3丝杆版](https://www.airsoftmotor.com/micro-dc-reduction-motor/spur-gear-reduction-motor/n20-dc-gear-motor-with-m3-threaded-screw.html)及[厂家尺寸图](v3-procurement-evidence/chihai-motor-dimensions.webp)。图示杆外伸33.6mm，末端Ø2光轴长3.5mm；齿箱9mm+电机16mm=25mm，齿箱截面10×12mm，电机径12.1 MAX。原模型26×12×10为名义包络：尺寸相近仍需核对径向最大值、端子及焊线；M3螺距未在该图明确，须验证0.5mm。
+找到[驰海CHF-GM12-N20VA M3丝杆版](https://www.airsoftmotor.com/micro-dc-reduction-motor/spur-gear-reduction-motor/n20-dc-gear-motor-with-m3-threaded-screw.html)及[厂家尺寸图](../../assets/evidence/reviews/v3-procurement-evidence/chihai-motor-dimensions.webp)。图示杆外伸33.6mm，末端Ø2光轴长3.5mm；齿箱9mm+电机16mm=25mm，齿箱截面10×12mm，电机径12.1 MAX。原模型26×12×10为名义包络：尺寸相近仍需核对径向最大值、端子及焊线；M3螺距未在该图明确，须验证0.5mm。
 
 | 3V绕组版本 | 空载rpm | 额定rpm | 额定电流上限 | 堵转电流上限 | 选择结论 |
 |---|---:|---:|---:|---:|---|

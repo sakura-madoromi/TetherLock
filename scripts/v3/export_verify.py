@@ -6,14 +6,14 @@ root = Path(__file__).resolve().parents[2]
 parser = argparse.ArgumentParser()
 parser.add_argument('--quick', action='store_true')
 args = parser.parse_args()
-source = root / 'cad/v3/assembly.scad'
+source = root / 'hardware/v3/cad/assembly.scad'
 assert source.exists(), 'V3 assembly source missing: CAD has not been implemented'
 sys.path.insert(0, str(root / 'scripts/shared'))
 from stl_probe import load_stl, bbox, volume, manifold_report
-oscad = os.environ.get('OPENSCAD', str(root / '.tools/squashfs-root/AppRun'))
-out = root / 'artifacts/v3'
+oscad = os.environ.get('OPENSCAD', 'openscad')
+out = root / 'generated/v3'
 out.mkdir(parents=True, exist_ok=True)
-stls = root / 'stl/v3'
+stls = root / 'generated/v3/print'
 stls.mkdir(parents=True, exist_ok=True)
 env = {**os.environ, 'QT_QPA_PLATFORM':'offscreen'}
 
@@ -25,7 +25,7 @@ def call(path, values):
 p = call(out/'metadata.csg', {'view':'metadata'})
 assert p.returncode == 0 and 'ERROR:' not in p.stderr, p.stderr
 meta = dict(json.loads(next(line[6:] for line in p.stderr.splitlines() if line.startswith('ECHO: '))))
-# stl/v3 is generated output. Retire parts removed from the assembly metadata.
+# generated/v3/print is generated output. Retire parts removed from the assembly metadata.
 for stale in stls.glob('*.stl'):
     if stale.stem not in meta['print_parts']:stale.unlink()
 
@@ -134,7 +134,7 @@ if not args.quick:
     print('Full verification additional exports:',len(pairs),flush=True)
     results += batch(pairs)
 
-manifest={str(f.relative_to(root)):hashlib.sha256(f.read_bytes()).hexdigest() for f in (root/'cad/v3').glob('*.scad')}
+manifest={str(f.relative_to(root)):hashlib.sha256(f.read_bytes()).hexdigest() for f in (root/'hardware/v3/cad').glob('*.scad')}
 manifest.update({str(f.relative_to(root)):hashlib.sha256(f.read_bytes()).hexdigest() for f in stls.glob('*.stl')})
 summary={'scope':'structural CAD prototype; hardware provisional; opening checked by discrete samples',
          'quick':args.quick,'metadata':meta,'results':results,'source_export_sha256':manifest,

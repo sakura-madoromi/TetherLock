@@ -570,7 +570,7 @@ CAD、工程图、BOM 和组装指导共用稳定的零件编号，避免分别�
 - 无窗垫内栅、独立手机/银行卡、完整BOM、88页固定蓝图、38条逐线接线记录和27步独立装配/维护指导已实现。
 - 当前几何检查：整机1078、栅窗31、铰链/霍尔81、附加驱动10、参照33、连续安装路径6，均通过。工程资料458项检查通过，71条真实剖面轮廓闭合。
 - 当前源文件的桌面浏览器套件19/7/7/21组，以及静态HTTP子目录套件19/21组均通过；19项单元测试通过。实际SVG、PNG、A3 PDF、ZIP、GLB和可解码WebM均已核对。
-- 三个交付包为 `artifacts/v3/TetherLock-V3-CAD.zip`、`TetherLock-V3-Workbench.zip`、`TetherLock-V3-Blueprints.zip`；当前内容/指纹以各包内清单和 `artifacts/v3/README.md` 为准。
+- 三个交付包为 `generated/v3/TetherLock-V3-CAD.zip`、`TetherLock-V3-Workbench.zip`、`TetherLock-V3-Blueprints.zip`；当前内容/指纹以各包内清单和 [生成资料说明](../../validation/generated-assets.md) 为准。
 - 设备估算216.95元，未达约100元目标；8个未解决采购/适配/报价项目见 `docs/design/v3-procurement-status.md`。图纸、BOM、步骤与导出均保留其状态。
 - 实物记录测量栏为空。强度、寿命、磁检测、带载表现与≤15秒开锁尚待采购、首件及后续控制固件，网页手动完成记录不等于实物合格。
 - 逐项交付说明见 `docs/design/v3-plan1-delivery.md`；开发过程的机器可读汇总和修改前基线不纳入公开目录。

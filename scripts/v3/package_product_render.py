@@ -7,7 +7,7 @@ from gi.repository import Gst
 
 Gst.init(None)
 root = Path(__file__).resolve().parents[2]
-out = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else root / 'artifacts/v3/product-render'
+out = Path(sys.argv[1]).resolve() if len(sys.argv) > 1 else root / 'generated/v3/product-render'
 fps = 10
 
 def decode(path):

@@ -2,7 +2,7 @@ import http from 'node:http';
 import path from 'node:path';
 import {readFile} from 'node:fs/promises';
 
-const root=path.resolve('dist'),prefix='/workbench/';
+const root=path.resolve('generated/workbench/dist'),prefix='/workbench/';
 const types={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8',
   '.json':'application/json','.stl':'application/octet-stream','.csv':'text/csv; charset=utf-8','.zip':'application/zip'};
 http.createServer(async(req,res)=>{

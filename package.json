@@ -4,14 +4,21 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "assets": "python3 scripts/v3/engineering_data.py && python3 scripts/v3/viewer_assets.py",
-    "dev": "vite --host 127.0.0.1",
+    "assets": "node scripts/assets/prepare.mjs",
+    "assets:simulator": "node scripts/tauri_cad_assets.mjs",
+    "dev": "npm run assets && vite --host 127.0.0.1",
     "build": "npm run assets && vite build",
     "build:vercel": "node scripts/v3/deploy_vercel.mjs",
     "package": "npm run build && python3 scripts/v3/package_viewer.py",
     "preview": "vite preview --host 127.0.0.1",
-    "test": "node --test --test-isolation=none tests/viewer/*.test.js",
-    "test:browser": "node tests/viewer/browser.mjs"
+    "test": "npm run assets && node --test --test-isolation=none tests/workbench/*.test.js",
+    "test:browser": "node tests/workbench/browser.mjs",
+    "test:simulator-view": "npm --prefix apps/simulator test",
+    "assets:check": "node scripts/assets/prepare.mjs --check",
+    "assets:refresh": "python3 scripts/v3/engineering_data.py && python3 scripts/v3/viewer_assets.py --no-packages && node scripts/assets/publish.mjs",
+    "repo:check": "python3 scripts/repo/check.py",
+    "test:repo": "python3 -m unittest discover -s tests/repo -p \"test_*.py\" && npm run test:assets",
+    "test:assets": "node --test --test-isolation=none tests/assets/*.test.mjs"
   },
   "dependencies": {
     "three": "0.186.1",

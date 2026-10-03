@@ -60,7 +60,7 @@
 
 ## 公开来源与证据
 
-- 用户截图：[订单1](v3-current-procurement-evidence/s3if18a7.webp)、[订单2](v3-current-procurement-evidence/p8f6gmau.webp)、[订单3](v3-current-procurement-evidence/a80znaro.webp)；[按钮尺寸](v3-purchased-specs-evidence/bw1v2lpe.webp)、[电机尺寸](v3-purchased-specs-evidence/xv97n9y4.webp)。未保存账号资料或访问登录会话。
+- 用户截图：[订单1](../../assets/evidence/reviews/v3-current-procurement-evidence/s3if18a7.webp)、[订单2](../../assets/evidence/reviews/v3-current-procurement-evidence/p8f6gmau.webp)、[订单3](../../assets/evidence/reviews/v3-current-procurement-evidence/a80znaro.webp)；[按钮尺寸](../../assets/evidence/reviews/v3-purchased-specs-evidence/bw1v2lpe.webp)、[电机尺寸](../../assets/evidence/reviews/v3-purchased-specs-evidence/xv97n9y4.webp)。未保存账号资料或访问登录会话。
 - [Finglai R16-503B](https://www.finglai.com/products/switches/push-buttons/DIA16-R/R16-503B.html)：φ16、复位(ON)-OFF同系列参考；其寿命/电流参数不能代替优信实物。
 - [优信TPS63020 5V目录](https://www.yourcee.com/productinfo/875179.html)：只找到另一输出选项的公开索引，未取得3.3V所选板完整电路/尺寸。
 - [Tempero M4 flange coupling nut](https://temperosystems.com.au/products/m4-flange-coupling-nut/)：不同供应商给22mm外径、12mm高度、四M3孔，且标用于N20 M4×55。仅用于指出螺母形态不唯一，未采用其外币报价或套入德弘型号。

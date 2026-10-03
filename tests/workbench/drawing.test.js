@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-const api = await import('../../viewer/src/drawing.js').catch(() => ({}));
+const api = await import('../../apps/workbench/src/drawing.js').catch(() => ({}));
 
 test('engineering extent is measured from geometry, including a changed pose', () => {
   assert.equal(typeof api.measureExtent, 'function', 'engineering geometry projection is not implemented');

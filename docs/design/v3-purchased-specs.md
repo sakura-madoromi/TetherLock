@@ -29,4 +29,4 @@
 
 CAD验证范围是名义刚体几何；不证明未知采购件尺寸、打印强度、触点可靠性、导线弯曲半径或带载开锁时间。完整全盖开合仍为离散角度采样；维护与传动的指定直线段另以保守Minkowski扫掠检查。
 
-打开`cad/v3/assembly.scad`。当前STL在`stl/v3/`；更新的图纸、BOM和CAD ZIP在`artifacts/v3/`。卖家原图保存在`docs/reviews/v3-purchased-specs-evidence/`；开发过程的修改前快照不纳入公开目录。
+打开`hardware/v3/cad/assembly.scad`。当前STL在`generated/v3/print/`；更新的图纸、BOM和CAD ZIP在`generated/v3/`。卖家原图保存在`docs/reviews/v3-purchased-specs-evidence/`；开发过程的修改前快照不纳入公开目录。

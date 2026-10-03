@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { BoxGeometry } from 'three';
-import { sliceMesh, pointInSection, sectionPath } from '../../viewer/src/sections.js';
+import { sliceMesh, pointInSection, sectionPath } from '../../apps/workbench/src/sections.js';
 test('real box section forms a closed loop, and combined inner loops produce holes',()=>{
   const outer=new BoxGeometry(10,8,6).toNonIndexed().getAttribute('position').array;
   const inner=new BoxGeometry(4,2,6).toNonIndexed().getAttribute('position').array;

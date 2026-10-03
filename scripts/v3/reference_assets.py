@@ -3,11 +3,11 @@ from pathlib import Path
 import hashlib, json
 
 root = Path(__file__).resolve().parents[2]
-source = root / 'engineering/references.json'
+source = root / 'hardware/v3/engineering/references.json'
 data = json.loads(source.read_text())
 p, c = data['phone'], data['card']
 back = p['lowestZ'] + p['cameraPlateau'] + p['cameraGlass']
-code = f'''// Generated from engineering/references.json; do not edit.
+code = f'''// Generated from hardware/v3/engineering/references.json; do not edit.
 // SHA256 {hashlib.sha256(source.read_bytes()).hexdigest()}
 // Visual corner/platform profiles are approximate. Dimensions are nominal mm.
 module reference_phone() {{
@@ -29,5 +29,5 @@ module reference_card() {{
  square([{c['size'][0]-6.36},{c['size'][1]-6.36}],center=true);
 }}
 '''
-(root / 'cad/v3/references.scad').write_text(code)
+(root / 'hardware/v3/cad/references.scad').write_text(code)
 print('CAD dimension reference solids generated')

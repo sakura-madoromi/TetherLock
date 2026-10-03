@@ -12,7 +12,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/base_box.stl",
+      "specification": "generated/v3/print/base_box.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -34,7 +34,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/lid.stl",
+      "specification": "generated/v3/print/lid.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -56,7 +56,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/lock_base.stl",
+      "specification": "generated/v3/print/lock_base.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -78,7 +78,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/guide_cap.stl",
+      "specification": "generated/v3/print/guide_cap.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -100,7 +100,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/motor_clamp.stl",
+      "specification": "generated/v3/print/motor_clamp.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -122,7 +122,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/bolt.stl",
+      "specification": "generated/v3/print/bolt.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -144,7 +144,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/nut_carriage.stl",
+      "specification": "generated/v3/print/nut_carriage.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -166,7 +166,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/nut_cap.stl",
+      "specification": "generated/v3/print/nut_cap.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -188,7 +188,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/latch.stl",
+      "specification": "generated/v3/print/latch.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -210,7 +210,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/latch_retainer.stl",
+      "specification": "generated/v3/print/latch_retainer.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -232,7 +232,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/window_grille.stl",
+      "specification": "generated/v3/print/window_grille.stl",
       "candidate": "整体内侧防护栅栏",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -254,7 +254,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/battery_hatch.stl",
+      "specification": "generated/v3/print/battery_hatch.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -276,7 +276,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/electronics_tray.stl",
+      "specification": "generated/v3/print/electronics_tray.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -298,7 +298,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/upper_deck.stl",
+      "specification": "generated/v3/print/upper_deck.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -320,7 +320,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/esp_clip.stl",
+      "specification": "generated/v3/print/esp_clip.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -342,7 +342,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/upper_clip.stl",
+      "specification": "generated/v3/print/upper_clip.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -364,7 +364,7 @@
       "installedQuantity": 1.0,
       "purchaseQuantity": 1.0,
       "unit": "件",
-      "specification": "stl/v3/oled_bridge.stl",
+      "specification": "generated/v3/print/oled_bridge.stl",
       "candidate": "打印件",
       "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD",
       "parts": [
@@ -562,7 +562,7 @@
       "unit": "件",
       "specification": "TPS63020，所选固定3.3V；本SKU尺寸/完整电路待核，不套用Pololu或旧黑板",
       "candidate": "TPS63020 3.3V模块",
-      "alternatives": "低价TPS63000/63020成品3.3V升降压板：必须补充供货图和实测包络；不能只以芯片尺寸适配；2026-10-02低价候选黑色升降压短接设置3.3/4.2/5V 输入1.8-5.5优惠前6.9元，具体SKU及限制见engineering/procurement-quotes.json；未替换主候选价格和电路",
+      "alternatives": "低价TPS63000/63020成品3.3V升降压板：必须补充供货图和实测包络；不能只以芯片尺寸适配；2026-10-02低价候选黑色升降压短接设置3.3/4.2/5V 输入1.8-5.5优惠前6.9元，具体SKU及限制见hardware/v3/engineering/procurement-quotes.json；未替换主候选价格和电路",
       "parts": [
         "power_board",
         "electronics_tray"
@@ -606,7 +606,7 @@
       "unit": "件",
       "specification": "DRV8833红板已焊排针；尺寸/封装/限流与STBY默认电平待核",
       "candidate": "DRV8833红板已焊排针",
-      "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD；2026-10-02低价候选DRV8833 红板，双8针排针另附优惠前2.38元，具体SKU及限制见engineering/procurement-quotes.json；未替换主候选价格和电路",
+      "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD；2026-10-02低价候选DRV8833 红板，双8针排针另附优惠前2.38元，具体SKU及限制见hardware/v3/engineering/procurement-quotes.json；未替换主候选价格和电路",
       "parts": [
         "bridge_board",
         "upper_deck",
@@ -652,7 +652,7 @@
       "unit": "件",
       "specification": "0.96寸白色4P；控制器/I2C/3.3V与板/玻璃/排针尺寸待核",
       "candidate": "0.96寸白色4P OLED",
-      "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD；2026-10-02低价候选0.96寸白色IIC显示优惠前7.5元，具体SKU及限制见engineering/procurement-quotes.json；未替换主候选价格和电路",
+      "alternatives": "仅替换满足全部接口与尺寸要求的同规格件；变化须核对CAD；2026-10-02低价候选0.96寸白色IIC显示优惠前7.5元，具体SKU及限制见hardware/v3/engineering/procurement-quotes.json；未替换主候选价格和电路",
       "parts": [
         "oled",
         "oled_bridge"
@@ -911,7 +911,7 @@
       "installedQuantity": 1,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/hinge_guard_left.stl",
+      "specification": "generated/v3/print/hinge_guard_left.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -933,7 +933,7 @@
       "installedQuantity": 1,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/hinge_guard_right.stl",
+      "specification": "generated/v3/print/hinge_guard_right.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1069,7 +1069,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/fit_bar.stl",
+      "specification": "generated/v3/print/fit_bar.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1091,7 +1091,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/fit_gauge.stl",
+      "specification": "generated/v3/print/fit_gauge.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1113,7 +1113,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/insert_coupon.stl",
+      "specification": "generated/v3/print/insert_coupon.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1135,7 +1135,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/keeper_insert_coupon.stl",
+      "specification": "generated/v3/print/keeper_insert_coupon.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1157,7 +1157,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/window_insert_coupon.stl",
+      "specification": "generated/v3/print/window_insert_coupon.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1179,7 +1179,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 1,
       "unit": "件",
-      "specification": "stl/v3/hinge_bore_coupon.stl",
+      "specification": "generated/v3/print/hinge_bore_coupon.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [
@@ -1321,7 +1321,7 @@
       "installedQuantity": 0,
       "purchaseQuantity": 2,
       "unit": "件",
-      "specification": "stl/v3/latch.stl",
+      "specification": "generated/v3/print/latch.stl",
       "candidate": "统一PETG",
       "alternatives": "同规格；尺寸/接口变化须复核CAD",
       "parts": [

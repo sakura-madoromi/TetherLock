@@ -1,8 +1,8 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { filterMaterials, materialsCSV, printableMaterials } from '../../viewer/src/bom.js';
-const data=JSON.parse(readFileSync('artifacts/v3/engineering/data.json'));
+import { filterMaterials, materialsCSV, printableMaterials } from '../../apps/workbench/src/bom.js';
+const data=JSON.parse(readFileSync('assets/cad/v3/engineering.json'));
 test('material master covers CAD print files, canonical screw counts and excluded accessories',()=>{
   assert.equal(data.parts.length,19);
   const screws=data.materials.filter(r=>r.id.startsWith('screw-'));

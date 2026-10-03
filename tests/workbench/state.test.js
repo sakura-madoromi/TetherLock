@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-const api = await import('../../viewer/src/state.js').catch(() => ({}));
+const api = await import('../../apps/workbench/src/state.js').catch(() => ({}));
 
 test('opening and locking controls keep the bolt out of an open lid', () => {
   assert.equal(typeof api.controlPose, 'function', 'V3 motion controls are not implemented');
